@@ -1,0 +1,30 @@
+<svg width="36" height="36" version="1.1" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1440">
+   <stop style="stop-color:#6e6e70" offset="0"/>
+   <stop style="stop-color:#ffffff;stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient1442" cx="17.799999" cy="30" r="6" gradientTransform="matrix(2.0211442e-6,-2,2,5.0423196e-8,-40.000037,65.599997)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+  <linearGradient id="linearGradient1468" x1="25" x2="25" y1="30" y2="18" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+  <radialGradient id="radialGradient1442-5" cx="17.799999" cy="30" r="6" gradientTransform="matrix(2.0211442e-6,-2,2,5.0423196e-8,-30.000037,3.599997)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+  <linearGradient id="linearGradient1468-1" x1="25" x2="25" y1="30" y2="18" gradientTransform="translate(10,-62)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+  <radialGradient id="radialGradient1442-5-9" cx="17.799999" cy="30" r="6" gradientTransform="matrix(2.0211442e-6,-2,2,5.0423196e-8,-92.000037,-6.400003)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+  <linearGradient id="linearGradient1468-1-6" x1="25" x2="25" y1="30" y2="18" gradientTransform="translate(-52,-72)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+  <radialGradient id="radialGradient1442-5-9-8" cx="17.799999" cy="30" r="6" gradientTransform="matrix(2.0211442e-6,-2,2,5.0423196e-8,-102.00004,55.599997)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+  <linearGradient id="linearGradient1468-1-6-0" x1="25" x2="25" y1="30" y2="18" gradientTransform="translate(-62,-10)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1440"/>
+ </defs>
+ <g transform="translate(-8,-18)">
+  <rect id="topleft" x="8" y="18" width="12" height="12" ry="0" style="fill:url(#radialGradient1442)"/>
+  <rect id="top" x="20" y="18" width="12" height="12" ry="0" style="fill:url(#linearGradient1468)"/>
+  <rect id="topright" transform="rotate(90)" x="18" y="-44" width="12" height="12" ry="0" style="fill:url(#radialGradient1442-5)"/>
+  <rect id="right" transform="rotate(90)" x="30" y="-44" width="12" height="12" ry="0" style="fill:url(#linearGradient1468-1)"/>
+  <rect id="bottomright" transform="scale(-1)" x="-44" y="-54" width="12" height="12" ry="0" style="fill:url(#radialGradient1442-5-9)"/>
+  <rect id="bottom" transform="scale(-1)" x="-32" y="-54" width="12" height="12" ry="0" style="fill:url(#linearGradient1468-1-6)"/>
+  <rect id="bottomleft" transform="rotate(-90)" x="-54" y="8" width="12" height="12" ry="0" style="fill:url(#radialGradient1442-5-9-8)"/>
+  <rect id="left" transform="rotate(-90)" x="-42" y="8" width="12" height="12" ry="0" style="fill:url(#linearGradient1468-1-6-0)"/>
+ </g>
+ <g transform="translate(-8,-262.08331)">
+  <rect id="hint-glow-radius" x="3" y="262.08331" width="5" height="5" ry="0" style="fill:#ff00ff"/>
+  <rect id="hint-stretch-borders" x="3" y="269.08331" width="5" height="5" ry="7.0117185e-6" style="fill:#ff00ff"/>
+ </g>
+</svg>

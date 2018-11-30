@@ -1,0 +1,58 @@
+<svg width="57" height="137" version="1.1" viewBox="0 0 57 137" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="border">
+   <stop style="stop-color:#88888a" offset="0"/>
+   <stop style="stop-color:#727274" offset="1"/>
+  </linearGradient>
+  <linearGradient id="fill">
+   <stop style="stop-color:#7a7a7c" offset="0"/>
+   <stop style="stop-color:#646466" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1759" x1="16" x2="16" y1="1094.5197" y2="1122.5197" gradientUnits="userSpaceOnUse" xlink:href="#border"/>
+  <linearGradient id="linearGradient1767" x1="16" x2="16" y1="1095.5197" y2="1121.5197" gradientTransform="matrix(.92307692 0 0 .92307692 1.2307692 85.27079)" gradientUnits="userSpaceOnUse" xlink:href="#fill"/>
+  <linearGradient id="linearGradient1775" x1="46" x2="46" y1="1098.5197" y2="1118.5197" gradientUnits="userSpaceOnUse" xlink:href="#border"/>
+  <linearGradient id="linearGradient1783" x1="46" x2="46" y1="1099.5197" y2="1117.5197" gradientTransform="matrix(.88888889 0 0 .88888889 5.1111111 123.1689)" gradientUnits="userSpaceOnUse" xlink:href="#fill"/>
+ </defs>
+ <g transform="translate(0,-1022.5197)">
+  <g id="normal">
+   <circle cx="16" cy="1038.5197" r="16" style="opacity:0;stroke-width:6.4000001"/>
+   <circle cx="16" cy="1038.5197" r="14" style="fill:#ffffff;opacity:.18000004"/>
+   <circle cx="16" cy="1038.5197" r="12" style="fill:#1e1e20"/>
+  </g>
+  <g id="22-22-normal">
+   <circle cx="46" cy="1038.5197" r="11" style="opacity:0;stroke-width:4.4000001"/>
+   <circle cx="46" cy="1038.5197" r="10" style="fill:#ffffff;opacity:.18000004"/>
+   <circle cx="46" cy="1038.5197" r="8" style="fill:#1e1e20"/>
+  </g>
+  <g id="hover">
+   <circle cx="16" cy="1073.5197" r="16" style="opacity:0;stroke-width:6.4000001"/>
+   <circle cx="16" cy="1073.5197" r="14" style="fill:#ffffff;opacity:.2"/>
+   <circle cx="16" cy="1073.5197" r="12" style="fill:#1e1e20"/>
+  </g>
+  <g id="22-22-hover">
+   <circle cx="46" cy="1073.5197" r="11" style="opacity:0;stroke-width:4.4000001"/>
+   <circle cx="46" cy="1073.5197" r="10" style="fill:#ffffff;opacity:.2"/>
+   <circle cx="46" cy="1073.5197" r="8" style="fill:#1e1e20"/>
+  </g>
+  <g id="pressed">
+   <circle cx="16" cy="1108.5197" r="16" style="opacity:0;stroke-width:6.4000001"/>
+   <circle cx="16" cy="1108.5197" r="14" style="fill:url(#linearGradient1759)"/>
+   <circle cx="16" cy="1108.5197" r="12" style="fill:url(#linearGradient1767)"/>
+  </g>
+  <g id="22-22-pressed">
+   <circle cx="46" cy="1108.5197" r="11" style="opacity:0;stroke-width:4.4000001"/>
+   <circle cx="46" cy="1108.5197" r="10" style="fill:url(#linearGradient1775)"/>
+   <circle cx="46" cy="1108.5197" r="8" style="fill:url(#linearGradient1783)"/>
+  </g>
+  <g id="focus">
+   <circle cx="16" cy="1143.5197" r="16" style="opacity:0;stroke-width:6.4000001"/>
+   <circle cx="16" cy="1143.5197" r="14" style="fill:#ffffff;opacity:.2"/>
+   <circle cx="16" cy="1143.5197" r="12" style="fill:#1e1e20"/>
+  </g>
+  <g id="22-22-focus">
+   <circle cx="46" cy="1143.5197" r="11" style="opacity:0;stroke-width:4.4000001"/>
+   <circle cx="46" cy="1143.5197" r="10" style="fill:#ffffff;opacity:.2"/>
+   <circle cx="46" cy="1143.5197" r="8" style="fill:#1e1e20"/>
+  </g>
+ </g>
+</svg>

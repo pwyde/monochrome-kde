@@ -1,0 +1,59 @@
+<svg width="206" height="206" version="1.1" viewBox="0 0 206 206.00001" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="shadow">
+   <stop style="stop-color:#000000" offset="0"/>
+   <stop style="stop-color:#000000;stop-opacity:.6" offset=".89714217"/>
+   <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient1481" cx="102.50391" cy="197.50391" r="102.5" gradientTransform="matrix(2.5433046e-8 -.95613402 .95609752 4.0659602e-5 -85.829268 295.00321)" gradientUnits="userSpaceOnUse" xlink:href="#shadow"/>
+  <linearGradient id="linearGradient1596" x1="35" x2="170" y1="130" y2="265" gradientTransform="matrix(1.0054054 0 0 1.0054054 -.05405405 -1.5675676)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#0a0a0c" offset="0"/>
+   <stop style="stop-color:#28282a" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="ClockFace" transform="translate(0,-94)">
+  <rect y="94" width="206" height="206" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="103" cy="197" r="98" style="display:none;fill:url(#radialGradient1481)"/>
+  <path d="m103 99a98 98 0 0 0-98 98 98 98 0 0 0 98 98 98 98 0 0 0 98-98 98 98 0 0 0-98-98zm0 5a93 93 0 0 1 93 93 93 93 0 0 1-93 93 93 93 0 0 1-93-93 93 93 0 0 1 93-93z" style="fill:url(#radialGradient1481)"/>
+  <circle cx="103" cy="197" r="93" style="fill:url(#linearGradient1596);opacity:.9"/>
+  <circle cx="103" cy="197" r="3" style="fill:#00ff00"/>
+  <g>
+   <rect id="rect2227" x="101.5" y="116" width="3" height="15" ry="1.5" style="fill:#6e6e70"/>
+   <use width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(30,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(60,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(90,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(120,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(150,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(180,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(210 103 196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(240 103 196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(-90,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(-60,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+   <use transform="rotate(-30,103,196.99885)" width="100%" height="100%" xlink:href="#rect2227"/>
+  </g>
+  <g>
+   <rect id="rect2269" x="101" y="114" width="4" height="20" ry="2" style="fill:#8c8c8e"/>
+   <use width="100%" height="100%" xlink:href="#rect2269"/>
+   <use transform="rotate(90,103,196.99871)" width="100%" height="100%" xlink:href="#rect2269"/>
+   <use transform="rotate(180,103,196.99871)" width="100%" height="100%" xlink:href="#rect2269"/>
+   <use transform="rotate(-90,103,196.99871)" width="100%" height="100%" xlink:href="#rect2269"/>
+  </g>
+ </g>
+ <g id="HourHand" transform="translate(.5 -94.5)">
+  <rect x="94" y="189" width="17.000004" height="53" ry="0" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="102.5" cy="197.5" r="6.5" style="fill:#8c8c8e"/>
+  <rect transform="scale(1,-1)" x="100" y="-239.5" width="5" height="41.999996" ry="1.5" style="fill:#8c8c8e"/>
+ </g>
+ <g id="MinuteHand" transform="translate(.5 -33.007805)">
+  <rect x="96" y="129.50781" width="13" height="65.999992" ry="0" style="fill:#000000;opacity:.00100002"/>
+  <rect transform="scale(1,-1)" x="101" y="-193.50781" width="3" height="57.496098" ry="1.0000005" style="fill:#8c8c8e"/>
+  <circle cx="102.5" cy="136.00781" r="4.5" style="fill:#1e1e20"/>
+ </g>
+ <g id="SecondHand" transform="translate(.5 -94.5)">
+  <rect x="96" y="191" width="13" height="81" style="fill:#000000;opacity:.00100002"/>
+  <rect transform="scale(1,-1)" x="101.5" y="-270" width="2" height="72.496094" ry="1" style="fill:#bebec0"/>
+  <circle cx="102.5" cy="197.5" r="4.5" style="display:none;fill:#1e1e20"/>
+  <circle cx="102.5" cy="197.5" r="2" style="fill:#bebec0"/>
+ </g>
+</svg>

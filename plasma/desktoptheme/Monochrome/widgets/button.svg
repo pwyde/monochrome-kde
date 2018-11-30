@@ -1,0 +1,183 @@
+<svg width="73" height="103" version="1.1" viewBox="0 0 73 103" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="fill">
+   <stop style="stop-color:#7a7a7c" offset="0"/>
+   <stop style="stop-color:#646466" offset="1"/>
+  </linearGradient>
+  <linearGradient id="border">
+   <stop style="stop-color:#88888a" offset="0"/>
+   <stop style="stop-color:#727274" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3316" x1="17" x2="17" y1="125" y2="145" gradientUnits="userSpaceOnUse" xlink:href="#border"/>
+  <linearGradient id="linearGradient3334" x1="42" x2="42" y1="125" y2="145" gradientUnits="userSpaceOnUse" xlink:href="#border"/>
+  <linearGradient id="linearGradient3342" x1="20" x2="20" y1="90" y2="110" gradientUnits="userSpaceOnUse" xlink:href="#fill"/>
+  <linearGradient id="linearGradient3350" x1="18" x2="18" y1="90" y2="110" gradientUnits="userSpaceOnUse" xlink:href="#fill"/>
+  <linearGradient id="linearGradient3358" x1="42" x2="42" y1="90" y2="110" gradientUnits="userSpaceOnUse" xlink:href="#fill"/>
+ </defs>
+ <g transform="translate(-5,-10.000003)">
+  <rect id="pressed-center" x="20" y="90" width="20" height="20" style="fill:url(#linearGradient3342)"/>
+  <g id="pressed-top" transform="translate(0,-35)">
+   <path transform="translate(0,35)" d="m20 88v2h20v-2z" style="fill:#7a7a7c"/>
+   <rect x="20" y="122" width="20" height="1" style="fill:#88888a"/>
+  </g>
+  <g id="pressed-bottom" transform="translate(0,-35)">
+   <path transform="translate(0,35)" d="m20 110v2h20v-2z" style="fill:#646466"/>
+   <rect x="20" y="147" width="20" height="1" style="fill:#727274"/>
+  </g>
+  <g id="pressed-left" transform="translate(0,-35)">
+   <path transform="translate(0,35)" d="m18 90v20h2v-20h-1z" style="fill:url(#linearGradient3350)"/>
+   <rect x="17" y="125" width="1" height="20" style="fill:url(#linearGradient3316)"/>
+  </g>
+  <g id="pressed-right" transform="translate(0,-35)">
+   <path transform="translate(0,35)" d="m40 90v20h2v-20h-1z" style="fill:url(#linearGradient3358)"/>
+   <rect x="42" y="125" width="1" height="20" style="fill:url(#linearGradient3334)"/>
+  </g>
+  <g id="pressed-topleft" transform="translate(0,-35)">
+   <path transform="translate(5,45.000003)" d="m14 77c-1.108 0-2 0.892-2 2v1h1v-1c0-0.554 0.446-1 1-1h1v-1z" style="fill:#88888a"/>
+   <path d="m19 123c-0.554 0-1 0.446-1 1v1h2v-2z" style="fill:#7a7a7c"/>
+  </g>
+  <g id="pressed-topright" transform="translate(0,-35)">
+   <path transform="translate(5,45.000003)" d="m35 77v1h1c0.554 0 1 0.446 1 1v1h1v-1c0-1.108-0.892-2-2-2z" style="fill:#88888a"/>
+   <path d="m42 124c0-0.554-0.446-1-1-1h-1v2h2z" style="fill:#7a7a7c"/>
+  </g>
+  <g id="pressed-bottomright" transform="translate(0,-35)">
+   <path transform="translate(5,45.000003)" d="m37 100v1c0 0.554-0.446 1-1 1h-1v1h1c1.108 0 2-0.892 2-2v-1z" style="fill:#727274"/>
+   <path d="m41 147c0.554 0 1-0.446 1-1v-1h-2v2z" style="fill:#646466"/>
+  </g>
+  <g id="pressed-bottomleft" transform="translate(0,-35)">
+   <path transform="translate(5,45.000003)" d="m12 100v1c0 1.108 0.892 2 2 2h1v-1h-1c-0.554 0-1-0.446-1-1v-1z" style="fill:#727274"/>
+   <path d="m18 146c0 0.554 0.446 1 1 1h1v-2h-2z" style="fill:#646466"/>
+  </g>
+ </g>
+ <g transform="translate(-5,-10.000003)">
+  <rect id="hover-center" x="20" y="55" width="20" height="20" style="fill:#1e1e20;opacity:.3"/>
+  <g id="hover-top">
+   <rect x="20" y="54" width="20" height="1" style="fill:#1e1e20;opacity:.3"/>
+   <rect x="20" y="53" width="20" height="1" style="fill:#ffffff;opacity:.12"/>
+   <rect x="20" y="52" width="20" height="1" style="opacity:0;stroke-width:.57735026"/>
+  </g>
+  <g id="hover-bottom">
+   <rect x="20" y="75" width="20" height="1" style="fill:#1e1e20;opacity:.3"/>
+   <rect x="20" y="76" width="20" height="1" style="fill:#ffffff;opacity:.12"/>
+   <rect x="20" y="77" width="20" height="1" style="opacity:0;stroke-width:.57735026"/>
+  </g>
+  <g id="hover-left">
+   <rect x="19" y="55" width="1" height="20" style="fill:#1e1e20;opacity:.3"/>
+   <rect x="18" y="55" width="1" height="20" style="fill:#ffffff;opacity:.12"/>
+   <rect x="17" y="55" width="1" height="20" style="opacity:0"/>
+  </g>
+  <g id="hover-right">
+   <rect x="40" y="55" width="1" height="20" style="fill:#1e1e20;opacity:.3"/>
+   <rect x="41" y="55" width="1" height="20" style="fill:#ffffff;opacity:.12"/>
+   <rect x="42" y="55" width="1" height="20" style="opacity:0;stroke-width:.9534626"/>
+  </g>
+  <g id="hover-topleft">
+   <rect x="17" y="52" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m15 43c-1.108 0-2 0.892-2 2h1c0-0.554 0.446-1 1-1z" style="fill:#ffffff;opacity:.12"/>
+   <path d="m20 54c-0.554 0-1 0.446-1 1h1z" style="fill:#1e1e20;opacity:.3"/>
+  </g>
+  <g id="hover-topright">
+   <rect x="40" y="52" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m35 43v1c0.554 0 1 0.446 1 1h1c0-1.108-0.892-2-2-2z" style="fill:#ffffff;opacity:.12"/>
+   <path d="m41 55c0-0.554-0.446-1-1-1v1z" style="fill:#1e1e20;opacity:.3"/>
+  </g>
+  <g id="hover-bottomright">
+   <rect x="40" y="75" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m36 65c0 0.554-0.446 1-1 1v1c1.108 0 2-0.892 2-2z" style="fill:#ffffff;opacity:.12"/>
+   <path d="m40 76c0.554 0 1-0.446 1-1h-1z" style="fill:#1e1e20;opacity:.3"/>
+  </g>
+  <g id="hover-bottomleft">
+   <rect x="17" y="75" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m13 65c0 1.108 0.892 2 2 2v-1c-0.554 0-1-0.446-1-1z" style="fill:#ffffff;opacity:.12"/>
+   <path d="m19 75c0 0.554 0.446 1 1 1v-1z" style="fill:#1e1e20;opacity:.3"/>
+  </g>
+  <rect id="toolbutton-hover-center" x="55" y="55" width="20" height="20" style="opacity:0;stroke-width:.88388348"/>
+  <g id="toolbutton-hover-top">
+   <path transform="translate(5,10.000003)" d="m50 43v2h20v-2z" style="opacity:0;stroke-width:.57735026"/>
+   <rect x="55" y="51.999992" width="20" height="1" style="fill:#ffffff;opacity:.13999999"/>
+  </g>
+  <g id="toolbutton-hover-bottom">
+   <path transform="translate(5,10.000003)" d="m50 65v2h20v-2z" style="opacity:0;stroke-width:.57735026"/>
+   <rect x="55" y="77" width="20" height="1" style="fill:#ffffff;opacity:.13999999"/>
+  </g>
+  <g id="toolbutton-hover-left">
+   <path transform="translate(5,10.000003)" d="m48 45v20h2v-20h-1z" style="opacity:0"/>
+   <rect x="52" y="54.999992" width="1" height="20" style="fill:#ffffff;opacity:.13999999"/>
+  </g>
+  <g id="toolbutton-hover-right">
+   <path transform="translate(5,10.000003)" d="m70 45v20h2v-20h-1z" style="opacity:0"/>
+   <rect x="77" y="54.999992" width="1" height="20" style="fill:#ffffff;opacity:.13999999"/>
+  </g>
+  <g id="toolbutton-hover-topleft">
+   <rect x="52" y="52" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m49 42c-1.108 0-2 0.892-2 2v1h1v-1c0-0.554 0.446-1 1-1h1v-1z" style="fill:#ffffff;opacity:.13999999"/>
+  </g>
+  <g id="toolbutton-hover-topright">
+   <rect x="75" y="52" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m70 42v1h1c0.554 0 1 0.446 1 1v1h1v-1c0-1.108-0.892-2-2-2z" style="fill:#ffffff;opacity:.13999999"/>
+  </g>
+  <g id="toolbutton-hover-bottomright">
+   <rect x="75" y="75" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m72 65v1c0 0.554-0.446 1-1 1h-1v1h1c1.108 0 2-0.892 2-2v-1z" style="fill:#fffff9;opacity:.13999999"/>
+  </g>
+  <g id="toolbutton-hover-bottomleft">
+   <rect x="52" y="75" width="3" height="3" style="opacity:0"/>
+   <path transform="translate(5,10.000003)" d="m47 65v1c0 1.108 0.892 2 2 2h1v-1h-1c-0.554 0-1-0.446-1-1v-1z" style="fill:#fffffe;opacity:.13999999"/>
+  </g>
+ </g>
+ <g transform="translate(-5,-10.000003)">
+  <rect id="normal-center" x="20" y="20" width="20" height="20" style="fill:#1e1e20;opacity:.6"/>
+  <g id="normal-top">
+   <path transform="translate(5,10.000003)" d="m15 8v2h20v-2z" style="fill:#1e1e20;opacity:.6"/>
+   <rect x="20" y="17" width="20" height="1" style="fill:#ffffff;opacity:.18000004"/>
+  </g>
+  <g id="normal-bottom">
+   <path transform="translate(5,10.000003)" d="m15 30v2h20v-2z" style="fill:#1e1e20;opacity:.6"/>
+   <rect x="20" y="42" width="20" height="1" style="fill:#ffffff;opacity:.18000004"/>
+  </g>
+  <g id="normal-left">
+   <path transform="translate(5,10.000003)" d="m13 10v20h2v-20h-1z" style="fill:#1e1e20;opacity:.6"/>
+   <rect x="17" y="20" width="1" height="20" style="fill:#ffffff;opacity:.18000004"/>
+  </g>
+  <g id="normal-right">
+   <path transform="translate(5,10.000003)" d="m35 10v20h2v-20h-1z" style="fill:#1e1e20;opacity:.6"/>
+   <rect x="42" y="20" width="1" height="20" style="fill:#ffffff;opacity:.18000004"/>
+  </g>
+  <g id="normal-topleft">
+   <path transform="translate(5,10.000003)" d="m14 7c-1.108 0-2 0.892-2 2v1h1v-1c0-0.554 0.446-1 1-1h1v-1z" style="fill:#ffffff;opacity:.18000004"/>
+   <path d="m19 18c-0.554 0-1 0.446-1 1v1h2v-2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+  <g id="normal-topright">
+   <path transform="translate(5,10.000003)" d="m35 7v1h1c0.554 0 1 0.446 1 1v1h1v-1c0-1.108-0.892-2-2-2z" style="fill:#ffffff;opacity:.18000004"/>
+   <path d="m42 19c0-0.554-0.446-1-1-1h-1v2h2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+  <g id="normal-bottomright">
+   <path transform="translate(5,10.000003)" d="m37 30v1c0 0.554-0.446 1-1 1h-1v1h1c1.108 0 2-0.892 2-2v-1z" style="fill:#ffffff;opacity:.18000004"/>
+   <path d="m41 42c0.554 0 1-0.446 1-1v-1h-2v2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+  <g id="normal-bottomleft">
+   <path transform="translate(5,10.000003)" d="m12 30v1c0 1.108 0.892 2 2 2h1v-1h-1c-0.554 0-1-0.446-1-1v-1z" style="fill:#ffffff;opacity:.18000004"/>
+   <path d="m18 41c0 0.554 0.446 1 1 1h1v-2h-2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+ </g>
+ <g transform="translate(-5,-832.51965)">
+  <rect id="normal-hint-left-margin" x="17" y="851.51965" width="4" height="2" style="fill:#ff00ff"/>
+  <rect id="normal-hint-top-margin" x="29" y="839.51965" width="2" height="4" style="fill:#ff00ff"/>
+  <rect id="normal-hint-right-margin" x="39" y="851.51965" width="4" height="2" style="fill:#ff00ff"/>
+  <rect id="normal-hint-bottom-margin" x="29" y="861.51965" width="2" height="4" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-left-margin" x="17" y="921.51965" width="1" height="1.9999967" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-top-margin" x="29" y="909.51965" width="2" height=".99999666" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-right-margin" x="42" y="921.51965" width="1" height="1.9999967" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-bottom-margin" x="29" y="934.51965" width="2" height="1.0000033" style="fill:#ff00ff"/>
+  <rect id="normal-hint-compose-over-border" x="5" y="832.51965" width="5" height="5" style="fill:#ff00ff"/>
+  <rect id="hover-hint-left-margin" x="17" y="886.51965" width="1" height="1.9999967" style="fill:#ff00ff"/>
+  <rect id="hover-hint-top-margin" x="29" y="874.51965" width="2" height=".99999666" style="fill:#ff00ff"/>
+  <rect id="hover-hint-right-margin" x="42" y="886.51965" width="1" height="1.9999967" style="fill:#ff00ff"/>
+  <rect id="hover-hint-bottom-margin" x="29" y="899.51965" width="2" height="1.0000033" style="fill:#ff00ff"/>
+  <rect id="toolbutton-hover-hint-left-margin" transform="translate(0,822.51965)" x="52" y="64" width="1" height="1.9999967" style="fill:#ff00ff"/>
+  <rect id="toolbutton-hover-hint-top-margin" transform="translate(0,822.51965)" x="64" y="52.000004" width="2" height=".99999666" style="fill:#ff00ff"/>
+  <rect id="toolbutton-hover-hint-right-margin" transform="translate(0,822.51965)" x="77" y="64" width="1" height="1.9999967" style="fill:#ff00ff"/>
+  <rect id="toolbutton-hover-hint-bottom-margin" transform="translate(0,822.51965)" x="64" y="77" width="2" height="1.0000033" style="fill:#ff00ff"/>
+  <rect id="hint-stretch-borders" x="5" y="842.51965" width="5" height="5" style="fill:#ff00ff"/>
+ </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <g id="remove-normal" transform="translate(0,-18)">
+  <rect y="34" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 41.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <rect transform="rotate(90)" x="41" y="-12" width="2" height="8" style="fill:#aaaaac"/>
+ </g>
+ <g id="add-normal" transform="translate(0,-18)">
+  <rect y="18" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 25.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <rect x="7" y="22" width="2" height="8" style="fill:#aaaaac"/>
+  <rect transform="rotate(90)" x="25" y="-12" width="2" height="8" style="fill:#aaaaac"/>
+ </g>
+ <g id="open-normal" transform="translate(0,-18)">
+  <rect y="50" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 57.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <path transform="matrix(1.0755682 0 0 .77622444 -.90681813 26.622351)" d="m8.2810355 36.558561 1.8594825 3.220718 1.859482 3.220718h-7.4379293l1.8594824-3.220718z" style="fill:#aaaaac"/>
+ </g>
+ <g id="remove-hover" transform="translate(16,-18)">
+  <rect y="34" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 41.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <rect transform="rotate(90)" x="41" y="-12" width="2" height="8" style="fill:#c8c8ca"/>
+ </g>
+ <g id="add-hover" transform="translate(16,-18)">
+  <rect y="18" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 25.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <rect x="7" y="22" width="2" height="8" style="fill:#c8c8ca"/>
+  <rect transform="rotate(90)" x="25" y="-12" width="2" height="8" style="fill:#c8c8ca"/>
+ </g>
+ <g id="open-hover" transform="translate(16,-18)">
+  <rect y="50" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 57.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <path transform="matrix(1.0755682 0 0 .77622444 -.90681813 26.622351)" d="m8.2810355 36.558561 1.8594825 3.220718 1.859482 3.220718h-7.4379293l1.8594824-3.220718z" style="fill:#c8c8ca"/>
+ </g>
+ <g id="remove-pressed" transform="translate(32,-18)">
+  <rect y="34" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 41.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <rect transform="rotate(90)" x="41" y="-12" width="2" height="8" style="fill:#d2d2d4"/>
+ </g>
+ <g id="add-pressed" transform="translate(32,-18)">
+  <rect y="18" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 25.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <rect x="7" y="22" width="2" height="8" style="fill:#d2d2d4"/>
+  <rect transform="rotate(90)" x="25" y="-12" width="2" height="8" style="fill:#d2d2d4"/>
+ </g>
+ <g id="open-pressed" transform="translate(32,-18)">
+  <rect y="50" width="16" height="16" style="fill:#000000;opacity:.00100002"/>
+  <path d="m15 57.999999a6.9999999 6.9999999 0 0 1-7 6.999999 6.9999999 6.9999999 0 0 1-7-6.999999 6.9999999 6.9999999 0 0 1 7-7 6.9999999 6.9999999 0 0 1 7 7z" style="fill:#414143"/>
+  <path transform="matrix(1.0755682 0 0 .77622444 -.90681813 26.622351)" d="m8.2810355 36.558561 1.8594825 3.220718 1.859482 3.220718h-7.4379293l1.8594824-3.220718z" style="fill:#d2d2d4"/>
+ </g>
+</svg>

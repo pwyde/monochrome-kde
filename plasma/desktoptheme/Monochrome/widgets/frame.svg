@@ -1,0 +1,122 @@
+<svg width="33" height="103.00001" version="1.1" viewBox="0 0 33 103.00001" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-5,-5.0000033)">
+  <g id="raised-topleft">
+   <path transform="translate(5,5.0000033)" d="m9 77c-1.108 0-2 0.892-2 2v1h1v-1c0-0.554 0.446-1 1-1h1v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m14 83.000005c-0.554 0-1 0.446-1 1v1h2v-2z" style="fill:#28282a;opacity:.8"/>
+  </g>
+  <g id="raised-top">
+   <rect x="15" y="83.000015" width="20" height="2" style="fill:#28282a;opacity:.8"/>
+   <rect x="15" y="82.000008" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="raised-topright">
+   <path transform="translate(5,5.0000033)" d="m30 77v1h1c0.554 0 1 0.446 1 1v1h1v-1c0-1.108-0.892-2-2-2z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m37 84.000005c0-0.554-0.446-1-1-1h-1v2h2z" style="fill:#28282a;opacity:.8"/>
+  </g>
+  <g id="raised-right">
+   <rect transform="rotate(90)" x="85.000008" y="-37" width="20" height="2" style="fill:#28282a;opacity:.8"/>
+   <rect transform="rotate(90)" x="85.000008" y="-38" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="raised-bottomright">
+   <path transform="translate(5,5.0000033)" d="m32 100v1c0 0.554-0.446 1-1 1h-1v1h1c1.108 0 2-0.892 2-2v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m36 107.00001c0.554 0 1-0.446 1-1v-1h-2v2z" style="fill:#28282a;opacity:.8"/>
+  </g>
+  <g id="raised-bottom">
+   <rect transform="scale(-1)" x="-35" y="-107" width="20" height="2" style="fill:#28282a;opacity:.8"/>
+   <rect transform="scale(-1)" x="-35" y="-108" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="raised-bottomleft">
+   <path transform="translate(5,5.0000033)" d="m7 100v1c0 1.108 0.892 2 2 2h1v-1h-1c-0.554 0-1-0.446-1-1v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m13 106.00001c0 0.554 0.446 1 1 1h1v-2h-2z" style="fill:#28282a;opacity:.8"/>
+  </g>
+  <g id="raised-left">
+   <rect transform="rotate(-90)" x="-105.00001" y="13.000001" width="20" height="2" style="fill:#28282a;opacity:.8"/>
+   <rect transform="rotate(-90)" x="-105.00001" y="12.000001" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <rect id="raised-center" transform="rotate(-90)" x="-105" y="15" width="20" height="20" style="fill:#28282a;opacity:.8"/>
+ </g>
+ <g transform="translate(-5,-5.0000033)">
+  <g id="sunken-topleft">
+   <path transform="translate(5,5.0000033)" d="m9 42c-1.108 0-2 0.892-2 2v1h1v-1c0-0.554 0.446-1 1-1h1v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m14 47.999989c-0.554 0-1 0.446-1 1v1h2v-2z" style="fill:#19191b;opacity:.8"/>
+  </g>
+  <g id="sunken-top">
+   <rect x="15" y="48" width="20" height="2" style="fill:#19191b;opacity:.8"/>
+   <rect x="15" y="46.999989" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="sunken-topright">
+   <path transform="translate(5,5.0000033)" d="m30 42v1h1c0.554 0 1 0.446 1 1v1h1v-1c0-1.108-0.892-2-2-2z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m37 48.999989c0-0.554-0.446-1-1-1h-1v2h2z" style="fill:#19191b;opacity:.8"/>
+  </g>
+  <g id="sunken-right">
+   <rect transform="rotate(90)" x="49.999989" y="-37" width="20" height="2" style="fill:#19191b;opacity:.8"/>
+   <rect transform="rotate(90)" x="49.999989" y="-38" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="sunken-bottomright">
+   <path transform="translate(5,5.0000033)" d="m32 65v1c0 0.554-0.446 1-1 1h-1v1h1c1.108 0 2-0.892 2-2v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m36 71.999989c0.554 0 1-0.446 1-1v-1h-2v2z" style="fill:#19191b;opacity:.8"/>
+  </g>
+  <g id="sunken-bottom">
+   <rect transform="scale(-1)" x="-35" y="-71.999985" width="20" height="2" style="fill:#19191b;opacity:.8"/>
+   <rect transform="scale(-1)" x="-35" y="-72.999985" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="sunken-bottomleft">
+   <path transform="translate(5,5.0000033)" d="m7 65v1c0 1.108 0.892 2 2 2h1v-1h-1c-0.554 0-1-0.446-1-1v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m13 70.999989c0 0.554 0.446 1 1 1h1v-2h-2z" style="fill:#19191b;opacity:.8"/>
+  </g>
+  <g id="sunken-left">
+   <rect transform="rotate(-90)" x="-69.999992" y="13.000001" width="20" height="2" style="fill:#19191b;opacity:.8"/>
+   <rect transform="rotate(-90)" x="-69.999992" y="12.000001" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <rect id="sunken-center" transform="rotate(-90)" x="-69.999985" y="15" width="20" height="20" style="fill:#19191b;opacity:.8"/>
+ </g>
+ <g transform="translate(-5,-5.0000033)">
+  <g id="plain-topleft" transform="translate(2,2)">
+   <path transform="translate(3,3.0000033)" d="m9 7c-1.108 0-2 0.892-2 2v1h1v-1c0-0.554 0.446-1 1-1h1v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m12 11c-0.554 0-1 0.446-1 1v1h2v-2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+  <g id="plain-top" transform="translate(2,2)">
+   <rect x="13" y="11.000011" width="20" height="2" style="fill:#1e1e20;opacity:.6"/>
+   <rect x="13" y="10" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="plain-topright" transform="translate(2,2)">
+   <path transform="translate(3,3.0000033)" d="m30 7v1h1c0.554 0 1 0.446 1 1v1h1v-1c0-1.108-0.892-2-2-2z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m35 12c0-0.554-0.446-1-1-1h-1v2h2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+  <g id="plain-right" transform="translate(2,2)">
+   <rect transform="rotate(90)" x="13" y="-35" width="20" height="2" style="fill:#1e1e20;opacity:.6"/>
+   <rect transform="rotate(90)" x="13" y="-36" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="plain-bottomright" transform="translate(2,2)">
+   <path transform="translate(3,3.0000033)" d="m32 30v1c0 0.554-0.446 1-1 1h-1v1h1c1.108 0 2-0.892 2-2v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m34 35c0.554 0 1-0.446 1-1v-1h-2v2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+  <g id="plain-bottom" transform="translate(2,2)">
+   <rect transform="scale(-1)" x="-33" y="-35" width="20" height="2" style="fill:#1e1e20;opacity:.6"/>
+   <rect transform="scale(-1)" x="-33" y="-36" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="plain-bottomleft" transform="translate(2,2)">
+   <path transform="translate(3,3.0000033)" d="m7 30v1c0 1.108 0.892 2 2 2h1v-1h-1c-0.554 0-1-0.446-1-1v-1z" style="fill:#ffffff;opacity:.12000002"/>
+   <path d="m11 34c0 0.554 0.446 1 1 1h1v-2h-2z" style="fill:#1e1e20;opacity:.6"/>
+  </g>
+  <g id="plain-left" transform="translate(2,2)">
+   <rect transform="rotate(-90)" x="-33" y="11" width="20" height="2" style="fill:#1e1e20;opacity:.6"/>
+   <rect transform="rotate(-90)" x="-33" y="10" width="20" height="1" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <rect id="plain-center" transform="rotate(-90)" x="-35" y="15" width="20" height="20" style="fill:#1e1e20;opacity:.6"/>
+ </g>
+ <g transform="translate(-5,-827.51965)">
+  <rect id="plain-hint-left-margin" x="12" y="846.51965" width="3" height="2" style="fill:#ff00ff"/>
+  <rect id="plain-hint-top-margin" x="24" y="834.51965" width="2" height="3.000001" style="fill:#ff00ff"/>
+  <rect id="plain-hint-right-margin" x="35" y="846.51965" width="3" height="2" style="fill:#ff00ff"/>
+  <rect id="plain-hint-bottom-margin" x="24" y="857.51965" width="2" height="3" style="fill:#ff00ff"/>
+  <rect id="hint-tile-center" x="5" y="827.51965" width="5" height="5" style="fill:#ff00ff"/>
+  <rect id="sunken-hint-left-margin" x="12" y="881.51965" width="3" height="2" style="fill:#ff00ff"/>
+  <rect id="sunken-hint-top-margin" x="24" y="869.51965" width="2" height="3.000001" style="fill:#ff00ff"/>
+  <rect id="sunken-hint-right-margin" x="35" y="881.51965" width="3" height="2" style="fill:#ff00ff"/>
+  <rect id="sunken-hint-bottom-margin" x="24" y="892.51965" width="2" height="3" style="fill:#ff00ff"/>
+  <rect id="raised-hint-left-margin" x="12" y="916.51965" width="3" height="2" style="fill:#ff00ff"/>
+  <rect id="raised-hint-top-margin" x="24" y="904.51965" width="2" height="3.000001" style="fill:#ff00ff"/>
+  <rect id="raised-hint-right-margin" x="35" y="916.51965" width="3" height="2" style="fill:#ff00ff"/>
+  <rect id="raised-hint-bottom-margin" x="24" y="927.51965" width="2" height="3" style="fill:#ff00ff"/>
+ </g>
+</svg>

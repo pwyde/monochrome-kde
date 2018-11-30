@@ -1,0 +1,23 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <g id="22-22-kruler" transform="translate(-294,-524.35999)">
+  <rect x="326" y="534.35999" width="22" height="22" style="fill:none;opacity:.00100002"/>
+  <path d="m328 539.32965v12.03255c0 1 1 1 1 1h17v-2h-16v-9h16v-3h-17s-1-0.0235-1 0.96745zm3 3.03255v3h1v-3zm2 0v3h1v-3zm2 0v6h1v-6zm2 0v3h1v-3zm2 0v3h1v-3zm2 0v6h1v-6zm2 0v3h1v-3z" style="fill:#aaaaac"/>
+ </g>
+ <g id="kruler">
+  <rect width="32" height="32" style="opacity:.00100002"/>
+  <g>
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-28" y="-30" width="23" height="28" rx="1.438" ry="1.4" style="opacity:.2"/>
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-27" y="-30" width="23" height="28" rx="1.438" ry="1.4" style="fill:#e2d144"/>
+   <rect x="6" y="4" width="2" height="11" style="opacity:.5"/>
+   <rect x="21" y="4" width="2" height="8" style="opacity:.5"/>
+   <rect x="9" y="4" width="2" height="5" style="opacity:.5"/>
+   <path d="m4 17v8h6v-8zm2 2h2v4h-2z" style="opacity:.5"/>
+   <rect x="12" y="4" width="2" height="5" style="opacity:.5"/>
+   <rect x="15" y="4" width="2" height="5" style="opacity:.5"/>
+   <rect x="18" y="4" width="2" height="5" style="opacity:.5"/>
+   <rect x="24" y="4" width="2" height="5" style="opacity:.5"/>
+   <path d="M 3.4003906,4 C 2.6247906,4 2,4.641125 2,5.4375 v 1 C 2,5.641125 2.6247906,5 3.4003906,5 H 28.599609 C 29.375209,5 30,5.641125 30,6.4375 v -1 C 30,4.641125 29.375209,4 28.599609,4 Z" style="fill:#ffffff;opacity:.2"/>
+   <rect x="27" y="4" width="2" height="5" style="opacity:.5"/>
+  </g>
+ </g>
+</svg>

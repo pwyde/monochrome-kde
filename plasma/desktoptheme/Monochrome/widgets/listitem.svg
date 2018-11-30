@@ -1,0 +1,64 @@
+<svg width="48" height="54.999985" version="1.1" viewBox="0 0 48 54.999985" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0,-1.4355469e-5)">
+  <rect id="separator" x="8" y="54" width="40" height="1" style="fill:#ffffff;opacity:.13999999"/>
+ </g>
+ <g transform="translate(0,-1.4355469e-5)">
+  <rect id="section-center" x="30" y="30" width="11" height="11" ry="0" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-topleft" x="28" y="28" width="2" height="2" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-top" x="30" y="28" width="11" height="2" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-topright" x="41" y="28" width="2" height="2" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-right" x="41" y="30" width="2" height="11" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-bottomright" x="41" y="41" width="2" height="2" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-bottom" x="30" y="41" width="11" height="2" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-bottomleft" x="28" y="41" width="2" height="2" style="fill:#ffffff;opacity:.12000002"/>
+  <rect id="section-left" x="28" y="30" width="2" height="11" style="fill:#ffffff;opacity:.12000002"/>
+ </g>
+ <g transform="translate(0,-1.4355469e-5)">
+  <rect id="pressed-center" x="10" y="30" width="11" height="11" ry="0" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-topleft" x="8" y="28" width="2" height="2" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-top" x="10" y="28" width="11" height="2" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-topright" x="21" y="28" width="2" height="2" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-right" x="21" y="30" width="2" height="11" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-bottomright" x="21" y="41" width="2" height="2" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-bottom" x="10" y="41" width="11" height="2" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-bottomleft" x="8" y="41" width="2" height="2" style="fill:#ffffff;opacity:.03999999"/>
+  <rect id="pressed-left" x="8" y="30" width="2" height="11" style="fill:#ffffff;opacity:.03999999"/>
+ </g>
+ <g transform="translate(0,-1.4355469e-5)">
+  <rect id="hover-center" x="30" y="10" width="11" height="11" ry="0" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-topleft" x="28" y="8" width="2" height="2" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-top" x="30" y="8" width="11" height="2" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-topright" x="41" y="8" width="2" height="2" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-right" x="41" y="10" width="2" height="11" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-bottomright" x="41" y="21" width="2" height="2" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-bottom" x="30" y="21" width="11" height="2" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-bottomleft" x="28" y="21" width="2" height="2" style="fill:#ffffff;opacity:.07999998"/>
+  <rect id="hover-left" x="28" y="10" width="2" height="11" style="fill:#ffffff;opacity:.07999998"/>
+ </g>
+ <g transform="translate(0,-1.4355469e-5)">
+  <rect id="normal-center" x="10" y="10" width="11" height="11" ry="0" style="opacity:0;stroke-width:.96476376"/>
+  <rect id="normal-topleft" x="8" y="8" width="2" height="2" style="opacity:0"/>
+  <rect id="normal-top" x="10" y="8" width="11" height="2" style="opacity:0"/>
+  <rect id="normal-topright" x="21" y="8" width="2" height="2" style="opacity:0"/>
+  <rect id="normal-right" x="21" y="10" width="2" height="11" style="opacity:0"/>
+  <rect id="normal-bottomright" x="21" y="21" width="2" height="2" style="opacity:0"/>
+  <rect id="normal-bottom" x="10" y="21" width="11" height="2" style="opacity:0"/>
+  <rect id="normal-bottomleft" x="8" y="21" width="2" height="2" style="opacity:0"/>
+  <rect id="normal-left" x="8" y="10" width="2" height="11" style="opacity:0"/>
+ </g>
+ <g transform="translate(0,-1022.5197)">
+  <rect id="hint-tile-center" y="1022.5197" width="5" height="5" style="fill:#ff00ff"/>
+  <rect id="normal-hint-right-margin" x="21" y="1037.5197" width="4" height="1" style="fill:#ff00ff"/>
+  <rect id="normal-hint-left-margin" x="6" y="1037.5197" width="4" height="1" style="fill:#ff00ff"/>
+  <rect id="normal-hint-top-margin" x="15" y="1028.5197" width="1" height="4" style="fill:#ff00ff"/>
+  <rect id="normal-hint-bottom-margin" x="15" y="1043.5197" width="1" height="4" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-right-margin" x="21" y="1057.5195" width="4" height="1" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-left-margin" x="6" y="1057.5195" width="4" height="1" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-top-margin" x="15" y="1048.5197" width="1" height="4" style="fill:#ff00ff"/>
+  <rect id="pressed-hint-bottom-margin" x="15" y="1063.5195" width="1" height="4" style="fill:#ff00ff"/>
+  <rect id="section-hint-right-margin" x="41" y="1057.5197" width="4" height="1" style="fill:#ff00ff"/>
+  <rect id="section-hint-left-margin" x="26" y="1057.5197" width="4" height="1" style="fill:#ff00ff"/>
+  <rect id="section-hint-top-margin" x="35" y="1048.5199" width="1" height="4" style="fill:#ff00ff"/>
+  <rect id="section-hint-bottom-margin" x="35" y="1063.5197" width="1" height="4" style="fill:#ff00ff"/>
+ </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22.000001" xmlns="http://www.w3.org/2000/svg">
+ <g id="active-center" style="enable-background:new">
+  <rect width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <path transform="matrix(.86602542 0 0 .60000001 .47884954 4.5828564)" d="m12.148778 4.0285726 2.886751 4.9999999 2.886751 4.9999995h-11.547005l2.8867516-4.9999994z" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="hover-center" style="enable-background:new">
+  <rect x="23" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="34" cy="11" r="11" style="fill:#ffffff;opacity:.18000004"/>
+  <path d="m34.000001 7 2.499999 3 2.5 3h-10l2.500001-3z" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="pressed-center" style="enable-background:new">
+  <rect x="46" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="57" cy="11" r="11" style="fill:#ffffff;opacity:.28000004"/>
+  <path d="m57.000001 7 2.499999 3 2.5 3h-10l2.500001-3z" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="inactive-center" style="enable-background:new">
+  <rect x="69" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <path transform="matrix(.86602542 0 0 .60000001 69.47885 4.5828564)" d="m12.148778 4.0285726 2.886751 4.9999999 2.886751 4.9999995h-11.547005l2.8867516-4.9999994z" style="fill-rule:evenodd;fill:#ffffff;opacity:.25"/>
+ </g>
+ <g id="deactivated-center" style="enable-background:new">
+  <rect x="92" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <path transform="matrix(.86602542 0 0 .60000001 92.47885 4.5828564)" d="m12.148778 4.0285726 2.886751 4.9999999 2.886751 4.9999995h-11.547005l2.8867516-4.9999994z" style="fill-rule:evenodd;fill:#ffffff;opacity:.25"/>
+ </g>
+</svg>

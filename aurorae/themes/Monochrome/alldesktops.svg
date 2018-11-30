@@ -1,0 +1,24 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22.000001" xmlns="http://www.w3.org/2000/svg">
+ <g id="active-center" style="enable-background:new">
+  <rect width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="11" cy="11" r="4" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="hover-center" style="enable-background:new">
+  <rect x="23" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="34" cy="11" r="11" style="fill:#ffffff;opacity:.18000004"/>
+  <circle cx="34" cy="11" r="4" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="pressed-center" style="enable-background:new">
+  <rect x="46" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="57" cy="11" r="11" style="fill:#ffffff;opacity:.28000004"/>
+  <circle cx="57" cy="11" r="4" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="inactive-center" style="enable-background:new">
+  <rect x="69" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="80" cy="11" r="4" style="fill-rule:evenodd;fill:#ffffff;opacity:.25"/>
+ </g>
+ <g id="deactivated-center" style="enable-background:new">
+  <rect x="92" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="103" cy="11" r="4" style="fill-rule:evenodd;fill:#ffffff;opacity:.25"/>
+ </g>
+</svg>

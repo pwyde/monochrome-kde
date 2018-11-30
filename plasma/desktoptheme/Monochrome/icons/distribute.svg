@@ -1,0 +1,10 @@
+<svg width="22" height="22" style="enable-background:new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g id="16-16-distribute-horizontal-x" transform="translate(-467.0002,65.003341)">
+  <rect x="489" y="-59" width="16" height="16" style="fill-rule:evenodd;fill:#0000ff;opacity:.00100002"/>
+  <path d="m494.0002-54.00334-4 2.999999 4 3.000001v-2.000001h6v2.000001l4-3.000001-4-2.999999v2.000001h-6z" style="enable-background:new;fill:#aaaaac"/>
+ </g>
+ <g id="distribute-horizontal-x" transform="translate(0,-10)">
+  <rect y="10" width="22" height="22" style="opacity:.00100002;stroke-width:.6875"/>
+  <path d="m8 18-5 3 5 3v-2h6v2l5-3-5-3v2h-6z" style="enable-background:new;fill:#aaaaac"/>
+ </g>
+</svg>

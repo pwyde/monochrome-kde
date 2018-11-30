@@ -1,0 +1,27 @@
+<svg width="29" height="13.999973" version="1.1" viewBox="0 0 29 13.999974" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-10,-10.000029)">
+  <rect id="bar-inactive-center" x="34" y="19" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-right" x="37" y="19" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-bottom" x="34" y="22" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-top" x="34" y="16" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-left" x="31" y="19" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-topleft" x="31" y="16.000002" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-topright" x="37" y="16.000002" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-bottomright" x="37" y="22.000002" width="2" height="2" style="fill:#414143"/>
+  <rect id="bar-inactive-bottomleft" x="31" y="22.000002" width="2" height="2" style="fill:#414143"/>
+ </g>
+ <g transform="translate(-10,-10.000029)">
+  <rect id="bar-active-center" x="19" y="19" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-right" x="22" y="19" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-bottom" x="19" y="22" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-top" x="19" y="16" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-left" x="16" y="19" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-topleft" x="16" y="16.000002" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-topright" x="22" y="16.000002" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-bottomright" x="22" y="22.000002" width="2" height="2" style="fill:#6e6e70"/>
+  <rect id="bar-active-bottomleft" x="16" y="22.000002" width="2" height="2" style="fill:#6e6e70"/>
+ </g>
+ <g transform="translate(-10,-1082.5198)">
+  <rect id="hint-bar-size" x="10" y="1082.5198" width="4" height="3.999964" ry="0" style="fill:#ff00ff"/>
+ </g>
+</svg>

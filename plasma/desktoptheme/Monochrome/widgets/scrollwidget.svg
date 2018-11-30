@@ -1,0 +1,25 @@
+<svg width="123.84039" height="124.82262" version="1.1" viewBox="0 0 123.84039 124.82262" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-1,-996.69704)">
+  <g id="border-top" transform="matrix(.1444413 0 0 1 6.3983518 894.75947)">
+   <rect class="ColorScheme-Text" transform="scale(1,-1)" x="16" y="-109" width="747.70868" height="1" style="color:#31363b;fill:#19191b;opacity:.15"/>
+   <rect transform="scale(1,-1)" x="16" y="-110" width="747.70868" height="1" style="opacity:0"/>
+  </g>
+  <rect id="border-center" x="32.209412" y="1028.1815" width="64.25" height="61.5" style="fill-opacity:0;opacity:.6"/>
+  <rect id="border-topleft" transform="scale(-1)" x="-9.5819988" y="-1005.9077" width="8.5819988" height="9.2106771" style="fill-opacity:0;opacity:.6"/>
+  <rect id="border-bottomleft" transform="scale(-1)" x="-9.5819988" y="-1121.5197" width="8.5819988" height="9.2106771" style="fill-opacity:0;opacity:.6"/>
+  <rect id="border-topright" transform="scale(-1)" x="-124.84039" y="-1005.9077" width="8.5819988" height="9.2106771" style="fill-opacity:0;opacity:.6"/>
+  <rect id="border-bottomright" transform="scale(-1)" x="-124.84039" y="-1121.5197" width="8.5819988" height="9.2106771" style="fill-opacity:0;opacity:.6"/>
+  <g id="border-left" transform="matrix(0 -.1444413 1 0 -101.44491 1117.6997)">
+   <rect class="ColorScheme-Text" transform="scale(1,-1)" x="16" y="-109" width="747.70868" height="1" style="color:#31363b;fill:#19191b;opacity:.15"/>
+   <rect transform="scale(1,-1)" x="16" y="-110" width="747.70868" height="1" style="opacity:0"/>
+  </g>
+  <g id="border-bottom" transform="matrix(-.1444413 0 0 -1 117.60627 1226.2502)">
+   <rect class="ColorScheme-Text" transform="scale(1,-1)" x="16" y="-109" width="747.70868" height="1" style="color:#31363b;fill:#19191b;opacity:.15"/>
+   <rect transform="scale(1,-1)" x="16" y="-110" width="747.70868" height="1" style="opacity:0"/>
+  </g>
+  <g id="border-right" transform="matrix(0 .1444413 -1 0 226.51019 1006.8454)">
+   <rect class="ColorScheme-Text" transform="scale(1,-1)" x="16" y="-109" width="747.70868" height="1" style="color:#31363b;fill:#19191b;opacity:.15"/>
+   <rect transform="scale(1,-1)" x="16" y="-110" width="747.70868" height="1" style="opacity:0"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg width="32" height="32" style="enable-background:new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g id="22-22-touchpad_enabled" transform="translate(-393.0002,175.00336)" style="enable-background:new;filter:url(#filter7554)">
+  <path d="m425.0002-165.00336h22v22h-22v-22z" style="opacity:.00100002"/>
+  <path d="m428.19942-162.00336c-1.2 0-1.19922 1.23047-1.19922 1.23047v13.53906s-7.8e-4 1.23047 1.19922 1.23047h15.60156s1.19922 3e-4 1.19922-1.23047v-13.53906c0-1.23077-1.19922-1.23047-1.19922-1.23047zm12.80078 2h2v1h-2zm0 2h2v1h-2zm0 2h2v1h-2zm0 2h2v1h-2zm-12 3h6v3h-6zm8 0h6v3h-6z" style="fill:#aaaaac"/>
+ </g>
+ <g id="22-22-touchpad_disabled" transform="translate(-415.0002,143.00336)" style="enable-background:new;filter:url(#filter7554)">
+  <path d="m447.0002-165.00336h22v22h-22v-22z" style="opacity:.00100002"/>
+  <path d="m450.19942-162.00336c-1.2 0-1.19922 1.23047-1.19922 1.23047v13.53906s-7.8e-4 1.23047 1.19922 1.23047h15.60156s1.19922 3e-4 1.19922-1.23047v-13.53906c0-1.23077-1.19922-1.23047-1.19922-1.23047zm12.80078 2h2v1h-2zm0 2h2v1h-2zm0 2h2v1h-2zm0 2h2v1h-2zm-12 3h6v3h-6zm8 0h6v3h-6z" style="fill:#ffffff;opacity:.25"/>
+ </g>
+ <g id="touchpad_enabled" transform="translate(0,32)">
+  <rect y="-32" width="32" height="32" style="opacity:.00100002"/>
+  <g transform="translate(0,-32)">
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-29" y="-29" width="26" height="26" rx="1.3" ry="1.3" style="fill:#c4c4c4"/>
+   <path d="M 4.3008,3 C 3.5806,3 3,3.5806 3,4.3008 v 1 C 3,4.5806 3.5806,4 4.3008,4 h 23.398 c 0.72,0 1.301,0.5806 1.301,1.3008 v -1 C 28.9998,3.5806 28.4188,3 27.6988,3 Z" style="fill:#dfdfdf;opacity:.1"/>
+   <g style="fill:#5d5d5d">
+    <rect x="4" y="22" width="11" height="6" rx="1.222" ry="1.2"/>
+    <rect x="17" y="22" width="11" height="6" rx="1.222" ry="1.2"/>
+    <rect x="24" y="7" width="4" height="1"/>
+    <rect x="24" y="9" width="4" height="1"/>
+    <rect x="24" y="11" width="4" height="1"/>
+    <rect x="24" y="13" width="4" height="1"/>
+    <rect x="24" y="15" width="4" height="1"/>
+    <rect x="24" y="17" width="4" height="1"/>
+   </g>
+   <path d="m3 27.699v1c0 0.72 0.5806 1.301 1.3008 1.301h23.398c0.72 0 1.301-0.581 1.301-1.301v-1c0 0.72-0.581 1.301-1.301 1.301h-23.398c-0.7204 0-1.301-0.581-1.301-1.301z" style="opacity:.2"/>
+  </g>
+ </g>
+ <g id="touchpad_disabled">
+  <rect y="-32" width="32" height="32" style="opacity:.00100002"/>
+  <g transform="translate(0,-32)">
+   <rect transform="matrix(0,-1,-1,0,0,0)" x="-29" y="-29" width="26" height="26" rx="1.3" ry="1.3" style="fill:#c4c4c4"/>
+   <path d="M 4.3008,3 C 3.5806,3 3,3.5806 3,4.3008 v 1 C 3,4.5806 3.5806,4 4.3008,4 h 23.398 c 0.72,0 1.301,0.5806 1.301,1.3008 v -1 C 28.9998,3.5806 28.4188,3 27.6988,3 Z" style="fill:#dfdfdf;opacity:.1"/>
+   <g style="fill:#5d5d5d">
+    <rect x="4" y="22" width="11" height="6" rx="1.222" ry="1.2"/>
+    <rect x="17" y="22" width="11" height="6" rx="1.222" ry="1.2"/>
+    <rect x="24" y="7" width="4" height="1"/>
+    <rect x="24" y="9" width="4" height="1"/>
+    <rect x="24" y="11" width="4" height="1"/>
+    <rect x="24" y="13" width="4" height="1"/>
+    <rect x="24" y="15" width="4" height="1"/>
+    <rect x="24" y="17" width="4" height="1"/>
+   </g>
+   <path d="m3 27.699v1c0 0.72 0.5806 1.301 1.3008 1.301h23.398c0.72 0 1.301-0.581 1.301-1.301v-1c0 0.72-0.581 1.301-1.301 1.301h-23.398c-0.7204 0-1.301-0.581-1.301-1.301z" style="opacity:.2"/>
+   <circle cx="24" cy="24" r="7" style="fill:#db3c30"/>
+   <path d="M 30.977,24.459 A 7,7 0 0 1 24,31 7,7 0 0 1 17.023,24.541 7,7 0 0 0 17,25 a 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -0.02344,-0.54102 z" style="opacity:.2"/>
+   <g transform="matrix(.70711 -.70711 .70711 .70711 -9.9411 24)" style="fill:#dfdfdf">
+    <rect x="20" y="23" width="8" height="2" style="fill:#ffffff"/>
+    <rect transform="rotate(90)" x="20" y="-25" width="8" height="2" style="fill:#ffffff"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="43" height="40" version="1.1" viewBox="0 0 43 40.000002" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-142,-422.51965)">
+  <g id="vertical-line" transform="translate(109.03125,408.92596)">
+   <path class="ColorScheme-Text" d="m32.96875 13.59375v40h3v-40z" style="color:#31363b;fill-opacity:.3;fill:currentColor;opacity:.01000001"/>
+   <path class="ColorScheme-Text" d="m33.96875 13.59375v40h1v-40z" style="color:#31363b;fill:#ffffff;opacity:.13999999"/>
+  </g>
+  <g id="horizontal-line" transform="translate(109.30903,385.99071)">
+   <path class="ColorScheme-Text" d="m75.690972 55.529h-40v3h40z" style="color:#31363b;fill-opacity:.3;fill:currentColor;opacity:.01000001"/>
+   <path class="ColorScheme-Text" d="m75.690972 56.529h-40v1h40z" style="color:#31363b;fill:#ffffff;opacity:.13999999"/>
+  </g>
+ </g>
+</svg>

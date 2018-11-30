@@ -1,0 +1,18 @@
+[ContrastEffect]
+enabled=false
+contrast=0.2
+intensity=0.4
+saturation=1.7
+
+[Desktop Entry]
+Name=Monochrome
+X-KDE-PluginInfo-Author=Patrik Wyde
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-Depends=plasmashell
+X-KDE-PluginInfo-Email=patrik@wyde.se
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Name=Monochrome
+X-KDE-PluginInfo-Version=0.6
+X-KDE-PluginInfo-Website=https://gitlab.com/pwyde/monochrome-kde
+X-Plasma-API=5.0

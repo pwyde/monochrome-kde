@@ -1,0 +1,33 @@
+<svg id="svg" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ <g id="notification-active" transform="translate(0,-18)">
+  <rect y="40" width="22" height="22" style="fill-opacity:.94117647;opacity:.00100002"/>
+  <path d="m11 43c-4.418278 0-8 3.581722-8 8s3.581722 8 8 8 8-3.581722 8-8-3.581722-8-8-8z" style="fill:#5294e2"/>
+  <path d="m10 47v6h2v-6zm1 7c-0.453152 0-1 0.518427-1 0.980469 0 0.462043 0.546848 1.019531 1 1.019531s1-0.557488 1-1.019531c0-0.462042-0.546848-0.980469-1-0.980469z" style="fill-opacity:.94117647;fill:#ffffff"/>
+ </g>
+ <path id="expander-bottom" d="m-5 22 2-2 2 2z" style="fill:#aaaaac"/>
+ <path id="expander-top" d="m-5 16 2 2 2-2z" style="fill:#aaaaac"/>
+ <path id="expander-right" d="m0 17-2 2 2 2z" style="fill:#aaaaac"/>
+ <path id="expander-left" d="m-6 17 2 2-2 2z" style="fill:#aaaaac"/>
+ <g id="notification-inactive">
+  <rect width="22" height="22" style="fill:none;opacity:.00100002"/>
+  <g>
+   <path d="m11 3a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 2a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6zm-1 1v6h2v-6zm1 7c-0.453152 0-1 0.518427-1 0.980469 0 0.462043 0.546848 1.019531 1 1.019531s1-0.557488 1-1.019531c0-0.462042-0.546848-0.980469-1-0.980469z" style="fill:#aaaaac"/>
+  </g>
+ </g>
+ <g id="notification-disabled" transform="translate(0,18)">
+  <rect y="-40" width="22" height="22" style="fill-opacity:.94117647;opacity:.00100002"/>
+  <path d="m11-37a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 2a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6zm-1 1v6h2v-6zm1 7c-0.453152 0-1 0.518427-1 0.980469 0 0.462043 0.546848 1.019531 1 1.019531s1-0.557488 1-1.019531c0-0.462042-0.546848-0.980469-1-0.980469z" style="fill:#ffffff;opacity:.25"/>
+ </g>
+ <g id="notification-empty" transform="translate(-18,18)">
+  <rect x="40" y="-40" width="22" height="22" style="fill-opacity:.94117647;opacity:.00100002"/>
+  <path d="m51-37a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 2a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6z" style="fill:#aaaaac"/>
+ </g>
+ <g id="notification-progress-active" transform="translate(-18)">
+  <rect x="40" width="22" height="22" style="fill-opacity:.94117647;opacity:.00100002"/>
+  <path d="m51 2.9999999c-4.418278 0-8 3.5817221-8 8.0000001s3.581722 8 8 8 8-3.581722 8-8-3.581722-8.0000001-8-8.0000001z" style="fill:#5294e2"/>
+ </g>
+ <g id="notification-progress-inactive" transform="translate(-18,-18)">
+  <rect x="40" y="40" width="22" height="22" style="fill-opacity:.94117647;opacity:.00100002"/>
+  <path d="m51 43c-4.418278 0-8 3.581722-8 8s3.581722 8 8 8 8-3.581722 8-8-3.581722-8-8-8z" style="fill:#ffffff;opacity:.25"/>
+ </g>
+</svg>

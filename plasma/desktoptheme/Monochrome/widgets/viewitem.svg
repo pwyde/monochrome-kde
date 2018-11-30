@@ -1,0 +1,125 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200.00001" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <rect id="selected-center" x="86" y="21" width="48" height="48" style="fill:#6e6e70"/>
+  <g id="selected-topleft">
+   <path d="m85 17c-1.662 0-3 1.338-3 3v1h1v-1c0-1.108 0.892-2 2-2h1v-1z" style="fill:#7a7a7c"/>
+   <path d="m85 18c-1.108 0-2 0.892-2 2v1h3v-3z" style="fill:#6e6e70"/>
+  </g>
+  <g id="selected-top">
+   <rect x="86" y="17" width="48" height="1" style="fill:#7a7a7c"/>
+   <rect x="86" y="18" width="48" height="3" style="fill:#6e6e70"/>
+  </g>
+  <g id="selected-topright">
+   <path d="m138 20c0-1.662-1.338-3-3-3h-1v1h1c1.108 0 2 0.892 2 2v1h1z" style="fill:#7a7a7c"/>
+   <path d="m137 20c0-1.108-0.892-2-2-2h-1v3h3z" style="fill:#6e6e70"/>
+  </g>
+  <g id="selected-right">
+   <rect transform="rotate(90)" x="21" y="-138" width="48" height="1" style="fill:#7a7a7c"/>
+   <rect transform="rotate(90)" x="21" y="-137" width="48" height="3" style="fill:#6e6e70"/>
+  </g>
+  <g id="selected-bottomright">
+   <path d="m135 73c1.662 0 3-1.338 3-3v-1h-1v1c0 1.108-0.892 2-2 2h-1v1z" style="fill:#7a7a7c"/>
+   <path d="m135 72c1.108 0 2-0.892 2-2v-1h-3v3z" style="fill:#6e6e70"/>
+  </g>
+  <g id="selected-bottom">
+   <rect transform="scale(-1)" x="-134" y="-72" width="48" height="3" style="fill:#6e6e70"/>
+   <rect transform="scale(-1)" x="-134" y="-73" width="48" height="1" style="fill:#7a7a7c"/>
+  </g>
+  <g id="selected-bottomleft">
+   <path d="m82 70c0 1.662 1.338 3 3 3h1v-1h-1c-1.108 0-2-0.892-2-2v-1h-1z" style="fill:#7a7a7c"/>
+   <path d="m83 70c0 1.108 0.892 2 2 2h1v-3h-3z" style="fill:#6e6e70"/>
+  </g>
+  <g id="selected-left">
+   <rect transform="rotate(-90)" x="-69" y="83" width="48" height="3" style="fill:#6e6e70"/>
+   <rect transform="rotate(-90)" x="-69" y="82" width="48" height="1" style="fill:#7a7a7c"/>
+  </g>
+ </g>
+ <g>
+  <rect id="selected+hover-center" x="86" y="86" width="48" height="48" style="fill:#ffffff;opacity:.28000004"/>
+  <g id="selected+hover-topleft" transform="translate(-65,65)">
+   <path d="m150 17c-1.662 0-3 1.338-3 3v1h1v-1c0-1.108 0.892-2 2-2h1v-1z" style="fill:#6e6e70"/>
+   <path d="m150 18c-1.108 0-2 0.892-2 2v1h3v-3z" style="fill:#ffffff;opacity:.28000004"/>
+  </g>
+  <g id="selected+hover-top" transform="translate(-65,65)">
+   <rect x="151" y="17" width="48" height="1" style="fill:#6e6e70"/>
+   <rect x="151" y="18" width="48" height="3" style="fill:#ffffff;opacity:.28000004"/>
+  </g>
+  <g id="selected+hover-topright" transform="translate(-65,65)">
+   <path d="m203 20c0-1.662-1.338-3-3-3h-1v1h1c1.108 0 2 0.892 2 2v1h1z" style="fill:#6e6e70"/>
+   <path d="m202 20c0-1.108-0.892-2-2-2h-1v3h3z" style="fill:#ffffff;opacity:.28000004"/>
+  </g>
+  <g id="selected+hover-right" transform="translate(-65,65)">
+   <rect transform="rotate(90)" x="21" y="-203" width="48" height="1" style="fill:#6e6e70"/>
+   <rect transform="rotate(90)" x="21" y="-202" width="48" height="3" style="fill:#ffffff;opacity:.28000004"/>
+  </g>
+  <g id="selected+hover-bottomright" transform="translate(-65,65)">
+   <path d="m200 73c1.662 0 3-1.338 3-3v-1h-1v1c0 1.108-0.892 2-2 2h-1v1z" style="fill:#6e6e70"/>
+   <path d="m200 72c1.108 0 2-0.892 2-2v-1h-3v3z" style="fill:#ffffff;opacity:.28000004"/>
+  </g>
+  <g id="selected+hover-bottom" transform="translate(-65,65)">
+   <rect transform="scale(-1)" x="-199" y="-72" width="48" height="3" style="fill:#ffffff;opacity:.28000004"/>
+   <rect transform="scale(-1)" x="-199" y="-73" width="48" height="1" style="fill:#6e6e70"/>
+  </g>
+  <g id="selected+hover-bottomleft" transform="translate(-65,65)">
+   <path d="m147 70c0 1.662 1.338 3 3 3h1v-1h-1c-1.108 0-2-0.892-2-2v-1h-1z" style="fill:#6e6e70"/>
+   <path d="m148 70c0 1.108 0.892 2 2 2h1v-3h-3z" style="fill:#ffffff;opacity:.28000004"/>
+  </g>
+  <g id="selected+hover-left" transform="translate(-65,65)">
+   <rect transform="rotate(-90)" x="-69" y="148" width="48" height="3" style="fill:#ffffff;opacity:.28000004"/>
+   <rect transform="rotate(-90)" x="-69" y="147" width="48" height="1" style="fill:#6e6e70"/>
+  </g>
+ </g>
+ <g>
+  <rect id="hover-center" x="21" y="86" width="48" height="48" style="fill:#ffffff;opacity:.12000002"/>
+  <g id="hover-topleft" transform="translate(-65,65)">
+   <path d="m85 17c-1.662 0-3 1.338-3 3v1h1v-1c0-1.108 0.892-2 2-2h1v-1z" style="fill:#6e6e70"/>
+   <path d="m85 18c-1.108 0-2 0.892-2 2v1h3v-3z" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="hover-top" transform="translate(-65,65)">
+   <rect x="86" y="17" width="48" height="1" style="fill:#6e6e70"/>
+   <rect x="86" y="18" width="48" height="3" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="hover-topright" transform="translate(-65,65)">
+   <path d="m138 20c0-1.662-1.338-3-3-3h-1v1h1c1.108 0 2 0.892 2 2v1h1z" style="fill:#6e6e70"/>
+   <path d="m137 20c0-1.108-0.892-2-2-2h-1v3h3z" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="hover-right" transform="translate(-65,65)">
+   <rect transform="rotate(90)" x="21" y="-138" width="48" height="1" style="fill:#6e6e70"/>
+   <rect transform="rotate(90)" x="21" y="-137" width="48" height="3" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="hover-bottomright" transform="translate(-65,65)">
+   <path d="m135 73c1.662 0 3-1.338 3-3v-1h-1v1c0 1.108-0.892 2-2 2h-1v1z" style="fill:#6e6e70"/>
+   <path d="m135 72c1.108 0 2-0.892 2-2v-1h-3v3z" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="hover-bottom" transform="translate(-65,65)">
+   <rect transform="scale(-1)" x="-134" y="-72" width="48" height="3" style="fill:#ffffff;opacity:.12000002"/>
+   <rect transform="scale(-1)" x="-134" y="-73" width="48" height="1" style="fill:#6e6e70"/>
+  </g>
+  <g id="hover-bottomleft" transform="translate(-65,65)">
+   <path d="m82 70c0 1.662 1.338 3 3 3h1v-1h-1c-1.108 0-2-0.892-2-2v-1h-1z" style="fill:#6e6e70"/>
+   <path d="m83 70c0 1.108 0.892 2 2 2h1v-3h-3z" style="fill:#ffffff;opacity:.12000002"/>
+  </g>
+  <g id="hover-left" transform="translate(-65,65)">
+   <rect transform="rotate(-90)" x="-69" y="83" width="48" height="3" style="fill:#ffffff;opacity:.12000002"/>
+   <rect transform="rotate(-90)" x="-69" y="82" width="48" height="1" style="fill:#6e6e70"/>
+  </g>
+ </g>
+ <g>
+  <rect id="normal-center" x="21" y="21" width="48" height="48" style="opacity:0;stroke-width:5.0596442"/>
+  <rect id="normal-topleft" x="17" y="17" width="4" height="4" style="opacity:0;stroke-width:.80000001"/>
+  <rect id="normal-topright" x="69" y="17" width="4" height="4" style="opacity:0;stroke-width:.80000001"/>
+  <rect id="normal-bottomright" x="69" y="69" width="4" height="4" style="opacity:0;stroke-width:.80000001"/>
+  <rect id="normal-bottomleft" x="17" y="69" width="4" height="4" style="opacity:0;stroke-width:.80000001"/>
+  <rect id="normal-top" x="21" y="17" width="48" height="4" style="opacity:0"/>
+  <rect id="normal-right" x="69" y="21" width="4" height="48" style="opacity:0"/>
+  <rect id="normal-bottom" x="21" y="69" width="48" height="4" style="opacity:0"/>
+  <rect id="normal-left" x="17" y="21" width="4" height="48" style="opacity:0"/>
+ </g>
+ <g transform="translate(0,-922.51965)">
+  <rect id="hint-tile-center" y="922.51965" width="10" height="10" ry="0" style="fill:#ff00ff"/>
+ </g>
+ <g>
+  <path d="m-6-4c-1.662 0-3 1.338-3 3v1h4v-4z" style="fill:#000000"/>
+  <path d="m-6-3c-1.108 0-2 0.892-2 2v1h3v-3z" style="fill:#ff00ff"/>
+ </g>
+</svg>
