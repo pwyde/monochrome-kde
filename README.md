@@ -3,6 +3,14 @@
 ## About
 A dark theme for the KDE Plasma 5 desktop environment inspired by black and white photography.
 
+The theme includes the following:
+- Aurorae Theme
+- Konsole Colour Scheme
+- Kvantum Theme
+- Plasma Colour Scheme
+- Plasma Desktop Theme
+- Yakuake Skin
+
 ## Credits
 Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma 5 desktop.
 
