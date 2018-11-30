@@ -26,5 +26,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 
 - **Breeze**: LGPL
 - **Materia KDE**: GPLv3
+  - **Plasma Desktop Theme**: GPLv3
 - **Arc KDE**: GPLv3
+  - **Plasma Desktop Theme**: CCPL:by-sa
 - **Papirus**: GPLv3
