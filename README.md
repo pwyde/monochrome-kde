@@ -13,11 +13,11 @@ The theme includes the following:
 
 ## Install Instructions
 
-At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below.
+At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below. This method works on all distributions.
 
 ### Monochrome KDE Installer
 
-The installation script will automatically download the latest version from the repository and copy the needed files to '/usr/share'.
+The installation script will automatically download the latest version from the repository and copy the needed files to `/usr/share`.
 
 **Install**
 
