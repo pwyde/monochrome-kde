@@ -25,13 +25,13 @@ _msg() {
 }
 
 _rm() {
-    # removes parent directories if empty
+    # Removes parent directories if empty.
     sudo rm -rf "$1"
     sudo rmdir -p "$(dirname "$1")" 2>/dev/null || true
 }
 
 _download() {
-    _msg "Downloading latest version from master branch..."
+    _msg "Downloading latest version from master branch ..."
     wget -O "$temp_file" \
         "https://gitlab.com/pwyde/$git_repo/-/archive/$TAG/$git_repo-$TAG.tar.gz"
     _msg "Extracting archive ..."
