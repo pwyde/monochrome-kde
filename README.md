@@ -34,7 +34,7 @@ For a better visual experience apply the following modifications and settings:
 
 - Download and install the [Kvantum theme engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
   - Run `kvantummanager` > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
-- Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 - Enable **Blur** in **System Settings** > **Desktop Behaviour** >  **Desktop Effetcs**.
 
 ## Credits
