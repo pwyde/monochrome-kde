@@ -12,11 +12,9 @@ The theme includes the following:
 - Yakuake Skin
 
 ## Install Instructions
-
 At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below. This method works on all distributions.
 
 ### Monochrome KDE Installer
-
 The installation script will automatically download the latest version from the repository and copy the needed files to `/usr/share`.
 
 **Install**
@@ -30,6 +28,14 @@ wget -qO- https://gitlab.com/pwyde/monochrome-kde/raw/master/install.sh | sh
 ```
 wget -qO- https://gitlab.com/pwyde/monochrome-kde/raw/master/install.sh | uninstall=true sh
 ```
+
+## Recommendations
+For a better visual experience apply the following modifications and settings:
+
+- Download and install the [Kvantum theme engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
+  - Run `kvantummanager` > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
+- Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- Enable **Blur** in **System Settings** > **Desktop Behaviour** >  **Desktop Effetcs**.
 
 ## Credits
 Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma 5 desktop.
