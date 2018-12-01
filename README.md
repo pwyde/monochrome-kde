@@ -1,7 +1,7 @@
 # Monochrome KDE
 
 <p align="center">
-    <img src="https://gitlab.com/pwyde/monochrome-kde/blob/master/preview.png" alt="Preview of Monochrome KDE"/>
+    <img src="https://gitlab.com/pwyde/monochrome-kde/raw/master/preview.png" alt="Preview of Monochrome KDE"/>
 </p>
 
 ## About
