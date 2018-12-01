@@ -11,6 +11,26 @@ The theme includes the following:
 - Plasma Desktop Theme
 - Yakuake Skin
 
+## Install Instructions
+
+At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below.
+
+### Monochrome KDE Installer
+
+The installation script will automatically download the latest version from the repository and copy the needed files to '/usr/share'.
+
+**Install**
+
+```
+wget -qO- https://gitlab.com/pwyde/monochrome-kde/raw/master/install.sh | sh
+```
+
+**Uninstall**
+
+```
+wget -qO- https://gitlab.com/pwyde/monochrome-kde/raw/master/install.sh | uninstall=true sh
+```
+
 ## Credits
 Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma 5 desktop.
 
