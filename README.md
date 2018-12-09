@@ -57,6 +57,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 - **Materia KDE**: GPLv3
   - **Plasma Desktop Theme**: GPLv3
   - **Kvantum Theme**: GPLv3
+  - **Aurorae Theme**: GPLv3
 - **Arc KDE**: GPLv3
   - **Plasma Desktop Theme**: CCPL:by-sa
   - **Kvantum Theme**: GPLv3
