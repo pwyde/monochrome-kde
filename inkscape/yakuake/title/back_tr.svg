@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="7"
-   height="34"
-   viewBox="0 0 7 34"
+   height="30"
+   viewBox="0 0 7 30"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 2405546, 2018-03-11"
@@ -52,8 +52,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="36.5"
-     inkscape:cx="-15.239727"
-     inkscape:cy="17"
+     inkscape:cx="-11.780822"
+     inkscape:cy="14.191781"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -63,10 +63,16 @@
      inkscape:window-height="1413"
      inkscape:window-x="46"
      inkscape:window-y="27"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
-       id="grid815" />
+       id="grid815"
+       originx="0"
+       originy="-4.9999996" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -84,18 +90,18 @@
      inkscape:label="back_tr"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-288.00415)">
+     transform="translate(0,-287.00415)">
     <path
        style="color:#000000;line-height:normal;font-family:Sans;text-indent:0;text-align:start;text-transform:none;display:none;fill:url(#linearGradient7337);stroke:none;stroke-width:0.3061597"
        id="path1628"
        d="m 0,322.00415 h 7 v -10 H 0 Z"
        inkscape:connector-curvature="0" />
     <rect
-       style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.10912633;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.1622777;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect817"
        width="7"
-       height="29"
+       height="30"
        x="0"
-       y="288.00415" />
+       y="287.00415" />
   </g>
 </svg>
