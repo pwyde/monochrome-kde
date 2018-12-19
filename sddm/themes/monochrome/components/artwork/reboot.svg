@@ -1,0 +1,12 @@
+<svg id="svg824" width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <g id="system-reboot" transform="translate(0,-1020.36)">
+  <rect id="rect89" y="1020.36" width="32" height="32" style="opacity:.00100002"/>
+  <g id="g101" transform="translate(0,1020.3622)">
+   <circle id="circle91" cx="16" cy="16" r="14" style="fill:#eac046"/>
+   <path id="path93" d="m15.99991 1.9978002a14 14 0 0 0-14 14 14 14 0 0 0 0.0215 0.586 14 14 0 0 1 13.978-13.586 14 14 0 0 1 13.979 13.414 14 14 0 0 0 0.021-0.414 14 14 0 0 0-14-14z" style="fill:#cfd8dc;opacity:.2"/>
+   <path id="path95" d="m29.97891 16.4118a14 14 0 0 1-13.979 13.586 14 14 0 0 1-13.978-13.414 14 14 0 0 0-0.022 0.414 14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0-0.021-0.586z" style="opacity:.2"/>
+   <path id="path97" d="m13.99991 14.9978v-4h-4.5m3.8203 0.6406c-2.031801 1.0142-3.316901 3.0885-3.3203 5.3594 0 3.3137 2.686299 6 6 6 3.3137 0 6-2.6863 6-6-0.0021-2.1423-1.1463-4.121-3.001999-5.1914" style="color:#0000ff;fill:none;opacity:.2;stroke-linejoin:round;stroke-width:2;stroke:#000000"/>
+   <path id="path99" d="m13.99991 13.9978v-4h-4.5m3.8203 0.6406c-2.031801 1.0142-3.316901 3.0885-3.3203 5.3594 0 3.3137 2.686299 6 6 6 3.3137 0 6-2.6863 6-6-0.0021-2.1423-1.1463-4.121-3.001999-5.1914" style="color:#0000ff;fill:none;stroke-linejoin:round;stroke-width:2;stroke:#f0f0f2"/>
+  </g>
+ </g>
+</svg>
