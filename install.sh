@@ -46,7 +46,7 @@ _uninstall() {
     _rm "$PREFIX/share/Kvantum/Monochrome"
     _rm "$PREFIX/share/plasma/desktoptheme/Monochrome"
     _rm "$PREFIX/share/yakuake/skins/monochrome"
-    _rm "$PREFIX/share/sddm/themes/Darkine"
+    _rm "$PREFIX/share/sddm/themes/monochrome"
 }
 
 _install() {
