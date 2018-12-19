@@ -49,6 +49,7 @@ Some graphical elements and artwork in this project is based on other popular th
 - **Materia KDE** Plasma theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/materia-kde)
 - **Arc KDE** Plasma theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/arc-kde)
 - **Papirus** icon theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- **Darkine KDE** SDDM theme by [Rokin](https://github.com/Rokin05/darkine-kde)
 
 The installation [script](install.sh) is a modified version of the [original](https://github.com/PapirusDevelopmentTeam/materia-kde/blob/master/install.sh) script file supplied with the **Materia** and **Arc** KDE Plasma 5 theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
@@ -64,4 +65,6 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
   - **Kvantum Theme**: GPLv3
 - **Papirus Icon Theme**: GPLv3
 - **Breeze**: LGPL
+- **Darkine**: GPLv3
+  - **SDDM Theme**: CC-BY-SA
 
