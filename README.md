@@ -14,6 +14,7 @@ The theme includes the following:
 - Plasma Colour Scheme
 - Plasma Desktop Theme
 - Yakuake Skin
+- SDDM Theme
 
 ## Install Instructions
 At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below. This method works on all distributions.
