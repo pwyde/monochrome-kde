@@ -56,7 +56,7 @@ SessionManagementScreen {
                 color: "#1e1e20"
                 radius: 2
                                                     //focus   //normal
-                border.color: control.activeFocus ? "#6e6e70" : '#464648'
+                border.color: control.activeFocus ? "#6e6e70" : '#5a5a5c'
                 border.width: 1
                 implicitWidth: 100
                 implicitHeight: 28
@@ -84,7 +84,7 @@ SessionManagementScreen {
                 color: "#1e1e20"
                 radius: 2
                                                     //focus   //normal
-                border.color: control.activeFocus ? "#6e6e70" : '#464648'
+                border.color: control.activeFocus ? "#6e6e70" : '#5a5a5c'
                 border.width: 1
                 implicitWidth: 100
                 implicitHeight: 28
@@ -131,7 +131,7 @@ SessionManagementScreen {
             background: Rectangle {
                 border.width: 1
                                                     //focus   //normal
-                border.color: control.activeFocus ? "#6e6e70" : '#464648'
+                border.color: control.activeFocus ? "#6e6e70" : '#5a5a5c'
                 radius: 2
                 gradient: Gradient {                                      //pressed   //normal
                     GradientStop { position: 0 ; color: control.pressed ? "#7a7a7c" : "#1e1e20" }
