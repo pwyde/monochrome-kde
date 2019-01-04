@@ -11,10 +11,10 @@ The theme includes the following:
 - Aurorae Theme
 - Konsole Colour Scheme
 - Kvantum Theme
+- SDDM Theme
 - Plasma Colour Scheme
 - Plasma Desktop Theme
 - Yakuake Skin
-- SDDM Theme
 
 ## Install Instructions
 At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below. This method works on all distributions.
@@ -72,6 +72,15 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 ## Todo
 A list of features and/or components that will be added in the future.
 
+- [x] Aurorae Theme
+- [x] Konsole Colour Scheme
+  - [ ] Change colours to match theme better.
+- [x] Kvantum Theme
+  - [ ] Create alternative theme with more transparency and blur.
 - [x] SDDM Theme
+  - [ ] Change colours to match theme better.
+- [x] Plasma Colour Scheme
+- [x] Plasma Desktop Theme
 - [ ] Plasma Look and Feel Theme
 - [ ] Plymouth Theme
+- [x] Yakuake Skin
