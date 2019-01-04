@@ -70,7 +70,8 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
   - **SDDM Theme**: CC-BY-SA
 
 ## Todo
+A list of features and/or components that will be added in the future.
 
 - [x] SDDM Theme
-- [ ] Plasma Look adn Feel Theme
+- [ ] Plasma Look and Feel Theme
 - [ ] Plymouth Theme
