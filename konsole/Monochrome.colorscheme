@@ -1,20 +1,20 @@
 [Background]
-Color=35,35,35
+Color=30,30,32
 
 [BackgroundFaint]
-Color=35,35,35
+Color=30,30,32
 
 [BackgroundIntense]
-Color=35,35,35
+Color=30,30,32
 
 [Color0]
-Color=100,100,100
+Color=100,100,102
 
 [Color0Faint]
-Color=58,58,58
+Color=70,70,72
 
 [Color0Intense]
-Color=129,129,129
+Color=130,130,132
 
 [Color1]
 Color=165,66,66
@@ -71,25 +71,25 @@ Color=36,143,143
 Color=138,230,230
 
 [Color7]
-Color=170,170,170
+Color=170,170,172
 
 [Color7Faint]
-Color=109,109,109
+Color=100,100,102
 
 [Color7Intense]
-Color=252,252,252
+Color=220,220,222
 
 [Foreground]
-Color=202,202,202
+Color=170,170,172
 
 [ForegroundFaint]
-Color=202,202,202
+Color=140,140,142
 
 [ForegroundIntense]
-Color=227,227,227
+Color=200,200,202
 
 [General]
 Blur=true
 Description=Monochrome
-Opacity=0.7
+Opacity=0.82
 Wallpaper=
