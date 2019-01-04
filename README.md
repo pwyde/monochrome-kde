@@ -78,7 +78,7 @@ A list of features and/or components that will be added in the future.
 - [x] Kvantum Theme
   - [ ] Create alternative theme with more transparency and blur.
 - [x] SDDM Theme
-  - [ ] Change colours to match theme better.
+  - [x] Change colours to match theme better.
 - [x] Plasma Colour Scheme
 - [x] Plasma Desktop Theme
 - [ ] Plasma Look and Feel Theme
