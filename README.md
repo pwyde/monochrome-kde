@@ -69,3 +69,8 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 - **Darkine**: GPLv3
   - **SDDM Theme**: CC-BY-SA
 
+## Todo
+
+- [x] SDDM Theme
+- [ ] Plasma Look adn Feel Theme
+- [ ] Plymouth Theme
