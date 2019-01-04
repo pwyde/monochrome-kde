@@ -155,7 +155,7 @@ SessionManagementScreen {
                         width:100
                         horizontalAlignment:Text.AlignHCenter
                         verticalAlignment: Text.AlignVCenter
-                        color: "#aaaaac"
+                        color: "#c8c8ca"
                         text: control.text
                     }
                 }
