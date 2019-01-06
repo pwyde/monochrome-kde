@@ -51,7 +51,7 @@ Rectangle {
 
         Image {
             id: logo
-            //match SDDM/lockscreen avatar positioning
+            //Match SDDM/lockscreen avatar positioning.
             property real size: units.gridUnit * 8
 
             anchors.centerIn: parent
@@ -64,7 +64,7 @@ Rectangle {
 
         Image {
             id: progressRect
-            //in the middle of the remaining space
+            //In the middle of the remaining space.
             y: parent.height - (parent.height - logo.y) / 2 - height/2
             anchors.horizontalCenter: parent.horizontalCenter
             source: "images/rectangle.svg"
@@ -74,7 +74,16 @@ Rectangle {
             Rectangle {
                 id: progressBar
                 radius: 0
-                color: "#414143"
+                /* 
+                 * Changing background color of progress bar to the same color
+                 * as the main background. This is part of a workaround to the
+                 * issue with the filled area of the progress bar which extends
+                 * too much.
+                 * 
+                 * For more information, see https://gitlab.com/pwyde/monochrome-kde/issues/1
+                */
+                //color: "#414143"
+                color: "#1e1e20"
                 anchors.horizontalCenter: parent.horizontalCenter
                 height: 4
                 width: height*32
@@ -85,7 +94,14 @@ Rectangle {
                         top: parent.top
                         bottom: parent.bottom
                     }
-                    width: (parent.width / 4) * (stage - 1)
+                    /* 
+                     * Changing the width of the filled area of the progress bar.
+                     * This is part of a workaround to the issue below.
+                     * 
+                     * https://gitlab.com/pwyde/monochrome-kde/issues/1
+                    */
+                    //width: (parent.width / 4) * (stage - 1)
+                    width: (parent.width / 4.75) * (stage - 1)
                     color: "#6e6e70"
                     Behavior on width { 
                         PropertyAnimation {
