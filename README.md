@@ -82,6 +82,6 @@ A list of features and/or components that will be added in the future.
   - [x] Change colours to match theme better.
 - [x] Plasma Colour Scheme
 - [x] Plasma Desktop Theme
-- [ ] Plasma Look and Feel Theme
+- [x] Plasma Look and Feel Theme
 - [ ] Plymouth Theme
 - [x] Yakuake Skin
