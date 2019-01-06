@@ -39,7 +39,7 @@ wget -qO- https://gitlab.com/pwyde/monochrome-kde/raw/master/install.sh | uninst
 For a better visual experience apply the following modifications and settings:
 
 - Download and install the [Kvantum theme engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
-  - Run `kvantummanager` > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
+   - Run `kvantummanager` > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
 - Change **Aurorae** theme in **System Settings** > **Application Style** > **Window Decorations** > select **Monochrome**.
 - Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 - Enable **Blur** in **System Settings** > **Desktop Behaviour** >  **Desktop Effetcs**.
@@ -59,27 +59,27 @@ The installation [script](install.sh) is a modified version of the [original](ht
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information. Graphical elements and artwork based on other projects are licensed under the following:
 
 - **Materia KDE**: GPLv3
-  - **Plasma Desktop Theme**: GPLv3
-  - **Kvantum Theme**: GPLv3
-  - **Aurorae Theme**: GPLv3
+   - **Plasma Desktop Theme**: GPLv3
+   - **Kvantum Theme**: GPLv3
+   - **Aurorae Theme**: GPLv3
 - **Arc KDE**: GPLv3
-  - **Plasma Desktop Theme**: CCPL:by-sa
-  - **Kvantum Theme**: GPLv3
+   - **Plasma Desktop Theme**: CCPL:by-sa
+   - **Kvantum Theme**: GPLv3
 - **Papirus Icon Theme**: GPLv3
 - **Breeze**: LGPL
 - **Darkine**: GPLv3
-  - **SDDM Theme**: CC-BY-SA
+   - **SDDM Theme**: CC-BY-SA
 
 ## Todo
 A list of features and/or components that will be added in the future.
 
 - [x] Aurorae Theme
 - [x] Konsole Colour Scheme
-  - [x] Change colours to match theme better.
+    - [x] Change colours to match theme better.
 - [x] Kvantum Theme
-  - [ ] Create alternative theme with more transparency and blur.
+    - [ ] Create alternative theme with more transparency and blur.
 - [x] SDDM Theme
-  - [x] Change colours to match theme better.
+    - [x] Change colours to match theme better.
 - [x] Plasma Colour Scheme
 - [x] Plasma Desktop Theme
 - [x] Plasma Look and Feel Theme
