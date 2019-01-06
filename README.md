@@ -14,6 +14,7 @@ The theme includes the following:
 - SDDM Theme
 - Plasma Colour Scheme
 - Plasma Desktop Theme
+- Plasma Look and Feel
 - Yakuake Skin
 
 ## Install Instructions
