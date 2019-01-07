@@ -9,11 +9,11 @@ The theme includes the following:
 - Aurorae Theme
 - Konsole Colour Scheme
 - Kvantum Theme
-- SDDM Theme
 - Plasma Colour Scheme
 - Plasma Desktop Theme
 - Plasma Look and Feel
 - Plasma Splash Screen
+- SDDM Theme
 - Yakuake Skin
 
 ## Install Instructions
