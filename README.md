@@ -1,8 +1,6 @@
 # Monochrome KDE
 
-<p align="center">
-    <img src="https://gitlab.com/pwyde/monochrome-kde/raw/master/preview.png" alt="Preview of Monochrome KDE"/>
-</p>
+![Preview of Monochrome KDE](preview.png)
 
 ## About
 A dark theme for the KDE Plasma 5 desktop environment inspired by black and white photography.
