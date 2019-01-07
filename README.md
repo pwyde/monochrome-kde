@@ -13,6 +13,7 @@ The theme includes the following:
 - Plasma Colour Scheme
 - Plasma Desktop Theme
 - Plasma Look and Feel
+- Plasma Splash Screen
 - Yakuake Skin
 
 ## Install Instructions
@@ -57,16 +58,17 @@ The installation [script](install.sh) is a modified version of the [original](ht
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information. Graphical elements and artwork based on other projects are licensed under the following:
 
 - **Materia KDE**: GPLv3
-  - **Plasma Desktop Theme**: GPLv3
-  - **Kvantum Theme**: GPLv3
-  - **Aurorae Theme**: GPLv3
+    - **Aurorae Theme**: GPLv3
+    - **Kvantum Theme**: GPLv3
+    - **Plasma Desktop Theme**: GPLv3
 - **Arc KDE**: GPLv3
-  - **Plasma Desktop Theme**: CCPL:by-sa
-  - **Kvantum Theme**: GPLv3
+    - **Kvantum Theme**: GPLv3
+    - **Plasma Desktop Theme**: CCPL:by-sa
+    - **Plasma Splash Screen**: GPLv3
 - **Papirus Icon Theme**: GPLv3
 - **Breeze**: LGPL
 - **Darkine**: GPLv3
-  - **SDDM Theme**: CC-BY-SA
+    - **SDDM Theme**: CC-BY-SA
 
 ## Todo
 A list of features and/or components that will be added in the future.
