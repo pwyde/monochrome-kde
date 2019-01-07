@@ -58,9 +58,9 @@ The installation [script](install.sh) is a modified version of the [original](ht
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information. Graphical elements and artwork based on other projects are licensed under the following:
 
 - **Materia KDE**: GPLv3
-   - **Aurorae Theme**: GPLv3
-   - **Kvantum Theme**: GPLv3
-   - **Plasma Desktop Theme**: GPLv3
+    - **Aurorae Theme**: GPLv3
+    - **Kvantum Theme**: GPLv3
+    - **Plasma Desktop Theme**: GPLv3
 - **Arc KDE**: GPLv3
    - **Kvantum Theme**: GPLv3
    - **Plasma Desktop Theme**: CCPL:by-sa
