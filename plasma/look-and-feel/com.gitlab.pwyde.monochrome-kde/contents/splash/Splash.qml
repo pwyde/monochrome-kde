@@ -19,6 +19,7 @@
  */
 
 import QtQuick 2.5
+import QtQuick.Window 2.2
 
 Rectangle {
     id: root
@@ -30,7 +31,7 @@ Rectangle {
         if (stage == 2) {
             introAnimation.running = true;
         } else if (stage == 5) {
-            introAnimation.target = progressBar;
+            introAnimation.target = busyIndicator;
             introAnimation.from = 1;
             introAnimation.to = 0;
             introAnimation.running = true;
@@ -51,7 +52,7 @@ Rectangle {
 
         Image {
             id: logo
-            //Match SDDM/lockscreen avatar positioning.
+            //match SDDM/lockscreen avatar positioning
             property real size: units.gridUnit * 8
 
             anchors.centerIn: parent
@@ -63,53 +64,19 @@ Rectangle {
         }
 
         Image {
-            id: progressRect
-            //In the middle of the remaining space.
+            id: busyIndicator
+            //in the middle of the remaining space
             y: parent.height - (parent.height - logo.y) / 2 - height/2
             anchors.horizontalCenter: parent.horizontalCenter
-            source: "images/rectangle.svg"
+            source: "images/busywidget.svg"
             sourceSize.height: units.gridUnit * 2
             sourceSize.width: units.gridUnit * 2
-
-            Rectangle {
-                id: progressBar
-                radius: 0
-                /* 
-                 * Changing background color of progress bar to the same color
-                 * as the main background. This is part of a workaround to the
-                 * issue with the filled area of the progress bar which extends
-                 * too much.
-                 * 
-                 * For more information, see https://gitlab.com/pwyde/monochrome-kde/issues/1
-                */
-                //color: "#414143"
-                color: "#1e1e20"
-                anchors.horizontalCenter: parent.horizontalCenter
-                height: 4
-                width: height*32
-                Rectangle {
-                    radius: 0
-                    anchors {
-                        left: parent.left
-                        top: parent.top
-                        bottom: parent.bottom
-                    }
-                    /* 
-                     * Changing the width of the filled area of the progress bar.
-                     * This is part of a workaround to the issue below.
-                     * 
-                     * https://gitlab.com/pwyde/monochrome-kde/issues/1
-                    */
-                    //width: (parent.width / 4) * (stage - 1)
-                    width: (parent.width / 4.75) * (stage - 1)
-                    color: "#6e6e70"
-                    Behavior on width { 
-                        PropertyAnimation {
-                            duration: 250
-                            easing.type: Easing.InOutQuad
-                        }
-                    }
-                }
+            RotationAnimator on rotation {
+                id: rotationAnimator
+                from: 0
+                to: 360
+                duration: 1500
+                loops: Animation.Infinite
             }
         }
     }
