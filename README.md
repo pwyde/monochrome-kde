@@ -42,6 +42,8 @@ For a better visual experience apply the following modifications and settings:
 - Change **Aurorae** theme in **System Settings** > **Application Style** > **Window Decorations** > select **Monochrome**.
 - Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 - Enable **Blur** in **System Settings** > **Desktop Behaviour** >  **Desktop Effetcs**.
+- Change custom font for **SDDM**
+  - Edit `displayFont` property in the `theme.conf.user` configuration file. Note that **[San Francisco](https://developer.apple.com/fonts)** font is set as default in this file and must be changed if it is not installed on your particular system.
 
 ## Credits
 Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma 5 desktop.
@@ -80,7 +82,7 @@ A list of features and/or components that will be added in the future.
   - [ ] Create alternative theme with more transparency and blur.
 - [ ] SDDM Theme
   - [x] Change colours to match theme better.
-  - [ ] Add custom font support.
+  - [x] Add custom font support.
 - [x] Plasma Colour Scheme
 - [x] Plasma Desktop Theme
 - [x] Plasma Look and Feel Theme
