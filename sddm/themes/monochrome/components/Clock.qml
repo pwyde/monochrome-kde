@@ -27,6 +27,9 @@ ColumnLayout {
     Label {
         color: "#aaaaac"
         text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
+        font {
+            family: config.displayFont
+        }
         font.pointSize: 48 //Mockup says this, I'm not sure what to do?
         font.weight: Font.Light
         Layout.alignment: Qt.AlignHCenter
@@ -35,6 +38,9 @@ ColumnLayout {
     Label {
         color: "#aaaaac"
         text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleLongDate)
+        font {
+            family: config.displayFont
+        }
         font.pointSize: 24
         font.weight: Font.Light
         Layout.alignment: Qt.AlignHCenter

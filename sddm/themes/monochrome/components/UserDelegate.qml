@@ -144,7 +144,10 @@ Item {
         elide: Text.ElideRight
         horizontalAlignment: Text.AlignHCenter
         //make an indication that this has active focus, this only happens when reached with keyboard navigation
-        font.underline: wrapper.activeFocus
+        font {
+            underline: wrapper.activeFocus
+            family: config.displayFont
+        }
     }
 
     MouseArea {

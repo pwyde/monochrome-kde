@@ -80,6 +80,9 @@ SessionManagementScreen {
             }
         }
         text: lastUserName
+        font { 
+            family: config.displayFont
+        }
         visible: showUsernamePrompt
         focus: showUsernamePrompt && !lastUserName //If there's a username prompt it gets focus first, otherwise password does.
         placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Username")
@@ -108,6 +111,9 @@ SessionManagementScreen {
             }
         }
         placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Password")
+        font {
+            family: config.displayFont
+        }
         focus: !showUsernamePrompt || lastUserName
         echoMode: TextInput.Password
         revealPasswordButtonShown: true
@@ -174,6 +180,9 @@ SessionManagementScreen {
                         verticalAlignment: Text.AlignVCenter
                         color: "#aaaaac"
                         text: control.text
+                        font {
+                            family: config.displayFont
+                        }
                     }
                 }
             }

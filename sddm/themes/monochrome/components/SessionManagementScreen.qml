@@ -90,7 +90,10 @@ Item {
             Layout.fillWidth: true
             horizontalAlignment: Text.AlignHCenter
             wrapMode: Text.WordWrap
-            font.italic: true
+            font {
+                italic: true
+                family: config.displayFont
+            }
         }
         ColumnLayout {
             Layout.minimumHeight: implicitHeight
