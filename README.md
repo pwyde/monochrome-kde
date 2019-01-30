@@ -89,6 +89,6 @@ A list of features and/or components that will be added in the future.
 - [x] Plasma Look and Feel Theme
 - [ ] Plasma Splash Screen
   - [x] Re-design due to issue with progress bar.
-  - [x] Replace busy widget spinner with a working progress bar.
+  - [ ] Replace busy widget spinner with a working progress bar.
 - [ ] Plymouth Theme
 - [x] Yakuake Skin
