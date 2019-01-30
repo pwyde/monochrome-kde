@@ -50,7 +50,7 @@
 
 ## Plasma Splash Screen Improvements - 11 January 2019
 
-- Replaced progress bar with busy widget due to issue, see [this](https://gitlab.com/pwyde/monochrome-kde/issues/1) issue for more information.
+- Replaced progress bar with busy widget, see [this](https://gitlab.com/pwyde/monochrome-kde/issues/1) issue for more information.
 
 ## SDDM Theme Improvements - 12 January 2019
 
@@ -68,5 +68,5 @@
 - Changed username and password text fields:
   - Background and border is now also semi-transparent as the Plasma Desktop and Kvantum theme.
   - Changed from active to mouse hover behavior.
-- Changed from active to mouse hover behavior for login button.
+- Changed from active to mouse hover behavior on login button.
 
