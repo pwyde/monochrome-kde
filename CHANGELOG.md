@@ -35,8 +35,8 @@
 ## SDDM Theme Improvements - 05 January 2019
 
 - Implemented various improvements in SDDM theme:
-  - Changed background color.
-  - Changed colors in text field to match theme better.
+  - Changed background colour.
+  - Changed colours in text field to match theme better.
   - Made login button darker.
 
 ## Added Plasma Look and Feel Theme - 06 January 2019
@@ -60,11 +60,11 @@
 ## SDDM Theme Improvements - 30 January 2019
 
 - Added custom font size option in SDDM configuration file.
-- Added custom icons and theme colors to ToolButtons on login screen:
+- Added custom icons and theme colours to ToolButtons on login screen:
   - Virtual keyboard.
   - Plasma session.
   - Keyboard language.
-- Added theme colors to all elements on login screen.
+- Added theme colours to all elements on login screen.
 - Changed username and password text fields:
   - Background and border is now also semi-transparent as the Plasma Desktop and Kvantum theme.
   - Changed from active to mouse hover behavior.

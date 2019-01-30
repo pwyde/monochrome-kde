@@ -84,7 +84,7 @@ A list of features and/or components that will be added in the future.
 - [x] SDDM Theme
   - [x] Change colours to match theme better.
   - [x] Add custom font support.
-  - [x] Change font color in all elements if possible.
+  - [x] Change font colour in all elements if possible.
 - [x] Plasma Colour Scheme
 - [x] Plasma Desktop Theme
 - [x] Plasma Look and Feel Theme
