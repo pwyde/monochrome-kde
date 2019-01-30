@@ -1,5 +1,6 @@
 /*
  *   Copyright 2016 Kai Uwe Broulik <kde@privat.broulik.de>
+ *   Modified 2019 by Patrik Wyde <patrik@wyde.se>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -45,11 +46,11 @@ Row {
 
     PlasmaComponents.Label {
         id: batteryLabel
-        height: 16
+        height: undefined
         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","%1%", battery.percent)
         Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Battery at %1%", battery.percent)
-        font {
-            family: config.displayFont
-        }
+        color: config.fontColor
+        font.family: config.font
+        font.pointSize: config.fontSize
     }
 }

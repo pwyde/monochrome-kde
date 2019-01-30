@@ -1,5 +1,6 @@
 /*
  *   Copyright 2016 David Edmundson <davidedmundson@kde.org>
+ *   Modified 2019 by Patrik Wyde <patrik@wyde.se>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -29,17 +30,17 @@ Item {
     id: root
 
     /*
-     * Any message to be displayed to the user, visible above the text fields.
+     * Any message to be displayed to the user, visible above the text fields
      */
     property alias notificationMessage: notificationsLabel.text
 
     /*
-     * A list of Items (typically ActionButtons) to be shown in a Row beneath the prompts.
+     * A list of Items (typically ActionButtons) to be shown in a Row beneath the prompts
      */
     property alias actionItems: actionItemsLayout.children
 
     /*
-     * A model with a list of users to show in the view.
+     * A model with a list of users to show in the view
      * The following roles should exist:
      *  - name
      *  - iconSource
@@ -53,7 +54,7 @@ Item {
     property alias userListModel: userListView.model
 
     /*
-     * Self explanatory.
+     * Self explanatory
      */
     property alias userListCurrentIndex: userListView.currentIndex
     property var userListCurrentModelData: userListView.currentItem === null ? [] : userListView.currentItem.m
@@ -73,9 +74,9 @@ Item {
         }
     }
 
-    //Goal is to show the prompts, in ~16 grid units high, then the action buttons,
-    //but collapse the space between the prompts and actions if there's no room.
-    //UI is constrained to 16 grid units wide, or the screen.
+    //goal is to show the prompts, in ~16 grid units high, then the action buttons
+    //but collapse the space between the prompts and actions if there's no room
+    //ui is constrained to 16 grid units wide, or the screen
     ColumnLayout {
         id: prompts
         anchors.top: parent.verticalCenter
@@ -85,15 +86,15 @@ Item {
         anchors.bottom: parent.bottom
         PlasmaComponents.Label {
             id: notificationsLabel
+            color: config.fontColor
             Layout.maximumWidth: units.gridUnit * 16
             Layout.alignment: Qt.AlignHCenter
             Layout.fillWidth: true
             horizontalAlignment: Text.AlignHCenter
             wrapMode: Text.WordWrap
-            font {
-                italic: true
-                family: config.displayFont
-            }
+            font.family: config.font
+            font.pointSize: config.fontSize
+            font.italic: true
         }
         ColumnLayout {
             Layout.minimumHeight: implicitHeight
@@ -109,7 +110,7 @@ Item {
                 Layout.fillHeight: true
             }
         }
-        Row { //Deliberately not rowlayout as I'm not trying to resize child items.
+        Row { //deliberately not rowlayout as I'm not trying to resize child items
             id: actionItemsLayout
             spacing: units.smallSpacing
             Layout.alignment: Qt.AlignHCenter

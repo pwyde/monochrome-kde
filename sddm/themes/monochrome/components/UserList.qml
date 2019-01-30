@@ -1,5 +1,6 @@
 /*
  *   Copyright 2014 David Edmundson <davidedmundson@kde.org>
+ *   Modified 2019 by Patrik Wyde <patrik@wyde.se>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -30,14 +31,14 @@ ListView {
     activeFocusOnTab : true
 
     /*
-     * Signals that a user was explicitly selected.
+     * Signals that a user was explicitly selected
      */
     signal userSelected;
 
     orientation: ListView.Horizontal
     highlightRangeMode: ListView.StrictlyEnforceRange
 
-    //Centre align selected item (which implicitly centre aligns the rest.
+    //centre align selected item (which implicitly centre aligns the rest
     preferredHighlightBegin: width/2 - userItemWidth/2
     preferredHighlightEnd: preferredHighlightBegin
 
@@ -76,7 +77,7 @@ ListView {
         width: userItemWidth
         height: userItemHeight
 
-        //If we only have one delegate, we don't need to clip the text as it won't be overlapping with anything.
+        //if we only have one delegate, we don't need to clip the text as it won't be overlapping with anything
         constrainText: ListView.view.count > 1
 
         isCurrent: ListView.isCurrentItem

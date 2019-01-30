@@ -1,6 +1,6 @@
 /*
  *   Copyright 2016 David Edmundson <davidedmundson@kde.org>
- *   Modified 2018 by Patrik Wyde <patrik@wyde.se>
+ *   Modified 2019 by Patrik Wyde <patrik@wyde.se>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -29,6 +29,11 @@ import org.kde.plasma.components 2.0 as PlasmaComponents
 import org.kde.plasma.extras 2.0 as PlasmaExtras
 
 import "components"
+
+// Additional imports.
+import QtQuick.Controls 1.4
+import QtQuick.Controls.Styles 1.4
+import QtQuick.Layouts 1.1
 
 PlasmaCore.ColorScope {
     id: root
@@ -94,7 +99,8 @@ PlasmaCore.ColorScope {
         Timer {
             id: fadeoutTimer
             running: true
-            interval: 60000
+            //interval: 60000
+            interval: 10000
             onTriggered: {
                 if (!loginScreenRoot.blockUI) {
                     loginScreenRoot.uiVisible = false;
@@ -188,32 +194,28 @@ PlasmaCore.ColorScope {
 
                 actionItems: [
                     ActionButton {
-                        //iconSource: "system-suspend"
-                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/suspend.svg"
+                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/system-suspend.svg"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Suspend")
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
                         visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
-                        //iconSource: "system-reboot"
-                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/reboot.svg"
+                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/system-reboot.svg"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Restart")
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
                         visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
-                        //iconSource: "system-shutdown"
-                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/shutdown.svg"
+                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/system-shutdown.svg"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Shutdown")
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
                         visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
-                        //iconSource: "system-switch-user"
-                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/switch-user.svg"
+                        iconSource: "/usr/share/sddm/themes/monochrome/components/artwork/system-switch-user.svg"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Different User")
                         onClicked: mainStack.push(userPromptComponent)
                         enabled: true
@@ -387,15 +389,48 @@ PlasmaCore.ColorScope {
                     duration: units.longDuration
                 }
             }
-
-            PlasmaComponents.ToolButton {
-                text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
-                font { 
-                    family: config.displayFont
-                }
-                iconName: inputPanel.keyboardActive ? "input-keyboard-virtual-on" : "input-keyboard-virtual-off"
+            
+            ToolButton {
+                id: virtualKeyboardToolButton
+                
                 onClicked: inputPanel.showHide()
                 visible: inputPanel.status == Loader.Ready
+
+                style: ButtonStyle {
+                    label: Item {
+                        implicitHeight:  buttonContent.implicitHeight
+                        implicitWidth: buttonContent.implicitWidth
+                        RowLayout {
+                            id: buttonContent
+                            anchors.fill: parent
+
+                            // Utilize the IconItem control in PlasmaCore as it proved to be the best option
+                            // for icon placement in the ToolButton.
+                            PlasmaCore.IconItem {
+                                id: virtualKeyboardToolButtonIcon
+                                source: inputPanel.keyboardActive ? "/usr/share/sddm/themes/monochrome/components/artwork/virtual-keyboard-on.svg" : "/usr/share/sddm/themes/monochrome/components/artwork/virtual-keyboard-off.svg"
+                                // Force icon size to 22x22.
+                                implicitHeight: 22
+                                implicitWidth: implicitHeight
+                            }
+                            Label {
+                                id: virtualKeyboardToolButtonLabel
+                                color: config.fontColor
+                                font.family: config.font
+                                font.pointSize: config.fontSize
+                                font.underline: virtualKeyboardToolButton.activeFocus
+                                text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
+                            }
+                        }
+                    }
+                    background: Rectangle {
+                        id: virtualKeyboardToolButtonBackground
+                        border.width: 1
+                        radius: 2
+                        border.color: control.hovered ? "#30ffffff" : "#00000000"
+                        color: "#00000000"
+                    }
+                }
             }
 
             KeyboardButton {

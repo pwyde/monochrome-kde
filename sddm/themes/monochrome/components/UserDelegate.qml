@@ -1,6 +1,7 @@
 /*
  *   Copyright 2014 David Edmundson <davidedmundson@kde.org>
  *   Copyright 2014 Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+ *   Modified 2019 by Patrik Wyde <patrik@wyde.se>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -87,7 +88,7 @@ Item {
             live: false
         }
 
-        property color colorBorder: "#464648"
+        property color colorBorder: "#47ffffff"
 
         //draw a circle with an antialised border
         //innerRadius = size of the inner circle with contents
@@ -140,14 +141,14 @@ Item {
         }
         height: implicitHeight // work around stupid bug in Plasma Components that sets the height
         width: constrainText ? parent.width : implicitWidth
+        color: config.fontColor
         text: wrapper.name
         elide: Text.ElideRight
         horizontalAlignment: Text.AlignHCenter
         //make an indication that this has active focus, this only happens when reached with keyboard navigation
-        font {
-            underline: wrapper.activeFocus
-            family: config.displayFont
-        }
+        font.family: config.font
+        font.pointSize: config.fontSize
+        font.underline: wrapper.activeFocus
     }
 
     MouseArea {

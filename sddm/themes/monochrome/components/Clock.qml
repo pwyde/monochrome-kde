@@ -1,5 +1,6 @@
 /*
  *   Copyright 2016 David Edmundson <davidedmundson@kde.org>
+ *   Modified 2019 by Patrik Wyde <patrik@wyde.se>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -25,22 +26,18 @@ import org.kde.plasma.components 2.0
 
 ColumnLayout {
     Label {
-        color: "#aaaaac"
+        color: config.fontColor
         text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
-        font {
-            family: config.displayFont
-        }
+        font.family: config.font
         font.pointSize: 48 //Mockup says this, I'm not sure what to do?
         font.weight: Font.Light
         Layout.alignment: Qt.AlignHCenter
         renderType: Text.QtRendering
     }
     Label {
-        color: "#aaaaac"
+        color: config.fontColor
         text: Qt.formatDate(timeSource.data["Local"]["DateTime"], Qt.DefaultLocaleLongDate)
-        font {
-            family: config.displayFont
-        }
+        font.family: config.font
         font.pointSize: 24
         font.weight: Font.Light
         Layout.alignment: Qt.AlignHCenter

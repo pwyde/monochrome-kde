@@ -1,5 +1,6 @@
 /*
  *   Copyright 2016 David Edmundson <davidedmundson@kde.org>
+ *   Modified 2019 by Patrik Wyde <patrik@wyde.se>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -59,10 +60,10 @@ Item {
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignTop
         wrapMode: Text.WordWrap
-        font {
-            family: config.displayFont
-            underline: root.activeFocus
-        }
+        color: config.fontColor
+        font.family: config.font
+        font.pointSize: config.fontSize
+        font.underline: root.activeFocus
     }
 
     MouseArea {
