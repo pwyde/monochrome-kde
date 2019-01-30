@@ -1,4 +1,4 @@
-# Monochrome KDE
+# Monochrome KDE - README
 
 ![Preview of Monochrome KDE](preview.png)
 

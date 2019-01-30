@@ -1,4 +1,4 @@
-# CHANGELOG
+# Monochrome KDE - CHANGELOG
 
 ## First Release - 30 November 2018
 
