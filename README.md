@@ -76,6 +76,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 A list of features and/or components that will be added in the future.
 
 - [x] Aurorae Theme
+- [ ] Add GTK2/3 Theme based on Materia or Arc.
 - [x] Konsole Colour Scheme
   - [x] Change colours to match theme better.
 - [x] Kvantum Theme
