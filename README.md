@@ -42,7 +42,7 @@ For a better visual experience apply the following modifications and settings:
 - Change **Aurorae** theme in **System Settings** > **Application Style** > **Window Decorations** > select **Monochrome**.
 - Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 - Enable **Blur** in **System Settings** > **Desktop Behaviour** >  **Desktop Effetcs**.
-- Change custom font for **SDDM**
+- Change custom font for **SDDM**.
   - Edit `font` property in the `theme.conf` configuration file. Note that **[San Francisco](https://developer.apple.com/fonts)** font is set as default in this file and must be changed if it is not installed on your particular system.
 
 ## Credits
