@@ -6,6 +6,7 @@
 A dark theme for the KDE Plasma 5 desktop environment inspired by black and white photography.
 
 The theme includes the following:
+
 - Aurorae Theme
 - Konsole Colour Scheme
 - Kvantum Theme
@@ -20,7 +21,7 @@ The theme includes the following:
 At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below. This method works on all distributions.
 
 ### Monochrome KDE Installer
-The installation script will automatically download the latest version from the repository and copy the needed files to `/usr/share`.
+The installation script will automatically download the latest version from the repository and copy the required files to `/usr/share`.
 
 **Install**
 
@@ -41,9 +42,10 @@ For a better visual experience apply the following modifications and settings:
   - Run `kvantummanager` > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
 - Change **Aurorae** theme in **System Settings** > **Application Style** > **Window Decorations** > select **Monochrome**.
 - Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
-- Enable **Blur** in **System Settings** > **Desktop Behaviour** >  **Desktop Effetcs**.
-- Change custom font for **SDDM**.
-  - Edit `font` property in the `theme.conf` configuration file. Note that **[San Francisco](https://developer.apple.com/fonts)** font is set as default in this file and must be changed if it is not installed on your particular system.
+- Enable **Blur** in **System Settings** > **Desktop Behaviour** > **Desktop Effetcs**.
+- The default font used by the **SDDM** theme is [San Francisco](https://developer.apple.com/fonts) and must therefore either be installed or changed.
+  1. Install the font from the [AUR](https://aur.archlinux.org/packages/otf-san-francisco/) on [Arch](https://www.archlinux.org/) based distributions.
+  2. Change the `font` property in the `heme.conf` configguration from `"SF Pro Text"` to i.e. `"Noto Sans"`.
 
 ## Credits
 Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma 5 desktop.
@@ -90,6 +92,6 @@ A list of features and/or components that will be added in the future.
 - [x] Plasma Look and Feel Theme
 - [ ] Plasma Splash Screen
   - [x] Re-design due to issue with progress bar.
-  - [ ] Replace busy widget spinner with a working progress bar.
-- [ ] Plymouth Theme
+  - [ ] ~~Replace busy widget spinner with a working progress bar.~~
+- [x] [Plymouth Theme](https://gitlab.com/pwyde/monochrome-plymouth)
 - [x] Yakuake Skin
