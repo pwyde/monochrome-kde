@@ -46,6 +46,7 @@ For a better visual experience apply the following modifications and settings:
 - The default font used by the **SDDM** theme is [San Francisco](https://developer.apple.com/fonts) and must therefore either be installed or changed:
   - Install the font from the [AUR](https://aur.archlinux.org/packages/otf-san-francisco/) on [Arch](https://www.archlinux.org/) based distributions.
   - Change the `font` property in the `/usr/share/sddm/themes/monochrome/heme.conf` configuration file from `"SF Pro Text"` to `"Noto Sans"` or any other desired font that is installed on the system.
+- Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme (optional).
 
 ## Credits
 Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma 5 desktop.
