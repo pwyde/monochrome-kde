@@ -89,7 +89,7 @@ A list of features and/or components that will be added in the future.
 - [x] Plasma Colour Scheme
 - [x] Plasma Desktop Theme
 - [x] Plasma Look and Feel Theme
-- [ ] Plasma Splash Screen
+- [x] Plasma Splash Screen
   - [x] Re-design due to issue with progress bar.
   - [ ] ~~Replace busy widget spinner with a working progress bar.~~
 - [x] [Plymouth Theme](https://gitlab.com/pwyde/monochrome-plymouth)
