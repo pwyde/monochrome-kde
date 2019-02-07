@@ -43,9 +43,7 @@ For a better visual experience apply the following modifications and settings:
 - Change **Aurorae** theme in **System Settings** > **Application Style** > **Window Decorations** > select **Monochrome**.
 - Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 - Enable **Blur** in **System Settings** > **Desktop Behaviour** > **Desktop Effetcs**.
-- The default font used by the **SDDM** theme is [San Francisco](https://developer.apple.com/fonts) and must therefore either be installed or changed:
-  - Install the font from the [AUR](https://aur.archlinux.org/packages/otf-san-francisco/) on [Arch](https://www.archlinux.org/) based distributions.
-  - Change the `font` property in the `/usr/share/sddm/themes/monochrome/heme.conf` configuration file from `"SF Pro Text"` to `"Noto Sans"` or any other desired font that is installed on the system.
+- Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/heme.conf` configuration file (optional). 
 - Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme (optional).
 
 ## Credits
