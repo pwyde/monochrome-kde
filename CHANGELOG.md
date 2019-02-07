@@ -70,3 +70,8 @@
   - Changed from active to mouse hover behavior.
 - Changed from active to mouse hover behavior on login button.
 
+## SDDM Theme Changes - 7 February 2019
+
+- Changed default font to Noto Sans as this font is installed by default with the Plasma Desktop.
+- Updated recommendations for SDDM font in README file.
+
