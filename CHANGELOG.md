@@ -75,3 +75,6 @@
 - Changed default font to Noto Sans as this font is installed by default with the Plasma Desktop.
 - Updated recommendations for SDDM font in README file.
 
+## Install Script - 11 February 2019
+
+- Complete rewrite of installation script.
