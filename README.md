@@ -2,15 +2,6 @@
 
 <p align="center">
     <img src="preview.png" alt="Preview of Monochrome KDE"/>
-    <a href="https://gitlab.com/pwyde/monochrome-kde/blob/master/screenshots/plasma/latte-dock-unity-layout-02.png>
-        <img src="https://gitlab.com/pwyde/monochrome-kde/blob/master/screenshots/.thumbs/plasma/latte-dock-unity-layout-02.png" alt="Preview of Monochrome KDE"/>
-    </a>
-    <a href="https://gitlab.com/pwyde/monochrome-kde/blob/master/screenshots/plasma/latte-dock-unity-layout-03.png>
-        <img src="https://gitlab.com/pwyde/monochrome-kde/blob/master/screenshots/.thumbs/plasma/latte-dock-unity-layout-03.png" alt="Preview of Monochrome KDE"/>
-    </a>
-    <a href="https://gitlab.com/pwyde/monochrome-kde/blob/master/screenshots/plasma/latte-dock-unity-layout-04.png>
-        <img src="https://gitlab.com/pwyde/monochrome-kde/blob/master/screenshots/.thumbs/plasma/latte-dock-unity-layout-04.png" alt="Preview of Monochrome KDE"/>
-    </a>
 </p>
 
 ## About
