@@ -1,6 +1,17 @@
 # Monochrome KDE - README
 
-![Preview of Monochrome KDE](preview.png)
+<p align="center">
+    <img src="preview.png" alt="Preview of Monochrome KDE"/>
+    <a href="screenshots/plasma/latte-dock-unity-layout-02.png>
+        <img src="screenshots/plasma/latte-dock-unity-layout-02.png" alt="Preview of Monochrome KDE"/>
+    </a>
+    <a href="screenshots/plasma/latte-dock-unity-layout-03.png>
+        <img src="screenshots/plasma/latte-dock-unity-layout-03.png" alt="Preview of Monochrome KDE"/>
+    </a>
+    <a href="screenshots/sddm/background-image.png>
+        <img src="screenshots/sddm/background-image.png" alt="Preview of Monochrome KDE"/>
+    </a>
+</p>
 
 ## About
 A dark theme for the KDE Plasma 5 desktop environment inspired by black and white photography.
