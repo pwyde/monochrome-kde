@@ -22,20 +22,25 @@ The theme includes the following:
 ## Install Instructions
 At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below. This method works on all distributions.
 
-### Monochrome KDE Installer
-The installation script will automatically download the latest version from the repository and copy the required files to `/usr/share`.
+### Install Script
+The installation script will automatically download the latest version from the repository and copy the required files to the default location `/usr/share`.
 
-**Install**
+#### Install
+```
+bash install.sh -i
+```
 
+#### Uninstall
 ```
-wget -qO- https://gitlab.com/pwyde/monochrome-kde/raw/master/install.sh | sh
+bash install.sh -u
 ```
 
-**Uninstall**
-
-```
-wget -qO- https://gitlab.com/pwyde/monochrome-kde/raw/master/install.sh | uninstall=true sh
-```
+#### Options
+| **Option** | **Description** |
+| --- | --- |
+| `-i` | Install theme in default location. |
+| `-u` | Uninstall theme. |
+| `-h` | Display help message including available options. |
 
 ## Recommendations
 For a better visual experience apply the following modifications and settings:
@@ -56,8 +61,6 @@ Some graphical elements and artwork in this project is based on other popular th
 - **Arc KDE** Plasma theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/arc-kde)
 - **Papirus** icon theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - **Darkine KDE** SDDM theme by [Rokin](https://github.com/Rokin05/darkine-kde)
-
-The installation [script](install.sh) is a modified version of the [original](https://github.com/PapirusDevelopmentTeam/materia-kde/blob/master/install.sh) script file supplied with the **Materia** and **Arc** KDE Plasma 5 theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 ## Licenses
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information. Graphical elements and artwork based on other projects are licensed under the following:
