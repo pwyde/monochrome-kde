@@ -82,4 +82,4 @@
 ## GTK2/3 Theme - 18 March 2019
 
 - Added instructions for building [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) with colours from the Monochrome KDE colour scheme.
-
+- Restructured recommendations section and added sub-headings.
