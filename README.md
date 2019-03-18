@@ -50,7 +50,15 @@ For a better visual experience apply the following modifications and settings:
 - Change **Aurorae** theme in **System Settings** > **Application Style** > **Window Decorations** > select **Monochrome**.
 - Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 - Enable **Blur** in **System Settings** > **Desktop Behaviour** > **Desktop Effetcs**.
-- Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/heme.conf` configuration file (optional). 
+- Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/heme.conf` configuration file (optional).
+- Build and install the [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) GTK2/3 theme with the Monochrome KDE colour scheme (optional).
+  - Install required packages:
+    - **GTKEngine**
+    - **Sass**
+    - **PythonCairo**
+  - Clone the `breeze-gtk` repository: `git clone https://anongit.kde.org/breeze-gtk.git`.
+  - Execute the `breeze-gtk/src/build_theme.sh` script with the following command and option: `sh build_theme.sh -c Monochrome`. This will build the breeze-gtk theme using colours from Monochrome KDE and install it into the `~/.local/share/themes/Monochrome` directory.
+  - Enable the new GTK theme in **System Settings** > **Application Style** > **GNOME/GTK Application Style** > select **Monochrome** for the **GTK2** and **GTK3** theme > **Apply**.
 - Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme (optional).
 
 ## Credits
@@ -82,7 +90,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 A list of features and/or components that will be added in the future.
 
 - [x] Aurorae Theme
-- [ ] Add GTK2/3 Theme based on Materia or Arc.
+- [ ] ~~Add GTK2/3 Theme based on Materia or Arc.~~
 - [x] Konsole Colour Scheme
   - [x] Change colours to match theme better.
 - [x] Kvantum Theme
