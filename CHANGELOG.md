@@ -78,3 +78,8 @@
 ## Install Script - 11 February 2019
 
 - Complete rewrite of installation script.
+
+## GTK2/3 Theme - 18 March 2019
+
+- Added instructions for building [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) with colours from the Monochrome KDE colour scheme.
+
