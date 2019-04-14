@@ -76,7 +76,7 @@ while [[ "${#}" -gt 0 ]]; do
         -u|--uninstall) uninstall="true" ;;
         # This is an arg value type option. Will catch both '-h' or
         # '--help' value.
-        -h|--help) _print_header; _print_help; exit 1 ;;
+        -h|--help) _print_header; _print_help; exit ;;
         *) echo "Invalid option '${arg}'." >&2; _print_header; _print_help; exit 1 ;;
     esac
     # Shift after checking all the cases to get the next option.
