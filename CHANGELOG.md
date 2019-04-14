@@ -83,3 +83,8 @@
 
 - Added instructions for building [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) with colours from the Monochrome KDE colour scheme.
 - Restructured recommendations section and added sub-headings.
+
+## Konsole Colour Scheme Changes - 14 April 2019
+
+- Modified colour scheme to be compatible with [base16-vim](https://github.com/chriskempson/base16-vim). 
+
