@@ -27,20 +27,20 @@ The installation script will automatically download the latest version from the 
 
 #### Install
 ```
-bash install.sh -i
+sh install.sh --install
 ```
 
 #### Uninstall
 ```
-bash install.sh -u
+sh install.sh --uninstall
 ```
 
 #### Options
-| **Option** | **Description** |
-| --- | --- |
-| `-i` | Install theme in default location. |
-| `-u` | Uninstall theme. |
-| `-h` | Display help message including available options. |
+| **Option**         | **Description**                                   |
+| ---                | ---                                               |
+| `-i`,`--install`   | Install theme in default location.                |
+| `-u`,`--uninstall` | Uninstall theme.                                  |
+| `-h`,`--help`      | Display help message including available options. |
 
 ## Recommendations
 For a better visual experience apply the following modifications and settings.
