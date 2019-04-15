@@ -38,7 +38,7 @@ sh install.sh --uninstall
 #### Options
 | **Option**         | **Description**                                   |
 | ---                | ---                                               |
-| `-i`,`--install`   | Install theme in default location.                |
+| `-i`,`--install`   | Install theme in default location (`/usr/share`). |
 | `-u`,`--uninstall` | Uninstall theme.                                  |
 | `-h`,`--help`      | Display help message including available options. |
 
