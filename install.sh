@@ -47,11 +47,11 @@ Description:
   and copy the required files to '${prefix}'.
 
 Examples:
-  Install: ${0} -i
-  Uninstall: ${0} -u
+  Install: ${0} --install
+  Uninstall: ${0} --uninstall
  
 Options:
-  -i, --install      Install theme in default location.
+  -i, --install      Install theme in default location (${prefix}).
  
   -u, --uninstall    Uninstall theme.
 " >&2
