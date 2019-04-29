@@ -85,6 +85,10 @@ This will build the breeze-gtk theme using colours from Monochrome KDE and insta
 
 Enable the new GTK theme in **System Settings** > **Application Style** > **GNOME/GTK Application Style** > select **Monochrome** for the **GTK2** and **GTK3** theme > **Apply**.
 
+### Disable Client Side Decorations for GTK3 Applications (optional)
+
+Install [gtk3-nocsd]((https://github.com/PCMan/gtk3-nocsd) to disable Client Side Decorations for GTK3 applications.
+
 ### Plymouth Boot Splash Screen (optional)
 Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme.
 
