@@ -28,11 +28,11 @@ temp_file="$(mktemp -u)"
 temp_dir="$(mktemp -d)"
 
 _print_header() {
-echo "                                             
-   _____                 _                        _____ ____  _____ 
+echo "
+   _____                 _                        _____ ____  _____
   |     |___ ___ ___ ___| |_ ___ ___ _____ ___   |  |  |    \|   __|
   | | | | . |   | . |  _|   |  _| . |     | -_|  |    -|  |  |   __|
-  |_|_|_|___|_|_|___|___|_|_|_| |___|_|_|_|___|  |__|__|____/|_____|   
+  |_|_|_|___|_|_|___|___|_|_|_| |___|_|_|_|___|  |__|__|____/|_____|
 
   $git_desc
   https://gitlab.com/pwyde/$git_repo
@@ -49,10 +49,10 @@ Description:
 Examples:
   Install: ${0} --install
   Uninstall: ${0} --uninstall
- 
+
 Options:
   -i, --install      Install theme in default location (${prefix}).
- 
+
   -u, --uninstall    Uninstall theme.
 " >&2
 }
@@ -63,7 +63,7 @@ if [[ "${#}" -le 0 ]]; then
     _print_help
     exit 1
 fi
- 
+
 # Loop as long as there is at least one more argument.
 while [[ "${#}" -gt 0 ]]; do
     arg="${1}"
@@ -84,7 +84,7 @@ while [[ "${#}" -gt 0 ]]; do
 done
 
 _print_msg() {
-    echo "=>" "${@}" >&2
+    echo "=>" "${@}" >&1
 }
 
 # Delete parent directories if empty.
