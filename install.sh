@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install script for Monochrome KDE
-# Copyright (C) 2019 Patrik Wyde <path@wyde.se>
+# Copyright (C) 2019 Patrik Wyde <patrik@wyde.se>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
