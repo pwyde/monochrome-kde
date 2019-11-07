@@ -60,7 +60,7 @@ Download and install the [Papirus icon theme](https://github.com/PapirusDevelopm
 Enable **Blur** in **System Settings** > **Desktop Behaviour** > **Desktop Effetcs**.
 
 ### SDDM Login Screen (optional)
-Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/heme.conf` configuration file.
+Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/theme.conf` configuration file.
 
 ### GTK2/3 Theme (optional)
 Build and install the [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) GTK2/3 theme with the Monochrome KDE colour scheme.
