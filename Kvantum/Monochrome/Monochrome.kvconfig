@@ -1,6 +1,6 @@
 [%General]
 author=Patrik Wyde
-comment=A black and gray theme for Kvantum. 
+comment=A black and gray theme for Kvantum.
 x11drag=menubar_and_primary_toolbar
 alt_mnemonic=true
 left_tabs=true
@@ -229,6 +229,7 @@ text.margin.top=2
 text.margin.bottom=2
 frame.element=tab
 indicator.element=tab
+indicator.size=16
 frame.top=4
 frame.bottom=4
 frame.left=4
