@@ -1,4 +1,4 @@
-# Monochrome KDE - README
+# Monochrome KDE
 
 <p align="center">
     <img src="preview.png" alt="Preview of Monochrome KDE"/>
