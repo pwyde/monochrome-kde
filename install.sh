@@ -27,7 +27,7 @@ uninstall="false"
 temp_file="$(mktemp -u)"
 temp_dir="$(mktemp -d)"
 
-_print_header() {
+print_header() {
 echo "
    _____                 _                        _____ ____  _____
   |     |___ ___ ___ ___| |_ ___ ___ _____ ___   |  |  |    \|   __|
@@ -39,7 +39,7 @@ echo "
 " >&2
 }
 
-_print_help() {
+print_help() {
 echo "
 Description:
   Install script for the ${git_desc} theme.
@@ -59,8 +59,8 @@ Options:
 
 # Print help if no argument is specified.
 if [[ "${#}" -le 0 ]]; then
-    _print_header
-    _print_help
+    print_header
+    print_help
     exit 1
 fi
 
@@ -76,37 +76,37 @@ while [[ "${#}" -gt 0 ]]; do
         -u|--uninstall) uninstall="true" ;;
         # This is an arg value type option. Will catch both '-h' or
         # '--help' value.
-        -h|--help) _print_header; _print_help; exit ;;
-        *) echo "Invalid option '${arg}'." >&2; _print_header; _print_help; exit 1 ;;
+        -h|--help) print_header; print_help; exit ;;
+        *) echo "Invalid option '${arg}'." >&2; print_header; print_help; exit 1 ;;
     esac
     # Shift after checking all the cases to get the next option.
     shift
 done
 
-_print_msg() {
+print_msg() {
     echo "=>" "${@}" >&1
 }
 
 # Delete parent directories if empty.
-_delete_dir() {
+delete_dir() {
     sudo rm -rf "${1}"
     sudo rmdir -p "$(dirname "${1}")" 2>/dev/null || true
 }
 
-_cleanup() {
+cleanup() {
     rm -rf "${temp_file}" "${temp_dir}"
-    _print_msg "Completed!"
+    print_msg "Completed!"
 }
 
-_download_pkg() {
-    _print_msg "Downloading latest version from master branch..."
+download_pkg() {
+    print_msg "Downloading latest version from master branch..."
     wget -O "${temp_file}" "https://gitlab.com/pwyde/${git_repo}/-/archive/${tag}/${git_repo}-${tag}.tar.gz"
-    _print_msg "Extracting archive..."
+    print_msg "Extracting archive..."
     tar -xzf "${temp_file}" -C "${temp_dir}"
 }
 
-_install_pkg() {
-    _print_msg "Installing ${git_desc} to '${prefix}'..."
+install_pkg() {
+    print_msg "Installing ${git_desc} to '${prefix}'..."
     sudo cp -R \
         "${temp_dir}/${git_repo}-${tag}/aurorae" \
         "${temp_dir}/${git_repo}-${tag}/color-schemes" \
@@ -118,32 +118,32 @@ _install_pkg() {
         "${prefix}"
 }
 
-_uninstall_pkg() {
-    _print_msg "Uninstalling ${git_desc}..."
-    _delete_dir "${prefix}/aurorae/themes/Monochrome"
-    _delete_dir "${prefix}/color-schemes/Monochrome.colors"
-    _delete_dir "${prefix}/konsole/Monochrome.colorscheme"
-    _delete_dir "${prefix}/Kvantum/Monochrome"
-    _delete_dir "${prefix}/plasma/desktoptheme/Monochrome"
-    _delete_dir "${prefix}/plasma/look-and-feel/com.gitlab.pwyde.monochrome-kde"
-    _delete_dir "${prefix}/sddm/themes/monochrome"
-    _delete_dir "${prefix}/yakuake/skins/monochrome"
+uninstall_pkg() {
+    print_msg "Uninstalling ${git_desc}..."
+    delete_dir "${prefix}/aurorae/themes/Monochrome"
+    delete_dir "${prefix}/color-schemes/Monochrome.colors"
+    delete_dir "${prefix}/konsole/Monochrome.colorscheme"
+    delete_dir "${prefix}/Kvantum/Monochrome"
+    delete_dir "${prefix}/plasma/desktoptheme/Monochrome"
+    delete_dir "${prefix}/plasma/look-and-feel/com.gitlab.pwyde.monochrome-kde"
+    delete_dir "${prefix}/sddm/themes/monochrome"
+    delete_dir "${prefix}/yakuake/skins/monochrome"
 }
 
 if [[ "${uninstall}" = "false" && "${install}" = "true" ]]; then
-    _print_header
-    _download_pkg
-    _uninstall_pkg
-    _install_pkg
-    _cleanup
+    print_header
+    download_pkg
+    uninstall_pkg
+    install_pkg
+    cleanup
 elif [[ "${uninstall}" = "true" && "${install}" = "false" ]]; then
-    _print_header
-    _download_pkg
-    _uninstall_pkg
-    _cleanup
+    print_header
+    download_pkg
+    uninstall_pkg
+    cleanup
 else
-    _print_msg "Missing or invalid options, see help below."
-    _print_header
-    _print_help
+    print_msg "Missing or invalid options, see help below."
+    print_header
+    print_help
     exit 1
 fi
