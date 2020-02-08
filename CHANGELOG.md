@@ -86,5 +86,15 @@
 
 ## Konsole Colour Scheme Changes - 14 April 2019
 
-- Modified colour scheme to be compatible with [base16-vim](https://github.com/chriskempson/base16-vim). 
+- Modified colour scheme to be compatible with [base16-vim](https://github.com/chriskempson/base16-vim).
 
+## Kvantum Theme Changes - 07 February 2020
+
+- Fixed tab icons in Kvantum theme so it looks better in newer version of Plasma.
+
+## Install Script - 08 February 2020
+
+- Colourized script output.
+- Added 'pint_error' function.
+- Added ping test before downloading from master branch.
+- Minor changes to script syntax.
