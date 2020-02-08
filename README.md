@@ -5,7 +5,7 @@
 </p>
 
 ## About
-A dark theme for the KDE Plasma 5 desktop environment inspired by black and white photography.
+A dark theme for the KDE Plasma desktop environment inspired by black and white photography.
 
 The theme includes the following:
 
