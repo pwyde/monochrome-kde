@@ -73,13 +73,13 @@ Build and install the [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) GTK2/3 
 Clone the `breeze-gtk` repository with command below.
 
 ```
-git clone https://anongit.kde.org/breeze-gtk.git
+$ git clone https://anongit.kde.org/breeze-gtk.git
 ```
 
 Execute the `breeze-gtk/src/build_theme.sh` script with the following command and option.
 
 ```
-sh build_theme.sh -c Monochrome
+$ sh build_theme.sh -c Monochrome
 ```
 This will build the breeze-gtk theme using colours from Monochrome KDE and install it into the `~/.local/share/themes/Monochrome` directory.
 
