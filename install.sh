@@ -17,74 +17,96 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # Configure script variables.
+git_hosting="gitlab.com"
 git_repo="monochrome-kde"
 git_desc="Monochrome KDE"
 prefix="/usr/share"
 tag="master"
 install="false"
 uninstall="false"
+## Colorize output.
+# shellcheck disable=SC2034
+red="\033[91m"
+# shellcheck disable=SC2034
+green="\033[92m"
+# shellcheck disable=SC2034
+blue="\033[94m"
+# shellcheck disable=SC2034
+yellow="\033[93m"
+# shellcheck disable=SC2034
+cyan="\033[96m"
+# shellcheck disable=SC2034
+magenta="\033[95m"
+# shellcheck disable=SC2034
+white="\033[1m"
+# shellcheck disable=SC2034
+no_color="\033[0m"
 
 temp_file="$(mktemp -u)"
 temp_dir="$(mktemp -d)"
 
 print_header() {
-echo "
-   _____                 _                        _____ ____  _____
+echo -e "
+   ${blue}_____                 _                        _____ ____  _____
   |     |___ ___ ___ ___| |_ ___ ___ _____ ___   |  |  |    \|   __|
   | | | | . |   | . |  _|   |  _| . |     | -_|  |    -|  |  |   __|
-  |_|_|_|___|_|_|___|___|_|_|_| |___|_|_|_|___|  |__|__|____/|_____|
+  |_|_|_|___|_|_|___|___|_|_|_| |___|_|_|_|___|  |__|__|____/|_____|${no_color}
 
-  $git_desc
-  https://gitlab.com/pwyde/$git_repo
+  ${yellow}${git_desc}${no_color}
+  https://${git_hosting}/pwyde/${git_repo}
 " >&2
 }
 
 print_help() {
-echo "
-Description:
+echo -e "
+${white}Description:${no_color}
   Install script for the ${git_desc} theme.
   Script will automatically download the latest version from the Git repository
   and copy the required files to '${prefix}'.
 
-Examples:
+${white}Examples:${no_color}
   Install: ${0} --install
   Uninstall: ${0} --uninstall
 
-Options:
-  -i, --install      Install theme in default location (${prefix}).
+${white}Options:${no_color}
+  ${cyan}-i${no_color}, ${cyan}--install${no_color}      Install theme in default location (${prefix}).
 
-  -u, --uninstall    Uninstall theme.
+  ${cyan}-u${no_color}, ${cyan}--uninstall${no_color}    Uninstall theme.
 " >&2
 }
 
 # Print help if no argument is specified.
-if [[ "${#}" -le 0 ]]; then
+if [ "${#}" -le 0 ]; then
     print_header
     print_help
     exit 1
 fi
 
 # Loop as long as there is at least one more argument.
-while [[ "${#}" -gt 0 ]]; do
+while [ "${#}" -gt 0 ]; do
     arg="${1}"
     case "${arg}" in
         # This is an arg value type option. Will catch both '-i' or
         # '--install' value.
-        -i|--install) install="true" ;;
+        -i|--install) shift; install="true" ;;
         # This is an arg value type option. Will catch both '-u' or
         # '--uninstall' value.
-        -u|--uninstall) uninstall="true" ;;
+        -u|--uninstall) shift; uninstall="true" ;;
         # This is an arg value type option. Will catch both '-h' or
         # '--help' value.
         -h|--help) print_header; print_help; exit ;;
         *) echo "Invalid option '${arg}'." >&2; print_header; print_help; exit 1 ;;
     esac
     # Shift after checking all the cases to get the next option.
-    shift
+    shift > /dev/null 2>&1;
 done
 
 print_msg() {
-    echo "=>" "${@}" >&1
+    echo -e "$green=>$no_color$white" "$@" "$no_color" >&1
+}
+
+print_error() {
+    echo -e "$red=> ERROR:$no_color$white" "$@" "$no_color" >&1
 }
 
 # Delete parent directories if empty.
@@ -99,10 +121,17 @@ cleanup() {
 }
 
 download_pkg() {
-    print_msg "Downloading latest version from master branch..."
-    wget -O "${temp_file}" "https://gitlab.com/pwyde/${git_repo}/-/archive/${tag}/${git_repo}-${tag}.tar.gz"
-    print_msg "Extracting archive..."
-    tar -xzf "${temp_file}" -C "${temp_dir}"
+    # Test if Git hosting provider is reachable.
+    print_msg "Verifying that Git hosting provider ($git_hosting) is reachable..."
+    if /usr/bin/ping -c 5 "${git_hosting}" >/dev/null 2>&1; then
+        print_msg "Downloading latest version from master branch..."
+        wget --progress=bar:force --output-document "${temp_file}" "https://${git_hosting}/pwyde/${git_repo}/-/archive/${tag}/${git_repo}-${tag}.tar.gz"
+        print_msg "Extracting archive..."
+        tar -xzf "${temp_file}" -C "${temp_dir}"
+    else
+        print_error "Unable to communicate with Git hosting provider ($git_hosting)! Exiting..."
+        exit 1
+    fi
 }
 
 install_pkg() {
@@ -130,13 +159,13 @@ uninstall_pkg() {
     delete_dir "${prefix}/yakuake/skins/monochrome"
 }
 
-if [[ "${uninstall}" = "false" && "${install}" = "true" ]]; then
+if [ "${uninstall}" = "false" ] && [ "${install}" = "true" ]; then
     print_header
     download_pkg
     uninstall_pkg
     install_pkg
     cleanup
-elif [[ "${uninstall}" = "true" && "${install}" = "false" ]]; then
+elif [ "${uninstall}" = "true" ] && [ "${install}" = "false" ]; then
     print_header
     download_pkg
     uninstall_pkg
