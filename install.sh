@@ -171,7 +171,7 @@ elif [ "${uninstall}" = "true" ] && [ "${install}" = "false" ]; then
     uninstall_pkg
     cleanup
 else
-    print_msg "Missing or invalid options, see help below."
+    print_error "Missing or invalid options, see help below."
     print_header
     print_help
     exit 1
