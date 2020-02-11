@@ -17,6 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # Configure script variables.
+status=""
 git_hosting="gitlab.com"
 git_repo="monochrome-kde"
 git_desc="Monochrome KDE"
@@ -44,6 +45,23 @@ no_color="\033[0m"
 
 temp_file="$(mktemp -u)"
 temp_dir="$(mktemp -d)"
+
+# Source and package arrays.
+src=("${temp_dir}/${git_repo}-${tag}/aurorae"
+     "${temp_dir}/${git_repo}-${tag}/color-schemes"
+     "${temp_dir}/${git_repo}-${tag}/konsole"
+     "${temp_dir}/${git_repo}-${tag}/Kvantum"
+     "${temp_dir}/${git_repo}-${tag}/plasma"
+     "${temp_dir}/${git_repo}-${tag}/sddm"
+     "${temp_dir}/${git_repo}-${tag}/yakuake")
+pkg=("${prefix}/aurorae/themes/Monochrome"
+     "${prefix}/color-schemes/Monochrome.colors"
+     "${prefix}/konsole/Monochrome.colorscheme"
+     "${prefix}/Kvantum/Monochrome"
+     "${prefix}/plasma/desktoptheme/Monochrome"
+     "${prefix}/plasma/look-and-feel/com.gitlab.pwyde.monochrome-kde"
+     "${prefix}/sddm/themes/monochrome"
+     "${prefix}/yakuake/skins/monochrome")
 
 print_header() {
 echo -e "
@@ -109,6 +127,14 @@ print_error() {
     echo -e "$red=> ERROR:$no_color$white" "$@" "$no_color" >&1
 }
 
+print_status() {
+    if [ -z "${status}" ]; then
+        print_msg "Completed!"
+    else
+        print_error "Completed with errors!"
+    fi
+}
+
 # Delete parent directories if empty.
 delete_dir() {
     sudo rm -rf "${1}"
@@ -117,7 +143,14 @@ delete_dir() {
 
 cleanup() {
     rm -rf "${temp_file}" "${temp_dir}"
-    print_msg "Completed!"
+    if [ -e "${temp_file}" ]; then
+        print_error "Unable to delete temporary file '${temp_file}'!"
+        status=1
+    fi
+    if [ -e "${temp_dir}" ]; then
+        print_error "Unable to delete temporary directory '${temp_dir}'!"
+        status=1
+    fi
 }
 
 download_pkg() {
@@ -136,27 +169,24 @@ download_pkg() {
 
 install_pkg() {
     print_msg "Installing ${git_desc} to '${prefix}'..."
-    sudo cp -R \
-        "${temp_dir}/${git_repo}-${tag}/aurorae" \
-        "${temp_dir}/${git_repo}-${tag}/color-schemes" \
-        "${temp_dir}/${git_repo}-${tag}/konsole" \
-        "${temp_dir}/${git_repo}-${tag}/Kvantum" \
-        "${temp_dir}/${git_repo}-${tag}/plasma" \
-        "${temp_dir}/${git_repo}-${tag}/sddm" \
-        "${temp_dir}/${git_repo}-${tag}/yakuake" \
-        "${prefix}"
+    for item in "${src[@]}"; do
+        sudo cp -R "${item}" "${prefix}"
+        if [ ! -e "${item}" ]; then
+            print_error "Unable to copy '${item}'!"
+            status=1
+        fi
+    done
 }
 
 uninstall_pkg() {
     print_msg "Uninstalling ${git_desc}..."
-    delete_dir "${prefix}/aurorae/themes/Monochrome"
-    delete_dir "${prefix}/color-schemes/Monochrome.colors"
-    delete_dir "${prefix}/konsole/Monochrome.colorscheme"
-    delete_dir "${prefix}/Kvantum/Monochrome"
-    delete_dir "${prefix}/plasma/desktoptheme/Monochrome"
-    delete_dir "${prefix}/plasma/look-and-feel/com.gitlab.pwyde.monochrome-kde"
-    delete_dir "${prefix}/sddm/themes/monochrome"
-    delete_dir "${prefix}/yakuake/skins/monochrome"
+    for item in "${pkg[@]}"; do
+        delete_dir "${item}"
+        if [ -e "${item}" ]; then
+            print_error "Unable to delete '${item}'!"
+            status=1
+        fi
+    done
 }
 
 if [ "${uninstall}" = "false" ] && [ "${install}" = "true" ]; then
@@ -165,11 +195,13 @@ if [ "${uninstall}" = "false" ] && [ "${install}" = "true" ]; then
     uninstall_pkg
     install_pkg
     cleanup
+    print_status
 elif [ "${uninstall}" = "true" ] && [ "${install}" = "false" ]; then
     print_header
     download_pkg
     uninstall_pkg
     cleanup
+    print_status
 else
     print_error "Missing or invalid options, see help below."
     print_header
