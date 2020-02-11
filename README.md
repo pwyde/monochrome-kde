@@ -27,12 +27,12 @@ The installation script will automatically download the latest version from the 
 
 #### Install
 ```
-# bash install.sh --install
+$ bash install.sh --install
 ```
 
 #### Uninstall
 ```
-# bash install.sh --uninstall
+$ bash install.sh --uninstall
 ```
 
 #### Options
