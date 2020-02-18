@@ -93,7 +93,7 @@ Install [gtk3-nocsd](https://github.com/PCMan/gtk3-nocsd) to disable Client Side
 Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme.
 
 ## Credits
-Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma 5 desktop.
+Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma desktop.
 
 - **Breeze** Plasma theme by [KDE Visual Design Group](https://www.kde.org/plasma-desktop)
 - **Materia KDE** Plasma theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/materia-kde)
