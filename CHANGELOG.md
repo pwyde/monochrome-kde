@@ -98,3 +98,7 @@
 - Added 'pint_error' function.
 - Added ping test before downloading from master branch.
 - Minor changes to script syntax.
+
+## Project Logotype - 18 February 2020
+
+- Added a project logotype.
