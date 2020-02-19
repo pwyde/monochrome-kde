@@ -1,6 +1,6 @@
 # Monochrome KDE
 
-## About
+## :information_source: About
 <img src="logo.png" alt="monochrome-kde-logo" align="right" />
 
 A dark theme for the KDE Plasma desktop environment inspired by black and white photography.
@@ -17,7 +17,7 @@ The complete theme consists of the following components:
 - Yakuake Skin
 
 
-## Install Instructions
+## :floppy_disk Install Instructions
 At the time of writing there are no Linux distribution packages available. Install the complete theme manually using `git clone` or the provided install [script](install.sh). See [instructions] below(#install-script). This method works on all Linux distributions.
 
 Individual theme components can also be downloaded from [KDE Store](https://store.kde.org)/[OpenDesktop.org](https://www.opendesktop.org) or using [Plasma System Settings](https://userbase.kde.org/System_Settings).
@@ -54,7 +54,7 @@ $ bash install.sh --uninstall
 | `-u`,`--uninstall` | Uninstall theme.                                  |
 | `-h`,`--help`      | Display help message including available options. |
 
-## Recommendations
+## :information_source: Recommendations
 For a better visual experience apply the following modifications and settings.
 
 ### Widget Style
@@ -104,7 +104,7 @@ Install [gtk3-nocsd](https://github.com/PCMan/gtk3-nocsd) to disable Client Side
 ### Plymouth Boot Splash Screen (optional)
 Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme.
 
-## Credits
+## :heart: Credits
 Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma desktop.
 
 - **Breeze** Plasma theme by [KDE Visual Design Group](https://www.kde.org/plasma-desktop)
@@ -113,7 +113,7 @@ Some graphical elements and artwork in this project is based on other popular th
 - **Papirus** icon theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - **Darkine KDE** SDDM theme by [Rokin](https://github.com/Rokin05/darkine-kde)
 
-## Licenses
+## :page_with_curl: Licenses
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information. Graphical elements and artwork based on other projects are licensed under the following:
 
 - **Materia KDE**: GPLv3
@@ -129,7 +129,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 - **Darkine**: GPLv3
   - **SDDM Theme**: CC-BY-SA
 
-## Todo
+## :notebook: Todo
 A list of features and/or components that will be added in the future.
 
 - [x] Aurorae Theme
