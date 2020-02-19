@@ -17,22 +17,22 @@ The complete theme consists of the following components:
 - Yakuake Skin
 
 
-## :floppy_disk Install Instructions
+## :floppy_disk: Install Instructions
 At the time of writing there are no Linux distribution packages available. Install the complete theme manually using `git clone` or the provided install [script](install.sh). See [instructions] below(#install-script). This method works on all Linux distributions.
 
 Individual theme components can also be downloaded from [KDE Store](https://store.kde.org)/[OpenDesktop.org](https://www.opendesktop.org) or using [Plasma System Settings](https://userbase.kde.org/System_Settings).
 
-| **Name**              | **Preview**                                                  | **KDE Store** (tar.gz)                           |
-|:----------------------|:------------------------------------------------------------:|:------------------------------------------------:|
-| Aurorae Theme         | [frame_with_picture:](screenshots/aurorae/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279082) |
-| Konsole Colour Scheme | [frame_with_picture:](screenshots/konsole/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279087) |
-| Kvantum Theme         | [frame_with_picture:](screenshots/kvantum/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279088) |
-| Plasma Colour Scheme  | [frame_with_picture:](screenshots/color-schemes/preview.png) | [:floppy_disk:](https://store.kde.org/p/1279083) |
-| Plasma Desktop Theme  | [frame_with_picture:](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1279077) |
-| Plasma Look and Feel  | [frame_with_picture:](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| Plasma Splash Screen  | [frame_with_picture:](screenshots/plasma/splash.png)         | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| SDDM Theme            | [frame_with_picture:](screenshots/sddm/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| Yakuake Skin          | [frame_with_picture:](screenshots/yakuake/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279089) |
+| **Name**              | **Preview**                                                   | **KDE Store** (tar.gz)                           |
+|:----------------------|:-------------------------------------------------------------:|:------------------------------------------------:|
+| Aurorae Theme         | [:frame_with_picture:](screenshots/aurorae/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279082) |
+| Konsole Colour Scheme | [:frame_with_picture:](screenshots/konsole/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279087) |
+| Kvantum Theme         | [:frame_with_picture:](screenshots/kvantum/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279088) |
+| Plasma Colour Scheme  | [:frame_with_picture:](screenshots/color-schemes/preview.png) | [:floppy_disk:](https://store.kde.org/p/1279083) |
+| Plasma Desktop Theme  | [:frame_with_picture:](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1279077) |
+| Plasma Look and Feel  | [:frame_with_picture:](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| Plasma Splash Screen  | [:frame_with_picture:](screenshots/plasma/splash.png)         | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| SDDM Theme            | [:frame_with_picture:](screenshots/sddm/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| Yakuake Skin          | [:frame_with_picture:](screenshots/yakuake/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279089) |
 
 ### Install Script
 The installation script will automatically download the latest version from the repository and copy the required files to the default location `/usr/share`.
@@ -54,7 +54,7 @@ $ bash install.sh --uninstall
 | `-u`,`--uninstall` | Uninstall theme.                                  |
 | `-h`,`--help`      | Display help message including available options. |
 
-## :information_source: Recommendations
+## :bulb: Recommendations
 For a better visual experience apply the following modifications and settings.
 
 ### Widget Style
@@ -129,7 +129,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 - **Darkine**: GPLv3
   - **SDDM Theme**: CC-BY-SA
 
-## :notebook: Todo
+## :ballot_box_with_check: Todo
 A list of features and/or components that will be added in the future.
 
 - [x] Aurorae Theme
