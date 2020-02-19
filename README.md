@@ -1,14 +1,11 @@
 # Monochrome KDE
 
-<p align="center">
-    <img src="preview.png" alt="Preview of Monochrome KDE"/>
-</p>
-
 ## About
+<img src="logo.png" alt="monochrome-kde-logo" align="right" />
+
 A dark theme for the KDE Plasma desktop environment inspired by black and white photography.
 
-The theme includes the following:
-
+The complete theme consists of the following components:
 - Aurorae Theme
 - Konsole Colour Scheme
 - Kvantum Theme
@@ -19,8 +16,23 @@ The theme includes the following:
 - SDDM Theme
 - Yakuake Skin
 
+
 ## Install Instructions
-At the time of writing there are no packages available. Install the theme manually using `git clone` or the provided install [script](install.sh). See instructions below. This method works on all distributions.
+At the time of writing there are no Linux distribution packages available. Install the complete theme manually using `git clone` or the provided install [script](install.sh). See [instructions] below(#install-script). This method works on all Linux distributions.
+
+Individual theme components can also be downloaded from [KDE Store](https://store.kde.org)/[OpenDesktop.org](https://www.opendesktop.org) or using [Plasma System Settings](https://userbase.kde.org/System_Settings).
+
+| **Name**              | **Preview**                                                  | **KDE Store** (tar.gz)                           |
+|:----------------------|:------------------------------------------------------------:|:------------------------------------------------:|
+| Aurorae Theme         | [frame_with_picture:](screenshots/aurorae/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279082) |
+| Konsole Colour Scheme | [frame_with_picture:](screenshots/konsole/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279087) |
+| Kvantum Theme         | [frame_with_picture:](screenshots/kvantum/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279088) |
+| Plasma Colour Scheme  | [frame_with_picture:](screenshots/color-schemes/preview.png) | [:floppy_disk:](https://store.kde.org/p/1279083) |
+| Plasma Desktop Theme  | [frame_with_picture:](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1279077) |
+| Plasma Look and Feel  | [frame_with_picture:](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| Plasma Splash Screen  | [frame_with_picture:](screenshots/plasma/splash.png)         | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| SDDM Theme            | [frame_with_picture:](screenshots/sddm/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| Yakuake Skin          | [frame_with_picture:](screenshots/yakuake/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279089) |
 
 ### Install Script
 The installation script will automatically download the latest version from the repository and copy the required files to the default location `/usr/share`.
