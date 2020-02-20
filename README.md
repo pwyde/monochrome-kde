@@ -1,4 +1,5 @@
 # Monochrome KDE
+<img src="preview.jpg" alt="monochrome-preview" />
 
 ## :information_source: About
 <img src="logo.png" alt="monochrome-kde-logo" align="right" />
