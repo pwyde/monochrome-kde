@@ -1,14 +1,8 @@
-<svg id="svg824" width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
  <g id="system-shutdown" transform="translate(-32,-1020.36)">
-  <rect id="rect17" x="32" y="1020.36" width="32" height="32" style="opacity:.00100002"/>
-  <g id="g33" transform="translate(32,1020.36)">
-   <circle id="circle19" cx="16" cy="16" r="14" style="fill:#c2352a"/>
-   <path id="path21" d="m16 1.9999999a14 14 0 0 0-14 14 14 14 0 0 0 0.0215 0.586 14 14 0 0 1 13.978-13.586 14 14 0 0 1 13.979 13.414 14 14 0 0 0 0.021-0.414 14 14 0 0 0-14-14z" style="fill:#cfd8dc;opacity:.2"/>
-   <path id="path23" d="M 29.979,16.414 A 14,14 0 0 1 16,30 14,14 0 0 1 2.022,16.586 14,14 0 0 0 2,17 14,14 0 0 0 16,31 14,14 0 0 0 30,17 14,14 0 0 0 29.979,16.414 Z" style="opacity:.2"/>
-   <rect id="rect25" x="15" y="8.9999847" width="2" height="8" ry="1" style="color:#0000ff;fill:#000000;opacity:.2"/>
-   <path id="path27" d="M 12.478516,10.958983 A 7,7 0 0 0 9,17 a 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -3.480469,-6.041017 L 18.625,12.751953 A 5,5 0 0 1 21,17 a 5,5 0 0 1 -5,5 5,5 0 0 1 -5,-5 5,5 0 0 1 2.375,-4.25 z" style="fill:#000000;opacity:.2"/>
-   <rect id="rect29" x="15" y="7.997798" width="2" height="8" ry="1" style="color:#0000ff;fill:#f0f0f2"/>
-   <path id="path31" d="m12.478516 9.9567966a7 7 0 0 0-3.478516 6.0410164 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-3.480469-6.0410164l-0.894531 1.7929694a5 5 0 0 1 2.375 4.248047 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 2.375-4.25z" style="fill:#f0f0f2"/>
+  <rect x="32" y="1020.36" width="32" height="32" style="opacity:.00100002"/>
+  <g transform="translate(32,1020.3622)">
+   <path transform="translate(0 -.0022)" d="m16 2.0019531a14 14 0 0 0-14 14 14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0-14-14zm0 5a9 9 0 0 1 9 8.9999999 9 9 0 0 1-9 9 9 9 0 0 1-9-9 9 9 0 0 1 9-8.9999999zm0 2a7 7 0 0 0-7 6.9999999 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-6.9999999zm0 2.9999999c0.554 0 1 0.446 1 1v6c0 0.554-0.446 1-1 1s-1-0.446-1-1v-6c0-0.554 0.446-1 1-1z" style="fill:#aaaaac"/>
   </g>
  </g>
 </svg>

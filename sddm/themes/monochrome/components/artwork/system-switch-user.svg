@@ -1,12 +1,8 @@
-<svg id="svg824" width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
- <g id="system-switch-user" transform="translate(0,-1020.36)" style="opacity:.90700001">
-  <rect id="rect47" y="1020.36" width="32" height="32" style="opacity:.00100002"/>
-  <g id="g59" transform="translate(0,1020.3622)">
-   <circle id="circle49" cx="16" cy="16" r="14" style="fill:#36bb94"/>
-   <path id="path51" d="m12 8.998c-0.665 0-1.005405 0.4129285-1 0.9258v11.074h-3l4 4 4-4h-3v-11.074c0-0.5129-0.335-0.926-1-0.926zm8-2e-4 -4 4h3v11.074c0 0.513 0.335 0.926 1 0.926 0.6648 0 1.020349-0.413314 1-0.92578v-11.074h3l-4-4z" style="fill-rule:evenodd;opacity:.2"/>
-   <path id="path53" d="m12 7.998c-0.665 0-1 0.4129-1 0.9258v11.074h-3l4 4 4-4h-3v-11.074c0-0.5129-0.335-0.926-1-0.926zm8-4.2e-4 -4 4h3v11.074c0 0.513 0.335 0.926 1 0.926 0.6648 0 1-0.41291 1-0.92578v-11.074h3l-4-4z" style="fill-rule:evenodd;fill:#f0f0f2"/>
-   <path id="path55" d="m16 2a14 14 0 0 0-14 14 14 14 0 0 0 0.0215 0.586 14 14 0 0 1 13.978-13.586 14 14 0 0 1 13.979 13.414 14 14 0 0 0 0.021-0.414 14 14 0 0 0-14-14z" style="fill:#cfd8dc;opacity:.2"/>
-   <path id="path57" d="M 29.979,16.414 A 14,14 0 0 1 16,30 14,14 0 0 1 2.022,16.586 14,14 0 0 0 2,17 14,14 0 0 0 16,31 14,14 0 0 0 30,17 14,14 0 0 0 29.979,16.414 Z" style="opacity:.2"/>
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <g id="system-switch-user" transform="translate(0,-1020.36)">
+  <rect y="1020.36" width="32" height="32" style="opacity:.00100002"/>
+  <g transform="translate(0,1020.3622)">
+   <path transform="translate(-192.00009 -.0022)" d="m208 2.0019531a14 14 0 0 0-14 14 14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0-14-14zm-3 6c0.665 0 1 0.4128813 1 0.9257813v11.074219h3l-4 4-4-4h3v-11.074219c0-0.5129 0.335-0.9257813 1-0.9257813zm6 0 4 3.9999999h-3v11.074219c0 0.51287-0.3352 0.925781-1 0.925781-0.665 0-1-0.412781-1-0.925781v-11.074219h-3z" style="fill:#aaaaac"/>
   </g>
  </g>
 </svg>
