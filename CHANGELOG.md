@@ -102,3 +102,12 @@
 ## Project Logotype - 18 February 2020
 
 - Added a project logotype.
+
+## SDDM Theme Changes - 26 February 2020
+
+- Replced all coloured icons with a monochrome version.
+
+## Plasma Desktop Theme Changes - 26 February 2020
+
+- Replaced some coloured icons with a monochrome version.
+  - Only applies to icons located on panels and menus.
