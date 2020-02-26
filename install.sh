@@ -157,7 +157,7 @@ download_pkg() {
     # Test if Git hosting provider is reachable.
     print_msg "Verifying that Git hosting provider ($git_hosting) is reachable..."
     if ping -c 5 "${git_hosting}" >/dev/null 2>&1; then
-        print_msg "Downloading latest version from master branch..."
+        print_msg "Downloading latest version from $tag branch..."
         wget --progress=bar:force --output-document "${temp_file}" "https://${git_hosting}/pwyde/${git_repo}/-/archive/${tag}/${git_repo}-${tag}.tar.gz"
         print_msg "Extracting archive..."
         tar -xzf "${temp_file}" -C "${temp_dir}"
