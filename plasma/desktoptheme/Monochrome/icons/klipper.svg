@@ -1,33 +1,31 @@
-<svg id="svg" width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" version="1.1">
  <g id="22-22-klipper" transform="translate(32,10)">
-  <rect width="22" height="22" style="opacity:.00100002"/>
-  <g>
-   <path d="m11 3c-1.108 0-2 0.892-2 2v7c0 1.108 0.892 2 2 2h6c1.108 0 2-0.892 2-2v-7c0-1.108-0.892-2-2-2zm0 2h6v1h-6zm0 2h6v1h-6zm0 2h6v1h-6zm0 2h4v1h-4z" style="fill:#ffffff;opacity:.25"/>
-   <path d="m5 8c-1.108 0-2 0.892-2 2v7c0 1.108 0.892 2 2 2h6c1.108 0 2-0.892 2-2v-7c0-1.108-0.892-2-2-2zm0 2h6v1h-6zm0 2h6v1h-6zm0 2h6v1h-6zm0 2h4v1h-4z" style="fill:#aaaaac"/>
-  </g>
+  <rect style="opacity:0.001" width="22" height="22" x="0" y="0"/>
+  <path style="fill:#aaaaac" d="M 5,8 C 3.892,8 3,8.892 3,10 v 7 c 0,1.108 0.892,2 2,2 h 6 c 1.108,0 2,-0.892 2,-2 V 10 C 13,8.892 12.108,8 11,8 Z m 0,2 h 6 v 1 H 5 Z m 0,2 h 6 v 1 H 5 Z m 0,2 h 6 v 1 H 5 Z m 0,2 h 4 v 1 H 5 Z"/>
+  <path style="opacity:0.3;fill:#aaaaac" d="M 11,3 C 9.892,3 9,3.892 9,5 v 7 c 0,1.108 0.892,2 2,2 h 6 c 1.108,0 2,-0.892 2,-2 V 5 C 19,3.892 18.108,3 17,3 Z m 0,2 h 6 v 1 h -6 z m 0,2 h 6 v 1 h -6 z m 0,2 h 6 v 1 h -6 z m 0,2 h 4 v 1 h -4 z"/>
  </g>
  <g id="klipper">
-  <rect width="32" height="32" style="opacity:.00100002"/>
+  <rect width="32" height="32" x="0" y="0" style="opacity:0.001"/>
   <g>
-   <rect transform="rotate(90)" x="2" y="-30" width="19" height="19" rx="1.5" ry="1.5" style="opacity:.05;stroke-width:2;stroke:#000000"/>
-   <rect transform="rotate(90)" x="2" y="-30" width="19" height="19" rx="1.5" ry="1.5" style="opacity:.2"/>
-   <rect transform="rotate(90)" x="11" y="-21" width="19" height="19" rx="1.5" ry="1.5" style="opacity:.05;stroke-width:2;stroke:#000000"/>
-   <rect transform="rotate(90)" x="1" y="-30" width="19" height="19" rx="1.5" ry="1.5" style="fill:#d3d3d3"/>
-   <g transform="translate(4,-4)" style="opacity:.2">
-    <path d="m10 11v-1h13v1z"/>
-    <path d="m10 14v-1h13v1z"/>
-    <path d="m10 17v-1h13v1z"/>
-    <path d="m10 20v-1h8v1z"/>
+   <rect style="opacity:0.05;stroke:#000000;stroke-width:2" width="19" height="19" x="2" y="-30" rx="1.5" ry="1.5" transform="rotate(90)"/>
+   <rect style="opacity:0.2" width="19" height="19" x="2" y="-30" rx="1.5" ry="1.5" transform="rotate(90)"/>
+   <rect style="opacity:0.05;stroke:#000000;stroke-width:2" width="19" height="19" x="11" y="-21" rx="1.5" ry="1.5" transform="rotate(90)"/>
+   <rect style="fill:#d3d3d3" width="19" height="19" x="1" y="-30" rx="1.5" ry="1.5" transform="rotate(90)"/>
+   <g style="opacity:0.2" transform="translate(4,-4)">
+    <path d="m 10,11 v -1 h 13 v 1 z"/>
+    <path d="m 10,14 v -1 h 13 v 1 z"/>
+    <path d="m 10,17 v -1 h 13 v 1 z"/>
+    <path d="m 10,20 v -1 h 8 v 1 z"/>
    </g>
-   <rect transform="rotate(90)" x="11" y="-21" width="19" height="19" rx="1.5" ry="1.5" style="opacity:.2"/>
-   <rect transform="rotate(90)" x="10" y="-21" width="19" height="19" rx="1.5" ry="1.5" style="fill:#e4e4e4"/>
-   <path d="m12.5 1c-0.831 0-1.5 0.669-1.5 1.5v1c0-0.831 0.669-1.5 1.5-1.5h16c0.831 0 1.5 0.669 1.5 1.5v-1c0-0.831-0.669-1.5-1.5-1.5z" style="fill:#ffffff;opacity:.1"/>
-   <path d="m3.5 10c-0.831 0-1.5 0.669-1.5 1.5v1c0-0.831 0.669-1.5 1.5-1.5h16c0.831 0 1.5 0.669 1.5 1.5v-1c0-0.831-0.669-1.5-1.5-1.5z" style="fill:#ffffff;opacity:.1"/>
-   <g transform="translate(-5,5)" style="opacity:.5">
-    <path d="m10 11v-1h13v1z"/>
-    <path d="m10 14v-1h13v1z"/>
-    <path d="m10 17v-1h13v1z"/>
-    <path d="m10 20v-1h8v1z"/>
+   <rect style="opacity:0.2" width="19" height="19" x="11" y="-21" rx="1.5" ry="1.5" transform="rotate(90)"/>
+   <rect style="fill:#e4e4e4" width="19" height="19" x="10" y="-21" rx="1.5" ry="1.5" transform="rotate(90)"/>
+   <path style="opacity:0.1;fill:#ffffff" d="M 12.5,1 C 11.669,1 11,1.669 11,2.5 v 1 C 11,2.669 11.669,2 12.5,2 h 16 C 29.331,2 30,2.669 30,3.5 v -1 C 30,1.669 29.331,1 28.5,1 Z"/>
+   <path style="opacity:0.1;fill:#ffffff" d="M 3.5,10 C 2.669,10 2,10.669 2,11.5 v 1 C 2,11.669 2.669,11 3.5,11 h 16 c 0.831,0 1.5,0.669 1.5,1.5 v -1 C 21,10.669 20.331,10 19.5,10 Z"/>
+   <g style="opacity:0.5" transform="translate(-5,5)">
+    <path d="m 10,11 v -1 h 13 v 1 z"/>
+    <path d="m 10,14 v -1 h 13 v 1 z"/>
+    <path d="m 10,17 v -1 h 13 v 1 z"/>
+    <path d="m 10,20 v -1 h 8 v 1 z"/>
    </g>
   </g>
  </g>
