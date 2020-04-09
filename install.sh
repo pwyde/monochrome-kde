@@ -72,7 +72,7 @@ echo -e "
 
   ${yellow}${git_desc}${no_color}
   https://${git_hosting}/pwyde/${git_repo}
-" >&2
+" >&1
 }
 
 print_help() {
@@ -90,7 +90,7 @@ ${white}Options:${no_color}
   ${cyan}-i${no_color}, ${cyan}--install${no_color}      Install theme in default location (${prefix}).
 
   ${cyan}-u${no_color}, ${cyan}--uninstall${no_color}    Uninstall theme.
-" >&2
+" >&1
 }
 
 # Print help if no argument is specified.
@@ -124,7 +124,7 @@ print_msg() {
 }
 
 print_error() {
-    echo -e "$red=> ERROR:$no_color$white" "$@" "$no_color" >&1
+    echo -e "$red=> ERROR:$no_color$white" "$@" "$no_color" >&2
 }
 
 print_status() {
