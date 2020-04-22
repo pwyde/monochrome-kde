@@ -22,7 +22,7 @@ git_hosting="gitlab.com"
 git_repo="monochrome-kde"
 git_desc="Monochrome KDE"
 prefix="/usr/share"
-tag="dev"
+tag="master"
 install="false"
 uninstall="false"
 ## Colorize output.
