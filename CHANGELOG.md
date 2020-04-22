@@ -105,7 +105,7 @@
 
 ## SDDM Theme Changes - 26 February 2020
 
-- Replced all coloured icons with a monochrome version.
+- Replaced all coloured icons with a monochrome version.
 
 ## Plasma Desktop Theme Changes - 26 February 2020
 
