@@ -79,7 +79,7 @@ Change the login screen theme in **System Settings** > **Startup and Shutdown** 
 
 #### Background
 
-Chooce either a background image or the pre-defined solid colour (`#1e1e20`).
+Chooce either a background image or the pre-defined solid colour; `#1e1e20`
 
 #### Fonts (optional)
 
