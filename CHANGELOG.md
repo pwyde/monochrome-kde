@@ -111,3 +111,10 @@
 
 - Replaced some coloured icons with a monochrome version.
   - Only applies to icons located on panels and menus.
+
+## 20200422 Release - 22 April 2020
+
+- Made project available on [GitHub](https://github.com/pwyde/monochrome-kde) also (mirror from [GitLab](https://gitlab.com/pwyde/monochrome-kde)).
+- Updated README file.
+- Updated screenshots.
+- Packaged and published latest changes to [KDE Store](https://store.kde.org)/[Pling](https://www.pling.com/).
