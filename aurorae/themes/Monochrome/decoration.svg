@@ -24,7 +24,7 @@
  <g id="decoration-top" transform="translate(0,-752.36216)">
   <path d="m101.00061 853.36216h97.99939v-18h-98z" style="fill:#1e1e20"/>
   <path d="m199 833.36216h-98v2h98z" style="opacity:.00100002"/>
-  <path transform="translate(0,752.36216)" d="m101 83v1h98v-1z" style="fill:#ffffff;opacity:.12000002"/>
+  <path transform="translate(0,752.36216)" d="m101 83v1h98v-1z" style="fill:#ffffff;opacity:.12"/>
  </g>
  <g id="decoration-bottom" transform="translate(0,-752.36216)">
   <path d="m101 971.36216h98v-14h-98z" style="fill:url(#linearGradient1054);opacity:.5"/>
@@ -37,7 +37,7 @@
  <g id="decoration-topleft" transform="translate(0,-752.36216)">
   <path d="m101 833.36216h-25v20h25z" style="fill:url(#radialGradient1094);opacity:.5"/>
   <path d="m101 835.36216h-8.999999c-4.500001 0-6.000001 1.5-6.000001 5.99999v12.00001h15z" style="fill:#1e1e20"/>
-  <path transform="translate(0,752.36216)" d="m92 83c-4.500001 0-6 1.50001-6 6v1c0-4.49999 1.499999-6 6-6h9v-1z" style="fill:#ffffff;opacity:.12000002"/>
+  <path transform="translate(0,752.36216)" d="m92 83c-4.500001 0-6 1.50001-6 6v1c0-4.49999 1.499999-6 6-6h9v-1z" style="fill:#ffffff;opacity:.12"/>
  </g>
  <g id="decoration-right" transform="matrix(-1,0,0,1,300,-752.36216)">
   <path d="m76 853.36216v98h10v-98z" style="fill:url(#linearGradient1078);opacity:.5"/>
@@ -46,7 +46,7 @@
  <g id="decoration-topright" transform="matrix(-1,0,0,1,300,-752.36216)">
   <path d="m101 833.36216h-25v20h25z" style="fill:url(#radialGradient1102);opacity:.5"/>
   <path d="m101 835.36216h-8.999999c-4.500001 0-6.000001 1.5-6.000001 5.99999v12.00001h15z" style="fill:#1e1e20"/>
-  <path transform="matrix(-1,0,0,1,300,752.36216)" d="m199 83v1h9c4.5 0 6 1.50001 6 6v-1c0-4.49999-1.5-6-6-6z" style="fill:#ffffff;opacity:.12000002"/>
+  <path transform="matrix(-1,0,0,1,300,752.36216)" d="m199 83v1h9c4.5 0 6 1.50001 6 6v-1c0-4.49999-1.5-6-6-6z" style="fill:#ffffff;opacity:.12"/>
  </g>
  <g id="decoration-bottomright" transform="matrix(-1,0,0,1,300,-752.36216)">
   <path d="m101 971.36216h-25v-20h25z" style="fill:url(#radialGradient1062);opacity:.5"/>
@@ -60,7 +60,7 @@
  <g id="decoration-inactive-top" transform="translate(268,-752.36216)">
   <path d="m101.00061 853.36216h97.99939v-18h-98z" style="fill:#1e1e20"/>
   <path d="m199 833.36216h-98v2h98z" style="opacity:.00100002"/>
-  <path transform="translate(0,752.36216)" d="m101 83v1h98v-1z" style="fill:#ffffff;opacity:.12000002"/>
+  <path transform="translate(0,752.36216)" d="m101 83v1h98v-1z" style="fill:#ffffff;opacity:.12"/>
  </g>
  <g id="decoration-inactive-bottom" transform="translate(268,-752.36216)">
   <path d="m101 971.36216h98v-14h-98z" style="fill:url(#linearGradient1189);opacity:.5"/>
@@ -73,7 +73,7 @@
  <g id="decoration-inactive-topleft" transform="translate(268,-752.36216)">
   <path d="m101 833.36216h-25v20h25z" style="fill:url(#radialGradient1193);opacity:.5"/>
   <path d="m101 835.36216h-8.999999c-4.500001 0-6.000001 1.5-6.000001 5.99999v12.00001h15z" style="fill:#1e1e20"/>
-  <path transform="translate(0,752.36216)" d="m92 83c-4.500001 0-6 1.50001-6 6v1c0-4.49999 1.499999-6 6-6h9v-1z" style="fill:#ffffff;opacity:.12000002"/>
+  <path transform="translate(0,752.36216)" d="m92 83c-4.500001 0-6 1.50001-6 6v1c0-4.49999 1.499999-6 6-6h9v-1z" style="fill:#ffffff;opacity:.12"/>
  </g>
  <g id="decoration-inactive-right" transform="matrix(-1,0,0,1,568,-752.36216)">
   <path d="m76 853.36216v98h10v-98z" style="fill:url(#linearGradient1187);opacity:.5"/>
@@ -82,7 +82,7 @@
  <g id="decoration-inactive-topright" transform="matrix(-1,0,0,1,568,-752.36216)">
   <path d="m101 833.36216h-25v20h25z" style="fill:url(#radialGradient1193);opacity:.5"/>
   <path d="m101 835.36216h-8.999999c-4.500001 0-6.000001 1.5-6.000001 5.99999v12.00001h15z" style="fill:#1e1e20"/>
-  <path transform="matrix(-1,0,0,1,300,752.36216)" d="m199 83v1h9c4.5 0 6 1.50001 6 6v-1c0-4.49999-1.5-6-6-6z" style="fill:#ffffff;opacity:.12000002"/>
+  <path transform="matrix(-1,0,0,1,300,752.36216)" d="m199 83v1h9c4.5 0 6 1.50001 6 6v-1c0-4.49999-1.5-6-6-6z" style="fill:#ffffff;opacity:.12"/>
  </g>
  <g id="decoration-inactive-bottomright" transform="matrix(-1,0,0,1,568,-752.36216)">
   <path d="m101 971.36216h-25v-20h25z" style="fill:url(#radialGradient1199);opacity:.5"/>
