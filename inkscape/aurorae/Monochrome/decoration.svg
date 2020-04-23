@@ -39,14 +39,14 @@
      inkscape:window-height="1410"
      id="namedview77"
      showgrid="false"
-     inkscape:pagecheckerboard="true"
      inkscape:zoom="4.1533333"
      inkscape:cx="150"
      inkscape:cy="150"
      inkscape:window-x="56"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4198" />
+     inkscape:current-layer="svg4198"
+     inkscape:pagecheckerboard="true" />
   <defs
      id="defs4200">
     <linearGradient
@@ -222,7 +222,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path868"
-       style="opacity:0.1;fill:#ffffff"
+       style="opacity:0.12000002;fill:#ffffff"
        transform="translate(0,752.36216)"
        d="m 101,83 v 1 h 98 v -1 z"
        inkscape:connector-curvature="0" />
@@ -233,13 +233,11 @@
     <path
        id="path1628"
        style="opacity:0.5;fill:url(#linearGradient1054)"
-       d="m 101,971.36216 h 98 v -14 h -98 z"
-       inkscape:connector-curvature="0" />
+       d="m 101,971.36216 h 98 v -14 h -98 z" />
     <path
        id="path1626"
        style="fill:#1e1e20;fill-opacity:1"
-       d="M 198.9994,951.36216 H 101 v 6 h 98 z"
-       inkscape:connector-curvature="0" />
+       d="M 198.9994,951.36216 H 101 v 6 h 98 z" />
   </g>
   <g
      id="decoration-bottomleft"
@@ -247,13 +245,11 @@
     <path
        id="path2007"
        style="opacity:0.5;fill:url(#radialGradient1070)"
-       d="M 101,971.36216 H 76 v -20 h 25 z"
-       inkscape:connector-curvature="0" />
+       d="M 101,971.36216 H 76 v -20 h 25 z" />
     <path
        id="path1816"
        style="fill:#1e1e20;fill-opacity:1"
-       d="M 101,957.36216 H 86 v -6 h 15 z"
-       inkscape:connector-curvature="0" />
+       d="m 101,957.36216 -15,0 v -6 h 15 z" />
   </g>
   <g
      id="decoration-topleft"
@@ -270,7 +266,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path866"
-       style="opacity:0.1;fill:#ffffff"
+       style="opacity:0.12000002;fill:#ffffff"
        transform="translate(0,752.36216)"
        d="m 92,83 c -4.500001,0 -6,1.50001 -6,6 v 1 c 0,-4.49999 1.499999,-6 6,-6 h 9 v -1 z"
        inkscape:connector-curvature="0" />
@@ -304,7 +300,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path878"
-       style="opacity:0.1;fill:#ffffff"
+       style="opacity:0.12000002;fill:#ffffff"
        transform="matrix(-1,0,0,1,300,752.36216)"
        d="m 199,83 v 1 h 9 c 4.5,0 6,1.50001 6,6 v -1 c 0,-4.49999 -1.5,-6 -6,-6 z"
        inkscape:connector-curvature="0" />
@@ -315,13 +311,11 @@
     <path
        id="path5038"
        style="opacity:0.5;fill:url(#radialGradient1062)"
-       d="M 101,971.36216 H 76 v -20 h 25 z"
-       inkscape:connector-curvature="0" />
+       d="M 101,971.36216 H 76 v -20 l 25,0 z" />
     <path
        id="path5042"
        style="fill:#1e1e20;fill-opacity:1"
-       d="M 101,957.36216 H 86 v -6 h 15 z"
-       inkscape:connector-curvature="0" />
+       d="m 101,957.36216 -15,0 v -6 h 15 z" />
   </g>
   <path
      id="decoration-inactive-center"
@@ -333,13 +327,11 @@
     <path
        id="path1117"
        style="opacity:0.5;fill:url(#linearGradient1187)"
-       d="m 76,853.36216 v 98 h 10 v -98 z"
-       inkscape:connector-curvature="0" />
+       d="m 76,853.36216 v 98 h 10 v -98 z" />
     <path
        id="path1119"
        style="fill:#1e1e20;fill-opacity:1"
-       d="m 101,951.36156 v -97.9994 H 86 v 98 z"
-       inkscape:connector-curvature="0" />
+       d="m 101,951.36156 v -97.9994 H 86 v 98 z" />
   </g>
   <g
      id="decoration-inactive-top"
@@ -356,7 +348,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path1127"
-       style="opacity:0.1;fill:#ffffff"
+       style="opacity:0.12000002;fill:#ffffff"
        transform="translate(0,752.36216)"
        d="m 101,83 v 1 h 98 v -1 z"
        inkscape:connector-curvature="0" />
@@ -367,13 +359,11 @@
     <path
        id="path1131"
        style="opacity:0.5;fill:url(#linearGradient1189)"
-       d="m 101,971.36216 h 98 v -14 h -98 z"
-       inkscape:connector-curvature="0" />
+       d="m 101,971.36216 h 98 v -14 h -98 z" />
     <path
        id="path1133"
        style="fill:#1e1e20;fill-opacity:1"
-       d="M 198.9994,951.36216 H 101 v 6 h 98 z"
-       inkscape:connector-curvature="0" />
+       d="M 198.9994,951.36216 H 101 v 6 h 98 z" />
   </g>
   <g
      id="decoration-inactive-bottomleft"
@@ -381,13 +371,11 @@
     <path
        id="path1137"
        style="opacity:0.5;fill:url(#radialGradient1191)"
-       d="M 101,971.36216 H 76 v -20 h 25 z"
-       inkscape:connector-curvature="0" />
+       d="M 101,971.36216 H 76 v -20 h 25 z" />
     <path
        id="path1139"
        style="fill:#1e1e20;fill-opacity:1"
-       d="M 101,957.36216 H 86 v -6 h 15 z"
-       inkscape:connector-curvature="0" />
+       d="M 101,957.36216 H 86 v -6 h 15 z" />
   </g>
   <g
      id="decoration-inactive-topleft"
@@ -404,7 +392,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path1147"
-       style="opacity:0.1;fill:#ffffff"
+       style="opacity:0.12000002;fill:#ffffff"
        transform="translate(0,752.36216)"
        d="m 92,83 c -4.500001,0 -6,1.50001 -6,6 v 1 c 0,-4.49999 1.499999,-6 6,-6 h 9 v -1 z"
        inkscape:connector-curvature="0" />
@@ -415,13 +403,11 @@
     <path
        id="path1151"
        style="opacity:0.5;fill:url(#linearGradient1195)"
-       d="m 76,853.36216 v 98 h 10 v -98 z"
-       inkscape:connector-curvature="0" />
+       d="m 76,853.36216 v 98 h 10 v -98 z" />
     <path
        id="path1153"
        style="fill:#1e1e20;fill-opacity:1"
-       d="m 101,951.36156 v -97.9994 H 86 v 98 z"
-       inkscape:connector-curvature="0" />
+       d="m 101,951.36156 v -97.9994 H 86 v 98 z" />
   </g>
   <g
      id="decoration-inactive-topright"
@@ -438,7 +424,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path1161"
-       style="opacity:0.1;fill:#ffffff"
+       style="opacity:0.12000002;fill:#ffffff"
        transform="matrix(-1,0,0,1,300,752.36216)"
        d="m 199,83 v 1 h 9 c 4.5,0 6,1.50001 6,6 v -1 c 0,-4.49999 -1.5,-6 -6,-6 z"
        inkscape:connector-curvature="0" />
@@ -449,12 +435,10 @@
     <path
        id="path1165"
        style="opacity:0.5;fill:url(#radialGradient1199)"
-       d="M 101,971.36216 H 76 v -20 h 25 z"
-       inkscape:connector-curvature="0" />
+       d="M 101,971.36216 H 76 v -20 h 25 z" />
     <path
        id="path1167"
        style="fill:#1e1e20;fill-opacity:1"
-       d="M 101,957.36216 H 86 v -6 h 15 z"
-       inkscape:connector-curvature="0" />
+       d="M 101,957.36216 H 86 v -6 h 15 z" />
   </g>
 </svg>
