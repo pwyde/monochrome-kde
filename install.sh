@@ -22,7 +22,7 @@ git_hosting="gitlab.com"
 git_repo="monochrome-kde"
 git_desc="Monochrome KDE"
 prefix="/usr/share"
-tag="master"
+branch="master"
 install="false"
 uninstall="false"
 ## Colorize output.
@@ -47,13 +47,13 @@ temp_file="$(mktemp -u)"
 temp_dir="$(mktemp -d)"
 
 # Source and package arrays.
-src=("${temp_dir}/${git_repo}-${tag}/aurorae"
-     "${temp_dir}/${git_repo}-${tag}/color-schemes"
-     "${temp_dir}/${git_repo}-${tag}/konsole"
-     "${temp_dir}/${git_repo}-${tag}/Kvantum"
-     "${temp_dir}/${git_repo}-${tag}/plasma"
-     "${temp_dir}/${git_repo}-${tag}/sddm"
-     "${temp_dir}/${git_repo}-${tag}/yakuake")
+src=("${temp_dir}/${git_repo}-${branch}/aurorae"
+     "${temp_dir}/${git_repo}-${branch}/color-schemes"
+     "${temp_dir}/${git_repo}-${branch}/konsole"
+     "${temp_dir}/${git_repo}-${branch}/Kvantum"
+     "${temp_dir}/${git_repo}-${branch}/plasma"
+     "${temp_dir}/${git_repo}-${branch}/sddm"
+     "${temp_dir}/${git_repo}-${branch}/yakuake")
 pkg=("${prefix}/aurorae/themes/Monochrome"
      "${prefix}/color-schemes/Monochrome.colors"
      "${prefix}/konsole/Monochrome.colorscheme"
@@ -157,8 +157,8 @@ download_pkg() {
     # Test if Git hosting provider is reachable.
     print_msg "Verifying that Git hosting provider ($git_hosting) is reachable..."
     if ping -c 5 "${git_hosting}" >/dev/null 2>&1; then
-        print_msg "Downloading latest version from $tag branch..."
-        wget --progress=bar:force --output-document "${temp_file}" "https://${git_hosting}/pwyde/${git_repo}/-/archive/${tag}/${git_repo}-${tag}.tar.gz"
+        print_msg "Downloading latest version from $branch branch..."
+        wget --progress=bar:force --output-document "${temp_file}" "https://${git_hosting}/pwyde/${git_repo}/-/archive/${branch}/${git_repo}-${branch}.tar.gz"
         print_msg "Extracting archive..."
         tar -xzf "${temp_file}" -C "${temp_dir}"
     else
