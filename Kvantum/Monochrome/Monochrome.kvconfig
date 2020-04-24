@@ -28,7 +28,7 @@ progressbar_thickness=2
 menubar_mouse_tracking=true
 toolbutton_style=1
 double_click=false
-translucent_windows=true
+translucent_windows=false
 blurring=true
 popup_blurring=true
 vertical_spin_indicators=false
@@ -68,8 +68,8 @@ respect_DE=true
 
 [GeneralColors]
 window.color=#1e1e20
-base.color=#1e1e20a0
-alt.base.color=#1e1e20a0
+base.color=#1e1e20
+alt.base.color=#1e1e20
 button.color=#1e1e20
 light.color=#464648
 mid.light.color=#323234
@@ -88,11 +88,11 @@ link.visited.color=#7f8c8d
 progress.indicator.text.color=#aaaaac
 
 [Hacks]
-transparent_ktitle_label=true
-transparent_dolphin_view=true
-transparent_pcmanfm_sidepane=true
-blur_translucent=true
-transparent_menutitle=true
+transparent_ktitle_label=false
+transparent_dolphin_view=false
+transparent_pcmanfm_sidepane=false
+blur_translucent=false
+transparent_menutitle=false
 respect_darkness=true
 kcapacitybar_as_progressbar=true
 force_size_grip=true
