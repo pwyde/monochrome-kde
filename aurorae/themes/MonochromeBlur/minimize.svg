@@ -1,0 +1,24 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22.000001" xmlns="http://www.w3.org/2000/svg">
+ <g id="pressed-center" style="enable-background:new">
+  <rect x="46" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="57" cy="11" r="11" style="fill:#ffffff;opacity:.28000004"/>
+  <rect transform="scale(1,-1)" x="53" y="-15" width="8" height="2" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="hover-center" style="enable-background:new">
+  <rect x="23" width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <circle cx="34" cy="11" r="11" style="fill:#ffffff;opacity:.18000004"/>
+  <rect transform="scale(1,-1)" x="30" y="-15" width="8" height="2" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="active-center" style="enable-background:new">
+  <rect width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <path d="m7 12.999982v2h8v-2z" style="fill-rule:evenodd;fill:#aaaaac"/>
+ </g>
+ <g id="inactive-center" transform="translate(69)" style="enable-background:new">
+  <rect width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <path d="m7 12.999982v2h8v-2z" style="fill-rule:evenodd;fill:#ffffff;opacity:.25"/>
+ </g>
+ <g id="deactivated-center" transform="translate(92)" style="enable-background:new">
+  <rect width="22" height="22" style="fill:#000000;opacity:.00100002"/>
+  <path d="m7 12.999982v2h8v-2z" style="fill-rule:evenodd;fill:#ffffff;opacity:.25"/>
+ </g>
+</svg>
