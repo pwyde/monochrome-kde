@@ -1,5 +1,7 @@
 # Monochrome KDE
-<img src="preview.jpg" alt="monochrome-preview" />
+<div align="center">
+    <img src="preview.jpg" align="center" alt="Preview of Monochrome KDE theme" />
+</div>
 
 ## :information_source: About
 <img src="logo.png" alt="monochrome-kde-logo" align="right" />
