@@ -506,7 +506,7 @@
   <rect id="menubaritem-focused-topright" x="260" y="270" width="10" height="10" style="fill:#ffffff;opacity:.12000002"/>
  </g>
  <g transform="translate(.00264425 45.000002)">
-  <rect id="menubar-normal" x="205" y="275" width="20" height="20" style="filter:url(#filter1985);opacity:0"/>
+  <rect id="menubar-normal" x="205" y="275" width="20" height="20" style="fill:#ffffff;filter:url(#filter1985);opacity:.00100002"/>
   <rect id="menubar-normal-left" transform="rotate(90)" x="275" y="-205" width="20" height="5" style="fill:#ffffff;opacity:.12000002"/>
   <rect id="menubar-normal-topleft" transform="rotate(90)" x="270" y="-205" width="5" height="5" style="fill:#ffffff;opacity:.12000002"/>
   <rect id="menubar-normal-top" x="205" y="270" width="20" height="5" style="fill:#ffffff;opacity:.12000002"/>
