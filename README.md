@@ -4,7 +4,6 @@
 </div>
 
 ## :information_source: About
-
 A dark theme for the KDE Plasma desktop environment inspired by black and white photography.
 
 The complete theme consists of the following components:
@@ -17,7 +16,6 @@ The complete theme consists of the following components:
 - Plasma Splash Screen
 - SDDM Theme
 - Yakuake Skin
-
 
 ## :floppy_disk: Install Instructions
 At the time of writing there are no Linux distribution packages available. Install the complete theme manually using `git clone` or the provided install [script](install.sh). See [instructions](#install-script) below. This method works on all Linux distributions.
@@ -65,7 +63,6 @@ Download and install the [Kvantum theme engine](https://github.com/tsujan/Kvantu
 Start **Kvantum Manager** > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
 
 ### Window Decorations
-
 Change the default window border size in **System Settings** > **Application Style** > **Window Decorations** > un-check the option **Use theme's default window border size** > select **Tiny** from the drop-down > **Apply**.
 
 ### Icons
@@ -75,15 +72,12 @@ Download and install the [Papirus icon theme](https://github.com/PapirusDevelopm
 Enable **Blur** in **System Settings** > **Workspace Behaviour** > **Desktop Effetcs**.
 
 ### Login Screen (SDDM)
-
 Change the login screen theme in **System Settings** > **Startup and Shutdown** > **Login Screen (SDDM)** > select theme **Monochrome** > **Apply**.
 
 #### Background
-
 Chooce either a background image or the pre-defined solid colour; `#1e1e20`
 
 #### Fonts (optional)
-
 Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/theme.conf` configuration file.
 
 ### GTK2/3 Theme (optional)
