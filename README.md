@@ -4,7 +4,6 @@
 </div>
 
 ## :information_source: About
-<img src="logo.png" alt="monochrome-kde-logo" align="right" />
 
 A dark theme for the KDE Plasma desktop environment inspired by black and white photography.
 
