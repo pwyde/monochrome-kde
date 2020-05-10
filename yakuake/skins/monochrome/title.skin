@@ -2,8 +2,8 @@
 Skin=Monochrome
 Author=Patrik Wyde
 Email=patrik@wyde.se
-Web=https://github.com/pwyde
-Icon=/icon.png
+Web=https://gitlab.com/pwyde/monochrome-kde
+Icon=/logo.svg
 
 [Border]
 red=0
@@ -21,27 +21,27 @@ text=
 bold=true
 
 [Background]
-back_image=/title/back_tr.png
-left_corner=/title/left_tr.png
-right_corner=/title/right_tr.png
+back_image=/title/background_center.svg
+left_corner=/title/background_left.svg
+right_corner=/title/background_right.svg
 
 [FocusButton]
 x=74
-y=4
-up_image=/title/focus_up.png
-over_image=/title/focus_over.png
-down_image=/title/focus_down.png
+y=3
+up_image=/title/focus_up.svg
+over_image=/title/focus_over.svg
+down_image=/title/focus_down.svg
 
 [ConfigButton]
 x=50
-y=4
-up_image=/title/config_up.png
-over_image=/title/config_over.png
-down_image=/title/config_down.png
+y=3
+up_image=/title/config_up.svg
+over_image=/title/config_over.svg
+down_image=/title/config_down.svg
 
 [QuitButton]
-x=25
-y=4
-up_image=/title/quit_up.png
-over_image=/title/quit_over.png
-down_image=/title/quit_down.png
+x=26
+y=3
+up_image=/title/quit_up.svg
+over_image=/title/quit_over.svg
+down_image=/title/quit_down.svg
