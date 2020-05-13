@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -11,41 +9,32 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="22"
    height="22"
-   viewBox="0 0 22 22.000001"
+   viewBox="0 0 22 22"
    version="1.1"
-   id="svg839"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   id="svg842"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="config_down.svg">
   <defs
-     id="defs833" />
+     id="defs836" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#1e1e20"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="0.4"
      inkscape:pageshadow="2"
-     inkscape:zoom="34.91228"
-     inkscape:cx="15.996277"
-     inkscape:cy="10.518645"
+     inkscape:zoom="56.681818"
+     inkscape:cx="11"
+     inkscape:cy="11"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
+     inkscape:current-layer="g919"
+     inkscape:document-rotation="0"
+     showgrid="false"
      units="px"
-     inkscape:pagecheckerboard="true"
-     inkscape:window-width="2514"
-     inkscape:window-height="1413"
-     inkscape:window-x="46"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:measure-start="15,14"
-     inkscape:measure-end="22,14">
-    <inkscape:grid
-       type="xygrid"
-       id="grid833" />
-  </sodipodi:namedview>
+     inkscape:snap-page="true"
+     inkscape:pagecheckerboard="true" />
   <metadata
-     id="metadata836">
+     id="metadata839">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -57,39 +46,29 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="config_down">
-    <circle
-       transform="translate(-46)"
-       style="display:inline;opacity:0.28000004;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.4;enable-background:new"
-       id="path4202"
-       cx="57"
-       cy="11"
-       r="11" />
-    <rect
-       style="display:inline;opacity:1;fill:#aaaaac;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.75;enable-background:new"
-       id="rect4139"
-       width="8"
-       height="2"
-       x="53"
-       y="-15"
-       transform="matrix(1,0,0,-1,-46,0)" />
-    <rect
-       transform="scale(1,-1)"
-       y="-12"
-       x="7"
-       height="2"
-       width="8"
-       id="rect835"
-       style="display:inline;opacity:1;fill:#aaaaac;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.75;enable-background:new" />
-    <rect
-       style="display:inline;opacity:1;fill:#aaaaac;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.75;enable-background:new"
-       id="rect837"
-       width="8"
-       height="2"
-       x="7"
-       y="-9"
-       transform="scale(1,-1)" />
+     id="layer1">
+    <g
+       id="g919"
+       style="enable-background:new">
+      <rect
+         y="0"
+         x="0"
+         height="22"
+         width="22"
+         style="opacity:0.00100002"
+         id="rect4164" />
+      <circle
+         r="11"
+         cy="11"
+         cx="11"
+         style="opacity:0.28;fill:#ffffff"
+         id="path4202" />
+      <path
+         d="m 7,7 v 2 h 2 4 2 V 7 Z m 0,3 v 2 h 8 v -2 z m 0,3 v 2 h 8 V 13 H 13 9 Z"
+         style="opacity:1;fill:#aaaaac;fill-opacity:1"
+         id="rect4139" />
+    </g>
   </g>
 </svg>

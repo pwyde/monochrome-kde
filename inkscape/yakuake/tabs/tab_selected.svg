@@ -7,31 +7,30 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="22"
-   height="22"
-   viewBox="0 0 22 22"
+   width="1"
+   height="25"
+   viewBox="0 0 1 25"
    version="1.1"
    id="svg842"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="focus_over.svg">
+   sodipodi:docname="tab_selected.svg">
   <defs
      id="defs836" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#000000"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.4"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="56.681818"
-     inkscape:cx="11"
-     inkscape:cy="11"
+     inkscape:zoom="49.88"
+     inkscape:cx="0.5"
+     inkscape:cy="12.5"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:pagecheckerboard="true"
      inkscape:snap-page="true" />
   <metadata
      id="metadata839">
@@ -49,26 +48,26 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g919"
-       style="enable-background:new">
-      <rect
-         y="0"
-         x="0"
-         height="22"
-         width="22"
-         style="opacity:0.00100002"
-         id="rect4164" />
-      <circle
-         r="11"
-         cy="11"
-         cx="11"
-         style="opacity:0.18;fill:#ffffff"
-         id="path4202" />
-      <path
-         d="m 7,7 v 2 6 h 8 V 9 7 Z m 2,2 h 4 v 3 1 H 9 v -1 z"
-         style="opacity:1;fill:#aaaaac;fill-opacity:1"
-         id="rect4139" />
-    </g>
+    <rect
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1"
+       y="1.0000002"
+       x="0"
+       height="22"
+       width="1"
+       id="rect817" />
+    <rect
+       style="opacity:0.2;fill:#ffffff;fill-opacity:1"
+       y="0"
+       x="0"
+       height="1"
+       width="1"
+       id="rect819" />
+    <rect
+       style="opacity:1;fill:#6e6e70;fill-opacity:1"
+       y="23"
+       x="0"
+       height="2"
+       width="1"
+       id="rect821" />
   </g>
 </svg>
