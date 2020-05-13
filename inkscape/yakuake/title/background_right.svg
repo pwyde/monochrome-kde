@@ -8,63 +8,63 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="7"
-   height="30"
-   viewBox="0 0 7 30"
-   version="1.1"
-   id="svg861"
+   sodipodi:docname="background_right.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="background_right.svg">
+   id="svg861"
+   version="1.1"
+   viewBox="0 0 7 30"
+   height="30"
+   width="7">
   <defs
      id="defs855">
     <radialGradient
-       xlink:href="#linearGradient831"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-2.3333334,8.2688579e-6,-1.2862565e-5,-2.6666453,21.003929,840.5138)"
-       fy="305.444"
-       fx="6"
-       r="3"
-       cy="305.444"
+       id="radialGradient843"
        cx="6"
-       id="radialGradient843" />
+       cy="305.444"
+       r="3"
+       fx="6"
+       fy="305.444"
+       gradientTransform="matrix(-2.3333334,8.2688579e-6,-1.2862565e-5,-2.6666453,21.003929,840.5138)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient831" />
     <linearGradient
        id="linearGradient831">
       <stop
-         offset="0"
+         id="stop827"
          style="stop-color:#000000;stop-opacity:1"
-         id="stop827" />
+         offset="0" />
       <stop
-         offset="1"
+         id="stop829"
          style="stop-color:#000000;stop-opacity:0"
-         id="stop829" />
+         offset="1" />
     </linearGradient>
     <radialGradient
-       id="radialGradient843-3"
-       cx="6"
-       cy="305.444"
-       r="3"
-       fx="6"
-       fy="305.444"
-       gradientTransform="matrix(-2.3333334,8.2688579e-6,-1.2862565e-5,-2.6666453,14.003929,840.5138)"
+       xlink:href="#linearGradient831"
        gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient831" />
+       gradientTransform="matrix(-2.3333334,8.2688579e-6,-1.2862565e-5,-2.6666453,14.003929,840.5138)"
+       fy="305.444"
+       fx="6"
+       r="3"
+       cy="305.444"
+       cx="6"
+       id="radialGradient843-3" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="41.566667"
-     inkscape:cx="3.5"
-     inkscape:cy="15"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
+     inkscape:snap-page="true"
      units="px"
-     inkscape:snap-page="true" />
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="15"
+     inkscape:cx="3.5"
+     inkscape:zoom="41.5"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata858">
     <rdf:RDF>
@@ -78,28 +78,28 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <path
-       id="path45"
+       d="m 7,0 v 12.033203 12 c 0,4.49999 -1.499999,6 -6,6 H 0 v -18 V 0 Z"
        style="display:inline;fill:#1e1e20"
-       d="m 7,0 v 12.033203 12 c 0,4.49999 -1.499999,6 -6,6 H 0 v -18 V 0 Z" />
+       id="path45" />
     <path
-       id="path849"
+       d="M 0,16 V 30 A 7,7 0 0 0 7,23 7,7 0 0 0 0,16 Z"
        style="display:none;opacity:1;fill:#1e1e20;fill-opacity:1;stroke-width:0.386465;stroke-linejoin:round"
-       d="M 0,16 V 30 A 7,7 0 0 0 7,23 7,7 0 0 0 0,16 Z" />
+       id="path849" />
     <rect
-       style="display:none;opacity:1;fill:#1e1e20;fill-opacity:1;stroke-width:0.25;stroke-linejoin:round"
-       id="rect856"
-       width="7"
-       height="23.550514"
+       y="0"
        x="0"
-       y="0" />
+       height="23.550514"
+       width="7"
+       id="rect856"
+       style="display:none;opacity:1;fill:#1e1e20;fill-opacity:1;stroke-width:0.25;stroke-linejoin:round" />
     <path
-       d="M 6.9999998,-4e-7 V 27 c 0,1.662 -1.338,3 -3,3 H 0 V -4e-7 Z"
-       style="display:none;opacity:1;fill:#1e1e20;fill-opacity:1"
+       sodipodi:nodetypes="cssccc"
        id="path857"
-       sodipodi:nodetypes="cssccc" />
+       style="display:none;opacity:1;fill:#1e1e20;fill-opacity:1"
+       d="M 6.9999998,-4e-7 V 27 c 0,1.662 -1.338,3 -3,3 H 0 V -4e-7 Z" />
   </g>
 </svg>

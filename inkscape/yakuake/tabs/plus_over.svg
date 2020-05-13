@@ -7,31 +7,31 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="plus_over.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg841"
-   version="1.1"
-   viewBox="0 0 16 16"
+   width="16"
    height="16"
-   width="16">
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg841"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="plus_over.svg">
   <defs
      id="defs835" />
   <sodipodi:namedview
-     inkscape:snap-page="true"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="6"
-     inkscape:cx="9.216837"
-     inkscape:zoom="60.633333"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="77.8125"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:snap-page="true" />
   <metadata
      id="metadata838">
     <rdf:RDF>
@@ -45,21 +45,21 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <rect
-       id="rect817"
-       style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke-width:0.843275"
-       width="16"
-       height="16"
+       y="0"
        x="0"
-       y="0" />
+       height="16"
+       width="16"
+       style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke-width:0.843275"
+       id="rect817" />
     <circle
-       r="8"
-       cy="8"
-       cx="8"
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke-width:0.333333;stroke-linejoin:round"
        id="path833"
-       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke-width:0.333333;stroke-linejoin:round" />
+       cx="8"
+       cy="8"
+       r="8" />
   </g>
 </svg>
