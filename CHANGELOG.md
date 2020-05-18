@@ -118,3 +118,27 @@
 - Updated README file.
 - Updated screenshots.
 - Packaged and published latest changes to [KDE Store](https://store.kde.org)/[Pling](https://www.pling.com/).
+
+## 20200518 Release - 18 May 2020
+
+- Updated Aurorae theme:
+  - Removed gradients.
+  - Changed to Materia-style decorations.
+  - Added alternative 'Blur' version of theme.
+- Updated Kvantum theme:
+  - Removed gradients.
+  - Added alternative 'Blur' and 'Solid' versions of theme.
+- Updated SDDM theme:
+  - Changed QtQuick 2.6 -> 2.8 to re-enable round profile picture.
+- Updated Plasma Desktop theme:
+  - Removed gradients.
+- Updated Plasma Global theme:
+  - Added SDDM theme.
+- Updated Yakuake skin:
+  - Replaced skin files; .png -> .svg
+  - Fixed plus button.
+- Removed project logo, as it did not represent the overall aesthetics of the theme.
+- Updated install script to include alternative 'Blur' and 'Solid' versions of the theme.
+- Updated screenshots.
+- Updated README and CHANGELOG files.
+- Packaged and published latest changes to [KDE Store](https://store.kde.org)/[Pling](https://www.pling.com/).
