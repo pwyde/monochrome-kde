@@ -144,7 +144,7 @@ A list of features and/or components that will be added in the future.
 - [x] Konsole Colour Scheme
   - [x] Change colours to match theme better.
 - [x] Kvantum Theme
-  - [ ] Create alternative theme with more transparency and blur.
+  - [x] Create alternative theme with more transparency and blur.
 - [x] SDDM Theme
   - [x] Change colours to match theme better.
   - [x] Add custom font support.
