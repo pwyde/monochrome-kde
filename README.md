@@ -22,8 +22,8 @@ At the time of writing there are no Linux distribution packages available. Insta
 
 Individual theme components can also be downloaded from [KDE Store](https://store.kde.org)/[OpenDesktop.org](https://www.opendesktop.org) or using [Plasma System Settings](https://userbase.kde.org/System_Settings).
 
-| **Name**              | **Preview**                                                   | **KDE Store** (tar.gz)                           |
-|:----------------------|:-------------------------------------------------------------:|:------------------------------------------------:|
+| **Name**              | **Preview**                                 | **KDE Store** (tar.gz)                           |
+|:----------------------|:-------------------------------------------:|:------------------------------------------------:|
 | Aurorae Theme         | [🖼️](screenshots/aurorae/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279082) |
 | Konsole Colour Scheme | [🖼️](screenshots/konsole/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279087) |
 | Kvantum Theme         | [🖼️](screenshots/kvantum/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279088) |
