@@ -145,7 +145,7 @@ delete_dir() {
 }
 
 cleanup() {
-    rm -rf "${temp_file}" "${temp_dir}"
+    rm -rf "${temp_file}" "${temp_dir}" "${HOME}"/.cache/plasma-svgelements-Monochrome* "${HOME}"/.cache/plasma_theme_Monochrome*.kcache >/dev/null 2>&1
     if [ -e "${temp_file}" ]; then
         print_error "Unable to delete temporary file '${temp_file}'!"
         status=1
