@@ -37,6 +37,8 @@ Individual theme components can also be downloaded from [KDE Store](https://stor
 ### Install Script
 The installation script will automatically download the latest version from the repository and copy the required files to the default location `/usr/share`.
 
+**Note**: Script requires the [`wget`](https://www.gnu.org/software/wget/) command. Install it using system's package manager if not present.
+
 #### Install
 ```
 $ bash install.sh --install
