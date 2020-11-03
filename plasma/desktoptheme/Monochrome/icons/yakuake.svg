@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g id="yakuake">
+  <rect width="32" height="32" opacity=".001"/>
+  <rect x="4" y="6.33" width="24" height="22.667" rx="1.2" ry="1.133" opacity=".2"/>
+  <rect x="4" y="5.33" width="24" height="22.667" rx="1.2" ry="1.133" fill="#4f4f4f"/>
+  <rect x="1" y="5" width="30" height="3" rx="1.364" ry="1.5" opacity=".2"/>
+  <rect x="1" y="4" width="30" height="3" rx="1.364" ry="1.5" fill="#a5b1b3"/>
+  <path d="m10.406 11.992-1.4141 1.4141 3.5938 3.5938-3.5938 3.5938 1.4141 1.4141 8.6016-8.6016-1.4141-1.4141-3.5938 3.5938zm5.5938 11.008v2h8v-2z" opacity=".2"/>
+  <path d="m16 23h8" fill="none" stroke="#3498db" stroke-width="2"/>
+  <path d="M 18.3,11.7 14,16" fill="none" stroke="#236ac6" stroke-width="2"/>
+  <path d="m17.594 10.992-4.3008 4.3008 0.5 0.5 3.8008-3.8008 0.91406 0.91406 0.5-0.5z" fill="#fff" opacity=".1"/>
+  <path d="m9.7 11.7 4.3 4.3-4.3 4.3" fill="none" stroke="#3498db" stroke-width="2"/>
+  <path d="m2.3633 4c-0.75545 0-1.3633 0.669-1.3633 1.5 0 0.17678 0.033376 0.34276 0.083984 0.5 0.18729-0.5819 0.68455-1 1.2793-1h27.273c0.59475 0 1.092 0.4181 1.2793 1 0.050608-0.15724 0.083984-0.32322 0.083984-0.5 0-0.831-0.60783-1.5-1.3633-1.5z" fill="#fff" opacity=".2"/>
+  <path d="m16 22v1h8v-1z" fill="#fff" opacity=".2"/>
+  <path d="m10.406 10.992-1.4141 1.4141 0.5 0.5 0.91406-0.91406 4.5078 4.5078 0.5-0.5zm1.6797 5.5078-3.0938 3.0938 0.5 0.5 3.0938-3.0938z" fill="#fff" opacity=".2"/>
+ </g>
+ <g id="22-22-yakuake" transform="translate(27,5)">
+  <rect x="5" y="5" width="22" height="22" opacity=".001"/>
+  <path d="m18.596 7.9902-5.2988 5.2988 1.4141 1.4141 5.2988-5.2988z" fill="#aaaaac" opacity=".3"/>
+  <path d="m9.4141 7.9902-1.4141 1.4141 4.5898 4.5918-4.5898 4.5898 1.4141 1.4141 6.0059-6.0039zm4.873 14.01v2h9.7129v-2z" fill="#aaaaac"/>
+ </g>
+</svg>
