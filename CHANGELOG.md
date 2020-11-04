@@ -142,3 +142,14 @@
 - Updated screenshots.
 - Updated README and CHANGELOG files.
 - Packaged and published latest changes to [KDE Store](https://store.kde.org)/[Pling](https://www.pling.com/).
+
+# 20201104 Release - 04 November 2020
+
+- Updated Plasma Look and Feel:
+  - Added plasmoidheading widget for Plasma 5.19
+  - Colourised notes widget.
+  - Updated and added new icons.
+- Added test for wget command in install script.
+- Implemented automatic cleanup of theme/svgelements cache in user's home directory.
+- Updated preview image.
+- Updated README and CHANGELOG files.
