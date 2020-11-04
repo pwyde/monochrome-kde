@@ -145,7 +145,7 @@
 
 # 20201104 Release - 04 November 2020
 
-- Updated Plasma Look and Feel:
+- Updated Plasma Desktop theme:
   - Added plasmoidheading widget for Plasma 5.19
   - Colourised notes widget.
   - Updated and added new icons.
