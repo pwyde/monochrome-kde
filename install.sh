@@ -157,6 +157,13 @@ cleanup() {
 }
 
 download_pkg() {
+    # Test if wget command exists on system.
+    if ! command -v wget >/dev/null 2>&1; then
+        print_error "Could not locate wget command!"
+        print_error "Install wget using system's package manager."
+        print_error "Exiting..."
+        exit 1
+    fi
     # Test if Git hosting provider is reachable.
     print_msg "Verifying that Git hosting provider ($git_hosting) is reachable..."
     if ping -c 5 "${git_hosting}" >/dev/null 2>&1; then
