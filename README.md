@@ -70,6 +70,13 @@ Change the default window border size in **System Settings** > **Application Sty
 ### Icons
 Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
+#### Folder Icon Colour (optional)
+The folder colour can be changed using [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders).
+
+```
+$ papirus-folders -C grey
+```
+
 ### Desktop Effects
 Enable **Blur** in **System Settings** > **Workspace Behaviour** > **Desktop Effetcs**.
 
