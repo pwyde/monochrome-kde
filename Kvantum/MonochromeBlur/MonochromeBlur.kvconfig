@@ -68,8 +68,8 @@ respect_DE=true
 
 [GeneralColors]
 window.color=#1e1e20
-base.color=#1e1e20a0
-alt.base.color=#1e1e20a0
+base.color=#1e1e20
+alt.base.color=#1e1e20
 button.color=#1e1e20
 light.color=#464648
 mid.light.color=#323234
