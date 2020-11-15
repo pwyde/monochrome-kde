@@ -129,6 +129,9 @@ Some graphical elements and artwork in this project is based on other popular th
 - **Papirus** icon theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - **Darkine KDE** SDDM theme by [Rokin](https://github.com/Rokin05/darkine-kde)
 
+### Honorary Mention
+Special credits go to [**Alexey Varfolomeev**](https://github.com/varlesh) for his work on [**Materia KDE**](https://github.com/PapirusDevelopmentTeam/materia-kde) which this theme is based on.
+
 ## :page_with_curl: Licenses
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more information. Graphical elements and artwork based on other projects are licensed under the following:
 
