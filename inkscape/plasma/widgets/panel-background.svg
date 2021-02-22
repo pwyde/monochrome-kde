@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,21 +13,21 @@
    viewBox="0 0 220 75.000064"
    version="1.1"
    id="svg916"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="panel-background.svg">
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#1e1e20"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.8863636"
-     inkscape:cx="90.363171"
-     inkscape:cy="37.50003"
+     inkscape:zoom="8.85"
+     inkscape:cx="110"
+     inkscape:cy="37.443534"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:pagecheckerboard="true"
      units="px"
      inkscape:window-width="2504"
@@ -40,7 +38,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        originy="85.000026"
        originx="0"
@@ -291,7 +290,7 @@
      id="layer1"
      transform="translate(0,-1132.5197)">
     <rect
-       style="opacity:0.9;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.29984522"
+       style="opacity:0.9;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.29985"
        id="center"
        width="50"
        height="50"
@@ -358,58 +357,13 @@
      inkscape:groupmode="layer"
      style="display:inline">
     <rect
-       inkscape:label="#hint-top-margin"
-       y="1142.5197"
-       x="39"
-       height="5"
-       width="2"
-       id="hint-top-margin"
-       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none"
-       transform="translate(0,-1072.5197)" />
-    <rect
-       inkscape:label="#hint-right-margin"
-       transform="rotate(90,536.25985,-536.25985)"
-       y="-70"
-       x="1171.5197"
-       height="5"
-       width="2"
-       id="hint-right-margin"
-       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none" />
-    <rect
-       inkscape:label="#hint-bottom-margin"
-       transform="rotate(180,0,-536.25985)"
-       y="-1202.5197"
-       x="-41"
-       height="5"
-       width="2"
-       id="hint-bottom-margin"
-       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none" />
-    <rect
-       inkscape:label="#hint-left-margin"
-       transform="rotate(-90,-536.25985,-536.25985)"
-       y="10"
-       x="-1173.5197"
-       height="5"
-       width="2"
-       id="hint-left-margin"
-       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none" />
-    <rect
-       inkscape:label="#hint-stretch-borders"
-       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none"
-       id="hint-stretch-borders"
-       width="5"
-       height="5"
-       x="0"
-       y="1132.5197"
-       transform="translate(0,-1072.5197)" />
-    <rect
        inkscape:label="#shadow-hint-top-margin"
        y="64.999992"
        x="184"
        height="4.9999971"
        width="2"
        id="shadow-hint-top-margin"
-       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.9999997" />
+       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1" />
     <rect
        inkscape:label="#shadow-hint-right-margin"
        y="-220"
@@ -426,7 +380,7 @@
        height="4.9999876"
        width="2"
        id="shadow-hint-bottom-margin"
-       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.99999875"
+       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.999999"
        transform="scale(-1)" />
     <rect
        inkscape:label="#shadow-hint-left-margin"
@@ -437,5 +391,109 @@
        id="shadow-hint-left-margin"
        style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:1"
        transform="rotate(-90)" />
+    <rect
+       id="shadow-hint-top-inset"
+       style="fill:#00ff00;stroke-width:0.447213"
+       width="2"
+       height="4.9999943"
+       x="186"
+       y="129.99998" />
+    <rect
+       id="shadow-hint-bottom-inset"
+       style="fill:#00ff00;stroke-width:0.447214"
+       width="2"
+       height="4.9999981"
+       x="186"
+       y="64.999977" />
+    <rect
+       id="shadow-hint-right-inset"
+       style="fill:#00ff00;stroke-width:0.447213"
+       width="1.9999981"
+       height="5"
+       x="96.999977"
+       y="-220"
+       transform="rotate(90)" />
+    <rect
+       id="shadow-hint-left-inset"
+       style="fill:#00ff00;stroke-width:0.447213"
+       width="1.9999981"
+       height="5"
+       x="96.999977"
+       y="-155"
+       transform="rotate(90)" />
+    <rect
+       inkscape:label="#hint-stretch-borders"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:none"
+       id="hint-stretch-borders"
+       width="5"
+       height="5"
+       x="0"
+       y="1132.5197"
+       transform="translate(0,-1072.5197)" />
+    <rect
+       id="thick-center"
+       style="fill:#800080"
+       width="2"
+       height="2"
+       x="5"
+       y="59.999977" />
+    <rect
+       id="thick-hint-top-margin"
+       style="fill:#ff00ff;stroke-width:0.559017"
+       width="2"
+       height="5.0000019"
+       x="39"
+       y="69.999977" />
+    <rect
+       id="thick-hint-bottom-margin"
+       style="fill:#ff00ff;stroke-width:0.559017"
+       width="2"
+       height="4.9999981"
+       x="39"
+       y="124.99998" />
+    <rect
+       id="thick-right-margin"
+       style="fill:#ff00ff;stroke-width:0.559016"
+       width="1.9999981"
+       height="5"
+       x="98.999977"
+       y="-70"
+       transform="rotate(90)" />
+    <rect
+       id="thick-hint-left-margin"
+       style="fill:#ff00ff;stroke-width:0.559016"
+       width="1.9999981"
+       height="5"
+       x="98.999977"
+       y="-15"
+       transform="rotate(90)" />
+    <rect
+       id="hint-top-margin"
+       style="fill:#800080;stroke-width:0.5"
+       width="2"
+       height="2.0000019"
+       x="39"
+       y="69.999977" />
+    <rect
+       id="hint-bottom-margin"
+       style="fill:#800080;stroke-width:0.499999"
+       width="2"
+       height="1.9999981"
+       x="39"
+       y="127.99998" />
+    <rect
+       id="hint-left-margin"
+       style="fill:#800080;stroke-width:0.499999"
+       width="2"
+       height="1.9999981"
+       x="10"
+       y="98.999977" />
+    <rect
+       id="hint-right-margin"
+       style="fill:#800080;stroke-width:0.499999"
+       width="2"
+       height="1.9999981"
+       x="68"
+       y="98.999977" />
   </g>
 </svg>
