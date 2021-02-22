@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="130"
+   height="130"
+   viewBox="0 0 130 130"
+   version="1.1"
+   id="svg841"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="busywidget.svg">
+  <defs
+     id="defs835">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#fill"
+       id="linearGradient5232"
+       x1="46.706837"
+       y1="6.5279498"
+       x2="121.70683"
+       y2="81.527946"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(23.293173,142.16867)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="fill">
+      <stop
+         style="stop-color:#6e6e70;stop-opacity:1"
+         offset="0"
+         id="stop5228" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5230" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#1e1e20"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.869091"
+     inkscape:cx="122.5"
+     inkscape:cy="57.500002"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="true"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="2514"
+     inkscape:window-height="1413"
+     inkscape:window-x="46"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1402" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata838">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="busyspinner">
+    <g
+       id="stopped"
+       transform="translate(74.99999,-133.69662)"
+       inkscape:label="#stopped">
+      <rect
+         style="fill:#49a64f;fill-opacity:0;stroke:none"
+         id="rect3817-76-8-5"
+         width="130"
+         height="130"
+         x="55.000008"
+         y="133.69662" />
+      <path
+         id="path3951-4-6-3"
+         d="m 120.00001,148.69662 c -27.614242,0 -50.000002,22.38576 -50.000002,50 0,27.61424 22.38576,50 50.000002,50 27.61423,0 50,-22.38576 50,-50 0,-27.61424 -22.38577,-50 -50,-50 z m 0,10 c 22.09139,0 40,17.90861 40,40 0,22.09139 -17.90861,40 -40,40 -22.091392,0 -40.000002,-17.90861 -40.000002,-40 0,-22.09139 17.90861,-40 40.000002,-40 z"
+         style="opacity:1;fill:#414143;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="busywidget"
+       transform="translate(-55.000008,-133.69662)"
+       inkscape:label="#busywidget">
+      <rect
+         style="fill:#49a64f;fill-opacity:0;stroke:none"
+         id="rect3817-76-8"
+         width="130"
+         height="130"
+         x="55.000008"
+         y="133.69662" />
+      <path
+         id="path3951-4-6"
+         d="m 120.00001,148.69662 c -27.614242,0 -50.000002,22.38576 -50.000002,50 0,27.61424 22.38576,50 50.000002,50 27.61423,0 50,-22.38576 50,-50 0,-27.61424 -22.38577,-50 -50,-50 z m 0,10 c 22.09139,0 40,17.90861 40,40 0,22.09139 -17.90861,40 -40,40 -22.091392,0 -40.000002,-17.90861 -40.000002,-40 0,-22.09139 17.90861,-40 40.000002,-40 z"
+         style="fill:url(#linearGradient5232);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="hint">
+    <rect
+       style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="hint-rotation-angle"
+       width="15"
+       height="15"
+       x="-15"
+       y="-15" />
+  </g>
+</svg>

@@ -1,20 +1,21 @@
-<svg width="56.000034" height="14.000024" version="1.1" viewBox="0 0 56.000034 14.000024" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(0,-1022.5197)">
-  <g id="up-arrow" transform="translate(-83.46875,7.3607)">
-   <path id="expander-bottom" class="ColorScheme-Text" d="m86.46875 1024.159 4-4 4 4z" style="color:#7b7c7e;fill:#7a7a7c;stroke-width:2.0412324"/>
-   <rect x="83.46875" y="1015.159" width="14" height="14" style="fill-opacity:0"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56" height="14" version="1.1" viewBox="0 0 56 14" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -1022.5)">
+  <g id="up-arrow" transform="translate(-83.469 7.3607)">
+   <path id="expander-bottom" class="ColorScheme-Text" d="m86.469 1024.2 4-4 4 4z" color="#7b7c7e" fill="#7a7a7c" stroke-width="2.0412"/>
+   <rect x="83.469" y="1015.2" width="14" height="14" fill-opacity="0"/>
   </g>
-  <g id="down-arrow" transform="matrix(1,0,0,-1,-69.46875,2051.6787)">
-   <path class="ColorScheme-Text" d="m86.46875 1024.159 4-4 4 4z" style="color:#7b7c7e;fill:#7a7a7c;stroke-width:2.0412324"/>
-   <rect x="83.46875" y="1015.159" width="14" height="14" style="fill-opacity:0"/>
+  <g id="down-arrow" transform="matrix(1 0 0 -1 -69.469 2051.7)">
+   <path class="ColorScheme-Text" d="m86.469 1024.2 4-4 4 4z" color="#7b7c7e" fill="#7a7a7c" stroke-width="2.0412"/>
+   <rect x="83.469" y="1015.2" width="14" height="14" fill-opacity="0"/>
   </g>
-  <g id="left-arrow" transform="matrix(0,1,1,0,-987.159,939.05095)">
-   <path class="ColorScheme-Text" d="m86.46875 1024.159 4-4 4 4z" style="color:#7b7c7e;fill:#7a7a7c;stroke-width:2.0412324"/>
-   <rect x="83.46875" y="1015.159" width="14" height="14" style="fill-opacity:0"/>
+  <g id="left-arrow" transform="matrix(0 1 1 0 -987.16 939.05)">
+   <path class="ColorScheme-Text" d="m86.469 1024.2 4-4 4 4z" color="#7b7c7e" fill="#7a7a7c" stroke-width="2.0412"/>
+   <rect x="83.469" y="1015.2" width="14" height="14" fill-opacity="0"/>
   </g>
-  <g id="right-arrow" transform="rotate(90,66.05403,1005.105)">
-   <path class="ColorScheme-Text" d="m86.46875 1024.159 4-4 4 4z" style="color:#7b7c7e;fill:#7a7a7c;stroke-width:2.0412324"/>
-   <rect x="83.46875" y="1015.159" width="14" height="14" style="fill-opacity:0"/>
+  <g id="right-arrow" transform="rotate(90 66.054 1005.1)">
+   <path class="ColorScheme-Text" d="m86.469 1024.2 4-4 4 4z" color="#7b7c7e" fill="#7a7a7c" stroke-width="2.0412"/>
+   <rect x="83.469" y="1015.2" width="14" height="14" fill-opacity="0"/>
   </g>
  </g>
 </svg>

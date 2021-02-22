@@ -1,21 +1,18 @@
-<svg width="130" height="130" version="1.1" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130" height="130" version="1.1" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <linearGradient id="linearGradient5232" x1="46.706837" x2="121.70683" y1="6.5279498" y2="81.527946" gradientTransform="translate(23.293173,142.16867)" gradientUnits="userSpaceOnUse">
-   <stop style="stop-color:#6e6e70" offset="0"/>
-   <stop style="stop-color:#ffffff;stop-opacity:0" offset="1"/>
+  <linearGradient id="linearGradient5232" x1="46.707" x2="121.71" y1="6.5279" y2="81.528" gradientTransform="translate(23.293 142.17)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6e6e70" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
   </linearGradient>
  </defs>
- <g>
-  <g id="stopped" transform="translate(74.99999,-133.69662)">
-   <rect x="55.000008" y="133.69662" width="130" height="130" style="fill-opacity:0"/>
-   <path d="m120.00001 148.69662c-27.614242 0-50.000002 22.38576-50.000002 50s22.38576 50 50.000002 50c27.61423 0 50-22.38576 50-50s-22.38577-50-50-50zm0 10c22.09139 0 40 17.90861 40 40s-17.90861 40-40 40c-22.091392 0-40.000002-17.90861-40.000002-40s17.90861-40 40.000002-40z" style="fill:#414143"/>
-  </g>
-  <g id="busywidget" transform="translate(-55.000008,-133.69662)">
-   <rect x="55.000008" y="133.69662" width="130" height="130" style="fill-opacity:0"/>
-   <path d="m120.00001 148.69662c-27.614242 0-50.000002 22.38576-50.000002 50s22.38576 50 50.000002 50c27.61423 0 50-22.38576 50-50s-22.38577-50-50-50zm0 10c22.09139 0 40 17.90861 40 40s-17.90861 40-40 40c-22.091392 0-40.000002-17.90861-40.000002-40s17.90861-40 40.000002-40z" style="fill:url(#linearGradient5232)"/>
-  </g>
+ <g id="stopped" transform="translate(75 -133.7)">
+  <rect x="55" y="133.7" width="130" height="130" fill-opacity="0"/>
+  <path d="m120 148.7c-27.614 0-50 22.386-50 50s22.386 50 50 50c27.614 0 50-22.386 50-50s-22.386-50-50-50zm0 10c22.091 0 40 17.909 40 40s-17.909 40-40 40c-22.091 0-40-17.909-40-40s17.909-40 40-40z" fill="#414143"/>
  </g>
- <g>
-  <rect id="hint-rotation-angle" x="-15" y="-15" width="15" height="15" style="fill:#ff00ff"/>
+ <g id="busywidget" transform="translate(-55 -133.7)">
+  <rect x="55" y="133.7" width="130" height="130" fill-opacity="0"/>
+  <path d="m120 148.7c-27.614 0-50 22.386-50 50s22.386 50 50 50c27.614 0 50-22.386 50-50s-22.386-50-50-50zm0 10c22.091 0 40 17.909 40 40s-17.909 40-40 40c-22.091 0-40-17.909-40-40s17.909-40 40-40z" fill="url(#linearGradient5232)"/>
  </g>
+ <rect id="hint-rotation-angle" x="-15" y="-15" width="15" height="15" fill="#f0f"/>
 </svg>

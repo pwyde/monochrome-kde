@@ -90,7 +90,7 @@ Chooce either a background image or the pre-defined solid colour; `#1e1e20`
 Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/theme.conf` configuration file.
 
 ### GTK2/3 Theme (optional)
-Build and install the [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) GTK2/3 theme with the Monochrome KDE colour scheme.
+Build and install the [breeze-gtk](https://github.com/KDE/breeze-gtk.git) GTK2/3 theme with the Monochrome KDE colour scheme.
 
 - Install required packages:
   - **GTKEngine**
