@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 16 16"
    version="1.1"
    id="svg825"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="calendar.svg">
   <defs
      id="defs819" />
@@ -25,19 +23,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="77.625001"
+     inkscape:zoom="74.562501"
      inkscape:cx="8"
-     inkscape:cy="7.9999999"
+     inkscape:cy="8.0000001"
      inkscape:document-units="px"
      inkscape:current-layer="svg825"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2514"
      inkscape:window-height="1413"
      inkscape:window-x="46"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid830" />
+  </sodipodi:namedview>
   <metadata
      id="metadata822">
     <rdf:RDF>

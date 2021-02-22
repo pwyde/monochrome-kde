@@ -1,44 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="150" height="70" version="1.1" viewBox="0 0 150 70" xmlns="http://www.w3.org/2000/svg">
- <g id="header-bottom" stroke-linejoin="round">
-  <rect x="15" y="65" width="50" height="4" ry="2.0572e-15" fill="#1e1e20" stroke-width=".25396"/>
-  <rect x="15" y="69" width="50" height="1" ry="1.8525e-15" fill="#fff" opacity=".12" stroke-width=".24161"/>
+ <g>
+  <g id="header-bottom" stroke-linejoin="round">
+   <rect x="15" y="65" width="50" height="4" ry="2.0572e-15" fill="#1e1e20" stroke-width=".25396"/>
+   <rect x="15" y="69" width="50" height="1" ry="1.8525e-15" fill="#fff" opacity=".12" stroke-width=".24161"/>
+  </g>
+  <rect id="header-center" x="15" y="15" width="50" height="50" fill="#1e1e20"/>
+  <path id="header-topright" d="m65 15h5c0-2.77-2.23-5-5-5z" fill="#1e1e20"/>
+  <rect id="header-top" x="15" y="10" width="50" height="5" fill="#1e1e20"/>
+  <rect id="header-right" transform="rotate(90)" x="15" y="-70" width="50" height="5" fill="#1e1e20"/>
+  <path id="header-topleft" d="m15 15v-5c-2.77 0-5 2.23-5 5z" fill="#1e1e20"/>
+  <rect id="header-left" transform="rotate(-90)" x="-65" y="10" width="50" height="5" fill="#1e1e20"/>
+  <rect id="footer-center" x="85" y="15" width="50" height="50" fill="#1e1e20"/>
+  <path id="footer-bottomright" d="m135 65v5c2.77 0 5-2.23 5-5z" fill="#1e1e20"/>
+  <path id="footer-bottomleft" d="m85 65h-5c0 2.77 2.23 5 5 5z" fill="#1e1e20"/>
+  <rect id="footer-right" transform="rotate(90)" x="15" y="-140" width="50" height="5" fill="#1e1e20"/>
+  <rect id="footer-bottom" transform="scale(-1)" x="-135" y="-70" width="50" height="5" fill="#1e1e20"/>
+  <rect id="footer-left" transform="rotate(-90)" x="-65" y="80" width="50" height="5" fill="#1e1e20"/>
+  <g id="header-bottomleft" stroke-linejoin="round">
+   <rect x="10" y="65" width="5" height="4" ry="1.9824e-15" fill="#1e1e20" stroke-width=".25"/>
+   <rect x="10" y="69" width="5" height="1" ry="1.8958e-15" fill="#fff" opacity=".12" stroke-width=".24448"/>
+  </g>
+  <g id="header-bottomright" stroke-linejoin="round">
+   <rect x="65" y="65" width="5" height="4" ry="0" fill="#1e1e20" stroke-width=".26316"/>
+   <rect x="65" y="69" width="5" height="1" fill="#fff" opacity=".12" stroke-width=".24446"/>
+  </g>
+  <g id="footer-top" transform="matrix(1 0 0 -1 70 80)" stroke-linejoin="round">
+   <rect x="15" y="65" width="50" height="4" ry="2.0572e-15" fill="#1e1e20" stroke-width=".25396"/>
+   <rect x="15" y="69.046" width="50" height="1" ry="1.8525e-15" fill="#fff" opacity=".12" stroke-width=".24161"/>
+  </g>
+  <g id="footer-topleft" transform="matrix(1 0 0 -1 70 80)" stroke-linejoin="round">
+   <rect x="10" y="65" width="5" height="4" ry="1.9824e-15" fill="#1e1e20" stroke-width=".25"/>
+   <rect x="10" y="69.046" width="5" height="1" ry="1.8958e-15" fill="#fff" opacity=".12" stroke-width=".24448"/>
+  </g>
+  <g id="footer-topright" transform="matrix(1,0,0,-1,70,80)" stroke-linejoin="round">
+   <rect x="65" y="65" width="5" height="4" ry="0" fill="#1e1e20" stroke-width=".26316"/>
+   <rect x="65" y="69.046" width="5" height="1" fill="#fff" opacity=".12" stroke-width=".24446"/>
+  </g>
  </g>
- <rect id="header-center" x="15" y="15" width="50" height="50" fill="#1e1e20"/>
- <path id="header-topright" d="m65 15h5c0-2.77-2.23-5-5-5z" fill="#1e1e20"/>
- <rect id="header-top" x="15" y="10" width="50" height="5" fill="#1e1e20"/>
- <rect id="header-right" transform="rotate(90)" x="15" y="-70" width="50" height="5" fill="#1e1e20"/>
- <path id="header-topleft" d="m15 15v-5c-2.77 0-5 2.23-5 5z" fill="#1e1e20"/>
- <rect id="header-left" transform="rotate(-90)" x="-65" y="10" width="50" height="5" fill="#1e1e20"/>
- <rect id="footer-center" x="85" y="15" width="50" height="50" fill="#1e1e20"/>
- <path id="footer-bottomright" d="m135 65v5c2.77 0 5-2.23 5-5z" fill="#1e1e20"/>
- <path id="footer-bottomleft" d="m85 65h-5c0 2.77 2.23 5 5 5z" fill="#1e1e20"/>
- <rect id="footer-right" transform="rotate(90)" x="15" y="-140" width="50" height="5" fill="#1e1e20"/>
- <rect id="footer-bottom" transform="scale(-1)" x="-135" y="-70" width="50" height="5" fill="#1e1e20"/>
- <rect id="footer-left" transform="rotate(-90)" x="-65" y="80" width="50" height="5" fill="#1e1e20"/>
- <g id="header-bottomleft" stroke-linejoin="round">
-  <rect x="10" y="65" width="5" height="4" ry="1.9824e-15" fill="#1e1e20" stroke-width=".25"/>
-  <rect x="10" y="69" width="5" height="1" ry="1.8958e-15" fill="#fff" opacity=".12" stroke-width=".24448"/>
+ <g fill="#f0f">
+  <rect id="hint-tile-center" width="5" height="5"/>
+  <rect id="hint-top-margin" x="40" y="15" width="2" height="5"/>
+  <rect id="hint-right-margin" transform="rotate(90)" x="40" y="-65" width="2" height="5"/>
+  <rect id="hint-bottom-margin" transform="scale(-1)" x="-42" y="-65" width="2" height="5"/>
+  <rect id="hint-left-margin" transform="rotate(-90)" x="-42" y="15" width="2" height="5"/>
  </g>
- <g id="header-bottomright" stroke-linejoin="round">
-  <rect x="65" y="65" width="5" height="4" ry="0" fill="#1e1e20" stroke-width=".26316"/>
-  <rect x="65" y="69" width="5" height="1" fill="#fff" opacity=".12" stroke-width=".24446"/>
- </g>
- <g id="footer-top" transform="matrix(1,0,0,-1,70,80)" stroke-linejoin="round">
-  <rect x="15" y="65" width="50" height="4" ry="2.0572e-15" fill="#1e1e20" stroke-width=".25396"/>
-  <rect x="15" y="69.046" width="50" height="1" ry="1.8525e-15" fill="#fff" opacity=".12" stroke-width=".24161"/>
- </g>
- <g id="footer-topleft" transform="matrix(1,0,0,-1,70,80)" stroke-linejoin="round">
-  <rect x="10" y="65" width="5" height="4" ry="1.9824e-15" fill="#1e1e20" stroke-width=".25"/>
-  <rect x="10" y="69.046" width="5" height="1" ry="1.8958e-15" fill="#fff" opacity=".12" stroke-width=".24448"/>
- </g>
- <g id="footer-topright" transform="matrix(1,0,0,-1,70,80)" stroke-linejoin="round">
-  <rect x="65" y="65" width="5" height="4" ry="0" fill="#1e1e20" stroke-width=".26316"/>
-  <rect x="65" y="69.046" width="5" height="1" fill="#fff" opacity=".12" stroke-width=".24446"/>
- </g>
- <rect id="hint-tile-center" width="5" height="5" fill="#f0f"/>
- <rect id="hint-top-margin" x="40" y="15" width="2" height="5" fill="#f0f"/>
- <rect id="hint-right-margin" transform="rotate(90)" x="40" y="-65" width="2" height="5" fill="#f0f"/>
- <rect id="hint-bottom-margin" transform="scale(-1)" x="-42" y="-65" width="2" height="5" fill="#f0f"/>
- <rect id="hint-left-margin" transform="rotate(-90)" x="-42" y="15" width="2" height="5" fill="#f0f"/>
 </svg>

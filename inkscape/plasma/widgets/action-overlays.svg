@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 48 48"
    version="1.1"
    id="svg882"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="action-overlays.svg">
   <defs
      id="defs876" />
@@ -25,12 +23,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="25.875"
+     inkscape:zoom="24.854167"
      inkscape:cx="24"
      inkscape:cy="24"
      inkscape:document-units="px"
      inkscape:current-layer="svg882"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      fit-margin-top="0"
@@ -41,7 +39,12 @@
      inkscape:window-height="1413"
      inkscape:window-x="46"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid868" />
+  </sodipodi:namedview>
   <metadata
      id="metadata879">
     <rdf:RDF>

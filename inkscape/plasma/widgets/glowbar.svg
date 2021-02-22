@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +13,7 @@
    viewBox="0 0 36 36"
    version="1.1"
    id="svg841"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="glowbar.svg">
   <defs
      id="defs835">
@@ -120,10 +118,10 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0.78039216"
      inkscape:pageshadow="2"
-     inkscape:zoom="34.888889"
-     inkscape:cx="10.441083"
+     inkscape:zoom="33.138889"
+     inkscape:cx="15.5"
      inkscape:cy="18"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -138,7 +136,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid1386"
@@ -163,7 +162,7 @@
      inkscape:label="glow"
      transform="translate(-8,-18)">
     <rect
-       style="opacity:1;fill:url(#radialGradient1442);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#radialGradient1442);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="topleft"
        width="12"
        height="12"
@@ -172,7 +171,7 @@
        ry="0"
        inkscape:label="#topleft" />
     <rect
-       style="opacity:1;fill:url(#linearGradient1468);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#linearGradient1468);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="top"
        width="12"
        height="12"
@@ -181,7 +180,7 @@
        ry="0"
        inkscape:label="#top" />
     <rect
-       style="opacity:1;fill:url(#radialGradient1442-5);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#radialGradient1442-5);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="topright"
        width="12"
        height="12"
@@ -191,7 +190,7 @@
        transform="rotate(90)"
        inkscape:label="#topright" />
     <rect
-       style="opacity:1;fill:url(#linearGradient1468-1);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#linearGradient1468-1);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="right"
        width="12"
        height="12"
@@ -201,7 +200,7 @@
        transform="rotate(90)"
        inkscape:label="#right" />
     <rect
-       style="opacity:1;fill:url(#radialGradient1442-5-9);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#radialGradient1442-5-9);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="bottomright"
        width="12"
        height="12"
@@ -211,7 +210,7 @@
        transform="scale(-1)"
        inkscape:label="#bottomright" />
     <rect
-       style="opacity:1;fill:url(#linearGradient1468-1-6);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#linearGradient1468-1-6);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="bottom"
        width="12"
        height="12"
@@ -221,7 +220,7 @@
        transform="scale(-1)"
        inkscape:label="#bottom" />
     <rect
-       style="opacity:1;fill:url(#radialGradient1442-5-9-8);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#radialGradient1442-5-9-8);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="bottomleft"
        width="12"
        height="12"
@@ -231,7 +230,7 @@
        transform="rotate(-90)"
        inkscape:label="#bottomleft" />
     <rect
-       style="opacity:1;fill:url(#linearGradient1468-1-6-0);fill-opacity:1;stroke:none;stroke-width:1.20000005"
+       style="opacity:1;fill:url(#linearGradient1468-1-6-0);fill-opacity:1;stroke:none;stroke-width:1.2"
        id="left"
        width="12"
        height="12"

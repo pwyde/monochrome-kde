@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +13,7 @@
    viewBox="0 0 57 137"
    version="1.1"
    id="svg891"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="actionbutton.svg">
   <defs
      id="defs885">
@@ -89,12 +87,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.0656934"
+     inkscape:zoom="8.7080292"
      inkscape:cx="28.5"
-     inkscape:cy="68.500047"
+     inkscape:cy="68.499953"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:snap-object-midpoints="true"
@@ -107,7 +105,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid1436"
@@ -139,18 +138,18 @@
          cy="1038.5197"
          cx="16"
          id="path1564"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4" />
       <circle
          r="14"
          cy="1038.5197"
          cx="16"
          id="path1566"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.5999999" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.6" />
       <circle
          cy="1038.5197"
          cx="16"
          id="path1566-2"
-         style="display:inline;opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.80000019"
+         style="display:inline;opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.8"
          r="12" />
     </g>
     <g
@@ -161,18 +160,18 @@
          cy="1038.5197"
          cx="46"
          id="path1564-9"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4" />
       <circle
          r="10"
          cy="1038.5197"
          cx="46"
          id="path1566-1"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4" />
       <circle
          cy="1038.5197"
          cx="46"
          id="path1566-2-2"
-         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.20000005"
+         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.2"
          r="8" />
     </g>
     <g
@@ -183,18 +182,18 @@
          cy="1073.5197"
          cx="16"
          id="path1564-7"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4" />
       <circle
          r="14"
          cy="1073.5197"
          cx="16"
          id="path1566-0"
-         style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.5999999" />
+         style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.6" />
       <circle
          cy="1073.5197"
          cx="16"
          id="path1566-2-9"
-         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.80000019"
+         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.8"
          r="12" />
     </g>
     <g
@@ -205,7 +204,7 @@
          cy="1073.5197"
          cx="46"
          id="path1564-9-3"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4" />
       <circle
          r="10"
          cy="1073.5197"
@@ -216,7 +215,7 @@
          cy="1073.5197"
          cx="46"
          id="path1566-2-2-0"
-         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.20000005"
+         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.2"
          r="8" />
     </g>
     <g
@@ -227,18 +226,18 @@
          cy="1108.5197"
          cx="16"
          id="path1564-7-6"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4" />
       <circle
          r="14"
          cy="1108.5197"
          cx="16"
          id="path1566-0-2"
-         style="opacity:1;fill:url(#linearGradient1759);fill-opacity:1;stroke:none;stroke-width:5.5999999" />
+         style="opacity:1;fill:url(#linearGradient1759);fill-opacity:1;stroke:none;stroke-width:5.6" />
       <circle
          cy="1108.5197"
          cx="16"
          id="path1566-2-9-6"
-         style="opacity:1;fill:url(#linearGradient1767);fill-opacity:1;stroke:none;stroke-width:4.80000019"
+         style="opacity:1;fill:url(#linearGradient1767);fill-opacity:1;stroke:none;stroke-width:4.8"
          r="12" />
     </g>
     <g
@@ -249,7 +248,7 @@
          cy="1108.5197"
          cx="46"
          id="path1564-9-3-1"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4" />
       <circle
          r="10"
          cy="1108.5197"
@@ -260,7 +259,7 @@
          cy="1108.5197"
          cx="46"
          id="path1566-2-2-0-7"
-         style="opacity:1;fill:url(#linearGradient1783);fill-opacity:1;stroke:none;stroke-width:3.20000005"
+         style="opacity:1;fill:url(#linearGradient1783);fill-opacity:1;stroke:none;stroke-width:3.2"
          r="8" />
     </g>
     <g
@@ -271,18 +270,18 @@
          cy="1143.5197"
          cx="16"
          id="path1564-7-2"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.4" />
       <circle
          r="14"
          cy="1143.5197"
          cx="16"
          id="path1566-0-0"
-         style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.5999999" />
+         style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.6" />
       <circle
          cy="1143.5197"
          cx="16"
          id="path1566-2-9-2"
-         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.80000019"
+         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.8"
          r="12" />
     </g>
     <g
@@ -293,7 +292,7 @@
          cy="1143.5197"
          cx="46"
          id="path1564-9-3-7"
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4000001" />
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4" />
       <circle
          r="10"
          cy="1143.5197"
@@ -304,7 +303,7 @@
          cy="1143.5197"
          cx="46"
          id="path1566-2-2-0-9"
-         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.20000005"
+         style="opacity:1;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:3.2"
          r="8" />
     </g>
   </g>

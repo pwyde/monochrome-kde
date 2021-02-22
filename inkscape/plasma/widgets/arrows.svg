@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 56.000034 14.000024"
    version="1.1"
    id="svg833"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="arrows.svg">
   <defs
      id="defs827" />
@@ -25,12 +23,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="34.910693"
+     inkscape:zoom="33.732123"
      inkscape:cx="28.000017"
-     inkscape:cy="7.0000156"
+     inkscape:cy="7.0000083"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      fit-margin-top="0"
@@ -41,7 +39,8 @@
      inkscape:window-height="1413"
      inkscape:window-x="46"
      inkscape:window-y="27"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid1378"
@@ -72,7 +71,7 @@
          sodipodi:nodetypes="cccc"
          id="expander-bottom"
          d="m 86.46875,1024.159 4,-4 4,4 z"
-         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123235"
+         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
       <rect
@@ -81,7 +80,7 @@
          height="14"
          width="14"
          id="rect856"
-         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55905533;stroke-opacity:1" />
+         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55906;stroke-opacity:1" />
     </g>
     <g
        transform="matrix(1,0,0,-1,-69.46875,2051.6787)"
@@ -89,12 +88,12 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123235"
+         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123"
          d="m 86.46875,1024.159 4,-4 4,4 z"
          id="path862"
          sodipodi:nodetypes="cccc" />
       <rect
-         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55905533;stroke-opacity:1"
+         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55906;stroke-opacity:1"
          id="rect864"
          width="14"
          height="14"
@@ -108,7 +107,7 @@
          sodipodi:nodetypes="cccc"
          id="path868"
          d="m 86.46875,1024.159 4,-4 4,4 z"
-         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123235"
+         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
       <rect
@@ -117,7 +116,7 @@
          height="14"
          width="14"
          id="rect870"
-         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55905533;stroke-opacity:1" />
+         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55906;stroke-opacity:1" />
     </g>
     <g
        transform="rotate(90,66.05403,1005.105)"
@@ -125,12 +124,12 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123235"
+         style="color:#7b7c7e;opacity:1;fill:#7a7a7c;fill-opacity:1;stroke-width:2.04123"
          d="m 86.46875,1024.159 4,-4 4,4 z"
          id="path874"
          sodipodi:nodetypes="cccc" />
       <rect
-         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55905533;stroke-opacity:1"
+         style="opacity:1;fill:#00ffff;fill-opacity:0;stroke:none;stroke-width:7.55906;stroke-opacity:1"
          id="rect876"
          width="14"
          height="14"

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +13,7 @@
    viewBox="0 0 90 70.000002"
    version="1.1"
    id="svg872"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="slider.svg">
   <sodipodi:namedview
      id="base"
@@ -24,12 +22,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="17.742855"
-     inkscape:cx="35.052334"
-     inkscape:cy="34.999993"
+     inkscape:zoom="17.042856"
+     inkscape:cx="45"
+     inkscape:cy="35.000007"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
-     showgrid="false"
+     inkscape:current-layer="vertical-slider-handle"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2514"
@@ -41,7 +39,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid1417"
@@ -212,8 +211,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="vertical-slider"
-     transform="translate(0,-3.3203125e-6)">
+     inkscape:label="vertical-slider">
     <g
        id="vertical-slider-handle">
       <rect
@@ -227,13 +225,13 @@
          cy="35.000011"
          cx="20"
          id="path1567"
-         style="opacity:1;fill:#505052;fill-opacity:1;stroke:none;stroke-width:3.20000005"
+         style="opacity:1;fill:#505052;fill-opacity:1;stroke:none;stroke-width:3.2"
          r="8" />
       <circle
          cy="35.000011"
          cx="20"
          id="path1567-7"
-         style="opacity:1;fill:#28282a;fill-opacity:1;stroke:none;stroke-width:2.79999995"
+         style="opacity:1;fill:#28282a;fill-opacity:1;stroke:none;stroke-width:2.8"
          r="7" />
     </g>
     <g
@@ -249,13 +247,13 @@
          cy="35.000011"
          cx="50"
          id="path1567-3"
-         style="opacity:1;fill:#7a7a7c;fill-opacity:1;stroke:none;stroke-width:3.60000014"
+         style="opacity:1;fill:#7a7a7c;fill-opacity:1;stroke:none;stroke-width:3.6"
          r="9" />
       <circle
          cy="35.000011"
          cx="50"
          id="path1567-7-5"
-         style="opacity:1;fill:#7a7a7c;fill-opacity:1;stroke:none;stroke-width:3.20000005"
+         style="opacity:1;fill:#7a7a7c;fill-opacity:1;stroke:none;stroke-width:3.2"
          r="8" />
     </g>
     <g
@@ -271,13 +269,13 @@
          cy="35.000011"
          cx="80"
          id="path1567-6"
-         style="opacity:1;fill:url(#linearGradient887);fill-opacity:1;stroke:none;stroke-width:3.60000014"
+         style="opacity:1;fill:url(#linearGradient887);fill-opacity:1;stroke:none;stroke-width:3.6"
          r="9" />
       <circle
          cy="35.000011"
          cx="80"
          id="path1567-7-5-3"
-         style="opacity:1;fill:url(#linearGradient1748);fill-opacity:1;stroke:none;stroke-width:3.20000005"
+         style="opacity:1;fill:url(#linearGradient1748);fill-opacity:1;stroke:none;stroke-width:3.2"
          r="8" />
     </g>
   </g>

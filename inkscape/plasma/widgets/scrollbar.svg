@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 56 57.999985"
    version="1.1"
    id="svg947"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="scrollbar.svg">
   <sodipodi:namedview
      id="base"
@@ -23,12 +21,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="21.413804"
+     inkscape:zoom="20.568976"
      inkscape:cx="28"
-     inkscape:cy="28.999985"
+     inkscape:cy="29"
      inkscape:document-units="px"
      inkscape:current-layer="layer5"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2514"
@@ -39,7 +37,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        id="grid1492"
        type="xygrid"
@@ -228,7 +227,7 @@
        height="10"
        width="2"
        id="background-vertical-center"
-       style="opacity:1;fill:#414143;fill-opacity:1;stroke:none;stroke-width:1.58113885" />
+       style="opacity:1;fill:#414143;fill-opacity:1;stroke:none;stroke-width:1.58114" />
     <g
        id="background-vertical-topleft">
       <rect
@@ -249,7 +248,7 @@
     <g
        id="background-vertical-top">
       <rect
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.70710677"
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.707107"
          id="rect1499-3-69"
          width="2"
          height="2"
@@ -283,7 +282,7 @@
     <g
        id="background-vertical-right">
       <rect
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.23606801"
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.23607"
          id="rect1499-7-3-4"
          width="4"
          height="10"
@@ -307,7 +306,7 @@
          x="22"
          y="56" />
       <rect
-         style="opacity:1;fill:#414143;fill-opacity:1;stroke:none;stroke-width:0.70710677"
+         style="opacity:1;fill:#414143;fill-opacity:1;stroke:none;stroke-width:0.707107"
          id="rect1605-3"
          width="2"
          height="1"
@@ -317,7 +316,7 @@
     <g
        id="background-vertical-bottom">
       <rect
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.70710677"
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.707107"
          id="rect1499-3-6-7"
          width="2"
          height="2"
@@ -351,7 +350,7 @@
     <g
        id="background-vertical-left">
       <rect
-         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.23606801"
+         style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.23607"
          id="rect1499-7-31"
          width="4"
          height="10"

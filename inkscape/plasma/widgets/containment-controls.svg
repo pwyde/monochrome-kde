@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 71.468803 125.00001"
    version="1.1"
    id="svg905"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="containment-controls.svg">
   <defs
      id="defs899" />
@@ -25,12 +23,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.048001"
-     inkscape:cx="18.168715"
-     inkscape:cy="62.499997"
+     inkscape:zoom="9.5440005"
+     inkscape:cx="35.7344"
+     inkscape:cy="62.447611"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
-     showgrid="false"
+     inkscape:current-layer="layer3"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2514"
@@ -44,7 +42,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     showguides="false">
+     showguides="false"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid1450"
@@ -138,7 +137,7 @@
          height="5"
          width="1"
          id="rect2051-3-1-5"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none" />
     </g>
     <g
        transform="rotate(90,37.5,47.5)"
@@ -158,7 +157,7 @@
          height="5"
          width="1"
          id="rect2051-8-2-7-6"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none" />
     </g>
   </g>
   <g
@@ -246,7 +245,7 @@
          height="5"
          width="1"
          id="rect2051-3"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none" />
     </g>
     <g
        transform="translate(20)"
@@ -266,7 +265,7 @@
          height="5"
          width="1"
          id="rect2051-8-2"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none" />
     </g>
   </g>
   <g
@@ -299,7 +298,7 @@
          height="5"
          width="1"
          id="rect2051"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none" />
     </g>
     <g
        id="east-right"
@@ -318,7 +317,7 @@
          height="5"
          width="1"
          id="rect2051-8"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none" />
     </g>
   </g>
   <g
@@ -327,28 +326,28 @@
      inkscape:label="sliders"
      transform="translate(0,-10.000003)">
     <path
-       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.9895891"
+       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.989589"
        d="M 35.980464,72.999999 30,79 v 6 h 12 v -6 z"
        id="north-offsetslider"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
        inkscape:label="#north-offsetslider" />
     <path
-       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.9895891"
+       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.989589"
        d="M 50.980464,85 45,78.999999 v -6 h 12 v 6 z"
        id="south-offsetslider"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
        inkscape:label="#south-offsetslider" />
     <path
-       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.9895891"
+       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.989589"
        d="M 15,79.019536 21,85 h 6 V 73 h -6 z"
        id="west-offsetslider"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
        inkscape:label="#west-offsetslider" />
     <path
-       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.9895891"
+       style="opacity:1;fill:#828284;fill-opacity:1;stroke-width:0.989589"
        d="M 12,79.019536 6,85 H 0 V 73 h 6 z"
        id="east-offsetslider"
        inkscape:connector-curvature="0"

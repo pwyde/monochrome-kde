@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 154.00002 144.00001"
    version="1.1"
    id="svg4744"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="tasks.svg">
   <defs
      id="defs4738" />
@@ -25,12 +23,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.7569426"
-     inkscape:cx="59.841365"
-     inkscape:cy="71.999977"
+     inkscape:zoom="8.2847196"
+     inkscape:cx="90.5"
+     inkscape:cy="72.000023"
      inkscape:document-units="px"
      inkscape:current-layer="layer7"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:measure-start="0,0"
@@ -43,7 +41,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid5289"
@@ -72,7 +71,7 @@
       <path
          id="path4927"
          d="m 211.5,89.000002 a 4.4999957,4.5000003 0 0 0 -4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,-4.5 4.4999957,4.5000003 0 0 0 -4.5,-4.5 z"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0" />
       <path
          style="fill:#1e1e20;fill-opacity:1;stroke:none"
@@ -89,7 +88,7 @@
        id="group-expander-left"
        transform="matrix(1.2222222,0,0,1.2222222,-82.999995,10.222222)">
       <path
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none"
          d="m 211.5,89.000002 a 4.4999957,4.5000003 0 0 0 -4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,-4.5 4.4999957,4.5000003 0 0 0 -4.5,-4.5 z"
          id="path4934"
          inkscape:connector-curvature="0" />
@@ -108,7 +107,7 @@
        id="group-expander-top"
        transform="matrix(1.2222222,0,0,1.2222222,-98.999995,24.222222)">
       <path
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none"
          d="m 211.5,89.000002 a 4.4999957,4.5000003 0 0 0 -4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,-4.5 4.4999957,4.5000003 0 0 0 -4.5,-4.5 z"
          id="path4946"
          inkscape:connector-curvature="0" />
@@ -129,7 +128,7 @@
       <path
          id="path4958"
          d="m 211.5,89.000002 a 4.4999957,4.5000003 0 0 0 -4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,4.5 4.4999957,4.5000003 0 0 0 4.5,-4.5 4.4999957,4.5000003 0 0 0 -4.5,-4.5 z"
-         style="opacity:0.18000004;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0" />
       <path
          style="fill:#1e1e20;fill-opacity:1;stroke:none"

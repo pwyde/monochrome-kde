@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 48 54.999985"
    version="1.1"
    id="svg945"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="listitem.svg">
   <sodipodi:namedview
      id="base"
@@ -23,12 +21,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.58183"
+     inkscape:zoom="21.69092"
      inkscape:cx="24"
-     inkscape:cy="27.499985"
+     inkscape:cy="27.5"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2514"
@@ -39,7 +37,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        id="grid1490"
        type="xygrid"
@@ -225,63 +224,63 @@
        height="11"
        width="11"
        id="hover-center"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.96476376" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.964764" />
     <rect
        y="8"
        x="28"
        height="2"
        width="2"
        id="hover-topleft"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        y="8"
        x="30"
        height="2"
        width="11"
        id="hover-top"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        y="8"
        x="41"
        height="2"
        width="2"
        id="hover-topright"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        y="10"
        x="41"
        height="11"
        width="2"
        id="hover-right"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        y="21"
        x="41"
        height="2"
        width="2"
        id="hover-bottomright"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        y="21"
        x="30"
        height="2"
        width="11"
        id="hover-bottom"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        y="21"
        x="28"
        height="2"
        width="2"
        id="hover-bottomleft"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
     <rect
        y="10"
        x="28"
        height="11"
        width="2"
        id="hover-left"
-       style="opacity:0.07999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.08;fill:#ffffff;fill-opacity:1;stroke:none" />
   </g>
   <g
      inkscape:label="normal"

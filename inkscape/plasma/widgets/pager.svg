@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 14 40.999998"
    version="1.1"
    id="svg911"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="pager.svg">
   <sodipodi:namedview
      id="base"
@@ -23,12 +21,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="30.634151"
-     inkscape:cx="1.2384563"
-     inkscape:cy="20.499996"
+     inkscape:zoom="29.097565"
+     inkscape:cx="7"
+     inkscape:cy="20.5"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:window-width="2514"
@@ -39,7 +37,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        id="grid1456"
        type="xygrid"
@@ -72,14 +71,14 @@
        height="1"
        width="1"
        id="active-topleft"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
     <rect
        y="71"
        x="61"
        height="1"
        width="10"
        id="active-top"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.58113885" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.58114" />
     <rect
        ry="0"
        y="71"
@@ -87,14 +86,14 @@
        height="1"
        width="1"
        id="active-topright"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
     <rect
        y="72"
        x="71"
        height="7"
        width="1"
        id="active-right"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.08012342" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.08012" />
     <rect
        ry="0"
        y="79"
@@ -102,14 +101,14 @@
        height="1"
        width="1"
        id="active-bottomright"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
     <rect
        y="79"
        x="61"
        height="1"
        width="10"
        id="active-bottom"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.58113885" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.58114" />
     <rect
        ry="0"
        y="79"
@@ -117,21 +116,21 @@
        height="1"
        width="1"
        id="active-bottomleft"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5" />
     <rect
        y="72"
        x="60"
        height="7"
        width="1"
        id="active-left"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.08012342" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.08012" />
     <rect
        y="72"
        x="61"
        height="7"
        width="10"
        id="active-center"
-       style="opacity:0.17999998;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.18;fill:#ffffff;fill-opacity:1;stroke:none" />
   </g>
   <g
      inkscape:groupmode="layer"
