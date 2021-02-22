@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,21 +13,21 @@
    viewBox="0 0 230 80.000057"
    version="1.1"
    id="svg916"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="background.svg">
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#1e1e20"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.5"
-     inkscape:cx="112.67752"
-     inkscape:cy="40.000027"
+     inkscape:zoom="8.4652174"
+     inkscape:cx="115"
+     inkscape:cy="39.940961"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:pagecheckerboard="true"
      units="px"
      inkscape:window-width="2504"
@@ -40,7 +38,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        id="grid1463"
        type="xygrid"
@@ -297,29 +296,29 @@
        height="50"
        width="50"
        id="center"
-       style="opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.29984522" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.29985" />
     <path
        inkscape:connector-curvature="0"
        id="topright"
        d="m 65,1147.5197 h 5 c 0,-2.77 -2.23,-5 -5,-5 z"
-       style="display:inline;opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
     <path
        inkscape:connector-curvature="0"
        id="bottomright"
        d="m 65,1197.5197 v 5 c 2.77,0 5,-2.23 5,-5 z"
-       style="display:inline;opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
     <path
        inkscape:connector-curvature="0"
        id="bottomleft"
        d="m 15,1197.5197 h -5 c 0,2.77 2.23,5 5,5 z"
-       style="display:inline;opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
     <rect
        y="1142.5197"
        x="15"
        height="5"
        width="50"
        id="top"
-       style="opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
     <rect
        transform="rotate(90)"
        y="-70"
@@ -327,7 +326,7 @@
        height="5"
        width="50"
        id="right"
-       style="opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
     <rect
        transform="scale(-1)"
        y="-1202.5197"
@@ -335,13 +334,13 @@
        height="5"
        width="50"
        id="bottom"
-       style="opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
     <path
        inkscape:label="#topleft"
        inkscape:connector-curvature="0"
        id="topleft"
        d="m 15,1147.5197 v -5 c -2.77,0 -5,2.23 -5,5 z"
-       style="display:inline;opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
     <rect
        inkscape:label="#left"
        transform="rotate(-90)"
@@ -350,7 +349,7 @@
        height="5"
        width="50"
        id="left"
-       style="opacity:0.8;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
   </g>
   <g
      style="display:inline"
