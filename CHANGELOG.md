@@ -153,3 +153,15 @@
 - Implemented automatic cleanup of theme/svgelements cache in user's home directory.
 - Updated preview image.
 - Updated README and CHANGELOG files.
+
+# 20210222 Release - 22 February 2021
+
+- Fixed issue with SDDM background color not being applied.
+- Updated Plasma Look and Feel:
+  - Added default settings for toolbar and button icons.
+- Updated Plasma Desktop theme:
+  - Modified opacity. Theme is now less transparent and darker.
+  - Removed gradient in widget background.
+  - Added showbackground icon in widget configuration icons.
+  - Fixed some graphical issues.
+  - Updated panel background to Plasma 5.21
