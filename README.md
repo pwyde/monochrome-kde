@@ -89,33 +89,26 @@ Chooce either a background image or the pre-defined solid colour; `#1e1e20`
 #### Fonts (optional)
 Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/theme.conf` configuration file.
 
-### GTK2/3 Theme (optional)
-Build and install the [breeze-gtk](https://github.com/KDE/breeze-gtk.git) GTK2/3 theme with the Monochrome KDE colour scheme.
-
-- Install required packages:
-  - **GTKEngine**
-  - **Sass**
-  - **PythonCairo**
-
-Clone the `breeze-gtk` repository with command below.
+### GTK2/3/4 Theme (optional)
+Manually copy the included GTK2/3/4 theme from `./gtk` directory to the user theme directory.
 
 ```
-$ git clone https://anongit.kde.org/breeze-gtk.git
+$ cp gtk/Monochrome/ ~/.local/share/themes/
 ```
-
-Execute the `breeze-gtk/src/build_theme.sh` script with the following command and options.
-
-```
-$ cd breeze-gtk/src/
-$ sudo sh build_theme.sh -c Monochrome -t /usr/share/themes/Monochrome
-```
-
-This will build the breeze-gtk theme using colours from Monochrome KDE and install it into the `/usr/share/themes/Monochrome` directory.
-
-Enable the new GTK theme in **System Settings** > **Application Style** > **Configure GNOME/GTK Application Style...** > select **Monochrome** for the **GTK2** and **GTK3** theme > **Apply**.
 
 #### Note
-Use the `-t` option to install the GTK2/3 theme in the specified system-wide directory, which requires **sudo** privileges. If installed in the default location (`~/.local/share/themes/`) the theme will not work properly. This is because Plasma does not write the `include "~/.local/share/themes/Monochrome/gtk-2.0/gtkrc"` string to the user's GTK2 configuration file (`~/.gtkrc-2.0`). A workaround to this problem is to install the GTK2/3 theme in the system-wide theme directory.
+The GTK2/3/4 theme is pre-build of the official [breeze-gtk](https://github.com/KDE/breeze-gtk.git) theme with the Monochrome KDE colour scheme.
+
+To manually build and install the theme make sure all build dependencies are met and perform the build process.
+
+```
+$ git clone https://github.com/KDE/breeze-gtk.git
+$ cd breeze-gtk/src/
+$ cmake ./
+$ sh build_theme.sh -c Monochrome -t ~/.local/share/themes/Monochrome
+```
+
+Enable the new GTK theme in **System Settings** > **Appearance** > **Application Style** > **Configure GNOME/GTK Application Style...** > select **Monochrome** from the drop-down list > **Apply**.
 
 ### Plymouth Boot Splash Screen (optional)
 Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme.
