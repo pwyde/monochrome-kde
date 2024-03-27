@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="230"
    height="80.000053"
    viewBox="0 0 230 80.000057"
    version="1.1"
    id="svg916"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="background.svg">
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="base"
      pagecolor="#1e1e20"
@@ -22,29 +22,35 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.4652174"
+     inkscape:zoom="7.5608696"
      inkscape:cx="115"
-     inkscape:cy="39.940961"
+     inkscape:cy="40.008626"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:pagecheckerboard="true"
      units="px"
-     inkscape:window-width="2504"
-     inkscape:window-height="1410"
-     inkscape:window-x="56"
-     inkscape:window-y="30"
+     inkscape:window-width="2560"
+     inkscape:window-height="1366"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:document-rotation="0">
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        id="grid1463"
        type="xygrid"
        originx="0"
-       originy="90.000009" />
+       originy="90.000009"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <defs
      id="defs910">
@@ -165,7 +171,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -181,7 +187,8 @@
        height="50"
        width="50"
        id="mask-center"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.29984522" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.29984522"
+       inkscape:label="#mask-center" />
     <path
        inkscape:label="#mask-topleft"
        inkscape:connector-curvature="0"
@@ -192,24 +199,28 @@
        inkscape:connector-curvature="0"
        id="mask-topright"
        d="m 135,75.000046 h 5 c 0,-2.77 -2.23,-5 -5,-5 z"
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:label="#mask-topright" />
     <path
        inkscape:connector-curvature="0"
        id="mask-bottomright"
        d="m 135,125.00005 v 5 c 2.77,0 5,-2.23 5,-5 z"
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:label="#mask-bottomright" />
     <path
        inkscape:connector-curvature="0"
        id="mask-bottomleft"
        d="m 85,125.00005 h -5 c 0,2.77 2.23,5 5,5 z"
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:label="#mask-bottomleft" />
     <rect
        y="70"
        x="85"
        height="5"
        width="50"
        id="mask-top"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:label="#mask-top" />
     <rect
        transform="rotate(90)"
        y="-140"
@@ -217,7 +228,8 @@
        height="5"
        width="50"
        id="mask-right"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:label="#mask-right" />
     <rect
        transform="scale(-1)"
        y="-130"
@@ -225,7 +237,8 @@
        height="5"
        width="50"
        id="mask-bottom"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:label="#mask-bottom" />
     <rect
        inkscape:label="#mask-left"
        transform="rotate(-90)"
@@ -246,17 +259,20 @@
        inkscape:connector-curvature="0"
        id="shadow-topleft"
        d="m 150,59.999948 v 15 h 10 c 0,-2.77 2.23,-5 5,-5 v -10 z"
-       style="opacity:1;fill:url(#radialGradient2431);fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:url(#radialGradient2431);fill-opacity:1;stroke:none"
+       inkscape:label="#shadow-topleft" />
     <path
        inkscape:connector-curvature="0"
        id="shadow-top"
        d="m 165,59.999948 v 10 h 50 v -10 z"
-       style="opacity:1;fill:url(#linearGradient2451);fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:url(#linearGradient2451);fill-opacity:1;stroke:none"
+       inkscape:label="#shadow-top" />
     <path
        inkscape:connector-curvature="0"
        id="shadow-topright"
        d="m 230,59.999992 h -15 v 9.999998 c 2.77,0 5,2.23 5,5 h 10 z"
-       style="display:inline;opacity:1;fill:url(#radialGradient2431-5);fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:1;fill:url(#radialGradient2431-5);fill-opacity:1;stroke:none"
+       inkscape:label="#shadow-topright" />
     <path
        inkscape:connector-curvature="0"
        id="shadow-right"
@@ -273,17 +289,20 @@
        inkscape:connector-curvature="0"
        id="shadow-bottom"
        d="m 215,139.99998 v -10 h -50 v 10 z"
-       style="display:inline;opacity:1;fill:url(#linearGradient2451-7-8);fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:1;fill:url(#linearGradient2451-7-8);fill-opacity:1;stroke:none"
+       inkscape:label="#shadow-bottom" />
     <path
        inkscape:connector-curvature="0"
        id="shadow-bottomleft"
        d="m 150,139.99998 h 15 v -10 c -2.77,0 -5,-2.23 -5,-5 h -10 z"
-       style="display:inline;opacity:1;fill:url(#radialGradient2431-5-5-4);fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:1;fill:url(#radialGradient2431-5-5-4);fill-opacity:1;stroke:none"
+       inkscape:label="#shadow-bottomleft" />
     <path
        inkscape:connector-curvature="0"
        id="shadow-left"
        d="m 150,124.99998 h 10 V 74.99999 h -10 z"
-       style="display:inline;opacity:1;fill:url(#linearGradient2451-7-8-9);fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:1;fill:url(#linearGradient2451-7-8-9);fill-opacity:1;stroke:none"
+       inkscape:label="#shadow-left" />
   </g>
   <g
      transform="translate(0,-1132.5197)"
@@ -296,29 +315,34 @@
        height="50"
        width="50"
        id="center"
-       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.29985" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none;stroke-width:4.29985"
+       inkscape:label="#center" />
     <path
        inkscape:connector-curvature="0"
        id="topright"
        d="m 65,1147.5197 h 5 c 0,-2.77 -2.23,-5 -5,-5 z"
-       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none"
+       inkscape:label="#topright" />
     <path
        inkscape:connector-curvature="0"
        id="bottomright"
        d="m 65,1197.5197 v 5 c 2.77,0 5,-2.23 5,-5 z"
-       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none"
+       inkscape:label="#bottomright" />
     <path
        inkscape:connector-curvature="0"
        id="bottomleft"
        d="m 15,1197.5197 h -5 c 0,2.77 2.23,5 5,5 z"
-       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none"
+       inkscape:label="#bottomleft" />
     <rect
        y="1142.5197"
        x="15"
        height="5"
        width="50"
        id="top"
-       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none"
+       inkscape:label="#top" />
     <rect
        transform="rotate(90)"
        y="-70"
@@ -326,7 +350,8 @@
        height="5"
        width="50"
        id="right"
-       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none"
+       inkscape:label="#right" />
     <rect
        transform="scale(-1)"
        y="-1202.5197"
@@ -334,7 +359,8 @@
        height="5"
        width="50"
        id="bottom"
-       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none" />
+       style="opacity:0.85;fill:#1e1e20;fill-opacity:1;stroke:none"
+       inkscape:label="#bottom" />
     <path
        inkscape:label="#topleft"
        inkscape:connector-curvature="0"
@@ -437,5 +463,37 @@
        x="-100.99999"
        y="150"
        inkscape:label="#shadow-hint-left-margin" />
+    <rect
+       id="hint-top-inset"
+       height="9.9999999e-09"
+       style="fill:#00ff00;stroke-width:0.707107"
+       width="2"
+       x="39"
+       y="69.999947"
+       inkscape:label="#hint-top-inset" />
+    <rect
+       id="hint-bottom-inset"
+       height="9.9999999e-09"
+       style="fill:#00ff00;stroke-width:0.707107"
+       width="2"
+       x="39"
+       y="124.99995"
+       inkscape:label="#hint-bottom-inset" />
+    <rect
+       id="hint-left-inset"
+       height="2"
+       style="fill:#00ff00;stroke-width:0.707107"
+       width="9.9999999e-09"
+       x="10"
+       y="98.999947"
+       inkscape:label="#hint-left-inset" />
+    <rect
+       id="hint-right-inset"
+       height="2"
+       style="fill:#00ff00;stroke-width:0.707107"
+       width="9.9999999e-09"
+       x="65"
+       y="98.999947"
+       inkscape:label="#hint-right-inset" />
   </g>
 </svg>
