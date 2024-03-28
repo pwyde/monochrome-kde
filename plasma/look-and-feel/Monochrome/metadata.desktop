@@ -1,5 +1,5 @@
 [Desktop Entry]
-Comment=Monochrome workspace theme.
+Comment=A dark theme inspired by black and white photography.
 
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
@@ -14,7 +14,7 @@ X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Email=patrik@wyde.se
 X-KDE-PluginInfo-License=GPLv2
 X-KDE-PluginInfo-Name=com.gitlab.pwyde.monochrome-kde
-X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Version=0.2
 X-KDE-PluginInfo-Website=https://gitlab.com/pwyde/monochrome-kde
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults

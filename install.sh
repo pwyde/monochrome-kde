@@ -62,7 +62,7 @@ pkg=("${prefix}/aurorae/themes/Monochrome"
      "${prefix}/Kvantum/MonochromeBlur"
      "${prefix}/Kvantum/MonochromeSolid"
      "${prefix}/plasma/desktoptheme/Monochrome"
-     "${prefix}/plasma/look-and-feel/com.gitlab.pwyde.monochrome-kde"
+     "${prefix}/plasma/look-and-feel/Monochrome"
      "${prefix}/sddm/themes/monochrome"
      "${prefix}/yakuake/skins/monochrome")
 
