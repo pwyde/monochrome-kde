@@ -87,16 +87,16 @@ insensitive view background color on backdrop windows */
 @define-color theme_unfocused_view_bg_color_breeze #1b1b1d;
 /*
 widgets main borders color */
-@define-color borders_breeze #414143;
+@define-color borders_breeze #3a3a3c;
 /*
 widgets main borders color on backdrop windows */
-@define-color unfocused_borders_breeze #414143;
+@define-color unfocused_borders_breeze #3a3a3c;
 /*
 widgets main borders color insensitive */
-@define-color insensitive_borders_breeze rgba(59, 59, 61, 0.6);
+@define-color insensitive_borders_breeze rgba(53, 53, 55, 0.6);
 /*
 widgets main borders color insensitive backdrop */
-@define-color unfocused_insensitive_borders_breeze rgba(59, 59, 61, 0.6);
+@define-color unfocused_insensitive_borders_breeze rgba(53, 53, 55, 0.6);
 /*
 *
 * Button Colors
@@ -155,7 +155,7 @@ these are pretty self explicative */
 */
 @define-color tooltip_text_breeze #aaaaac;
 @define-color tooltip_background_breeze #1e1e20;
-@define-color tooltip_border_breeze #414143;
+@define-color tooltip_border_breeze #3a3a3c;
 /*
 * Misc
 */
@@ -3029,7 +3029,7 @@ treeview.view.progressbar {
     background-color: alpha(@theme_selected_bg_color_breeze,0.25); }
 
 treeview.view.trough {
-  background-color: mix(@theme_bg_color_breeze,@theme_fg_color_breeze,0.7); }
+  background-color: mix(@theme_fg_color_breeze,@theme_bg_color_breeze,0.2); }
   treeview.view.trough:selected:focus, treeview.view.trough:selected,
   headerbar.selection-mode .trough.subtitle:link,
   headerbar.selection-mode button.trough.subtitle:visited {
@@ -3282,22 +3282,15 @@ scrollbar {
     scrollbar.overlay-indicator slider {
       background-image: linear-gradient(alpha(alpha(@theme_button_foreground_normal_breeze,0.175),0.75),alpha(alpha(@theme_button_foreground_normal_breeze,0.175),0.75)), linear-gradient(alpha(@theme_bg_color_breeze,0.75),alpha(@theme_bg_color_breeze,0.75)); }
   scrollbar trough {
-    margin: -1px;
-    transition-duration: 0.1s;
     min-width: 6px;
     min-height: 14px;
-    border-radius: 8px;
-    background-color: transparent;
-    border: 1px solid transparent; }
-  scrollbar:hover trough {
-    background-color: alpha(@theme_button_foreground_normal_breeze,0.1);
-    border: 1px solid alpha(@theme_button_foreground_normal_breeze,0.2); }
-    scrollbar:hover trough slider {
-      background-image: linear-gradient(alpha(@theme_button_foreground_normal_breeze,0.25),alpha(@theme_button_foreground_normal_breeze,0.25)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
-      box-shadow: 0 0 0 1px alpha(@theme_button_foreground_normal_breeze,0.45) inset; }
-      scrollbar:hover trough slider:hover {
-        background-image: linear-gradient(alpha(@theme_button_decoration_hover_breeze,0.5),alpha(@theme_button_decoration_hover_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
-        box-shadow: 0 0 0 1px alpha(@theme_button_decoration_hover_breeze,0.9) inset; }
+    background-color: transparent; }
+  scrollbar:hover trough slider {
+    background-image: linear-gradient(alpha(@theme_button_foreground_normal_breeze,0.25),alpha(@theme_button_foreground_normal_breeze,0.25)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
+    box-shadow: 0 0 0 1px alpha(@theme_button_foreground_normal_breeze,0.45) inset; }
+    scrollbar:hover trough slider:hover {
+      background-image: linear-gradient(alpha(@theme_button_decoration_hover_breeze,0.5),alpha(@theme_button_decoration_hover_breeze,0.5)), linear-gradient(@theme_bg_color_breeze,@theme_bg_color_breeze);
+      box-shadow: 0 0 0 1px alpha(@theme_button_decoration_hover_breeze,0.9) inset; }
   scrollbar.horizontal trough {
     min-width: 14px;
     min-height: 6px; }
@@ -3343,13 +3336,13 @@ scrollbar {
   border-style: none;
   background-color: @theme_base_color_breeze; }
   .sidebar:not(separator):dir(ltr), .sidebar:not(separator).left, .sidebar:not(separator).left:dir(rtl) {
-    border-right: 1px solid mix(#1e1e20,#aaaaac,0.07);
+    border-right: 1px solid mix(#aaaaac,#1e1e20,0.1);
     border-left: none; }
   .sidebar:not(separator):dir(rtl), .sidebar:not(separator).right {
-    border-left: 1px solid mix(#1e1e20,#aaaaac,0.07);
+    border-left: 1px solid mix(#aaaaac,#1e1e20,0.1);
     border-right: none; }
   .sidebar .sidebar-header > separator {
-    background-color: mix(#1e1e20,#aaaaac,0.07); }
+    background-color: mix(#aaaaac,#1e1e20,0.1); }
   .sidebar row.activatable {
     border: 0; }
     .sidebar row.activatable:dir(ltr) {
