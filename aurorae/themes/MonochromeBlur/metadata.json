@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "KWin/Aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "patrik@wyde.se",
+                "Name": "Patrik Wyde"
+            }
+        ],
+        "Category": "Plasma Window Decorations",
+        "ServiceTypes": [
+            "KWin/Aurorae"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Monochrome Blur",
+        "Description": "A dark theme inspired by black and white photography.",
+        "Id": "Monochrome Blur",
+        "Version": "1.1",
+        "License": "GPLv3",
+        "X-KPackage-Dependencies": [
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/Theme",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "patrik@wyde.se",
+                "Name": "Patrik Wyde"
+            }
+        ],
+        "Category": "Plasma Theme",
+        "ServiceTypes": [
+            "Plasma/Theme"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Monochrome",
+        "Description": "A dark theme inspired by black and white photography.",
+        "Id": "Monochrome",
+        "Version": "0.7",
+        "License": "GPLv3",
+        "X-KPackage-Dependencies": [
+        ]
+    }
+}

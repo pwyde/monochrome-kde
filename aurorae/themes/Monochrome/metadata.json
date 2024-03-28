@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "KWin/Aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "patrik@wyde.se",
+                "Name": "Patrik Wyde"
+            }
+        ],
+        "Category": "Plasma Window Decorations",
+        "ServiceTypes": [
+            "KWin/Aurorae"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Monochrome",
+        "Description": "A dark theme inspired by black and white photography.",
+        "Id": "Monochrome",
+        "Version": "0.3",
+        "License": "GPLv3",
+        "X-KPackage-Dependencies": [
+        ]
+    }
+}

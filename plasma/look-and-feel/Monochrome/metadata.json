@@ -1,0 +1,29 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "patrik@wyde.se",
+                "Name": "Patrik Wyde"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Monochrome",
+        "Description": "A dark theme inspired by black and white photography.",
+        "Id": "Monochrome",
+        "Version": "0.2",
+        "License": "GPLv3",
+        "Website": "https://gitlab.com/pwyde/monochrome-kde"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/1279083",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1279077",
+        "kns://aurorae.knsrc/api.kde-look.org/1279082",
+        "kns://icons.knsrc/api.kde-look.org/1166289",
+        "kns://sddmtheme.knsrc/api.kde-look.org/1283380"
+    ]
+}
