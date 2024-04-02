@@ -65,7 +65,7 @@ Download and install the [Kvantum theme engine](https://github.com/tsujan/Kvantu
 Start **Kvantum Manager** > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
 
 ### Window Decorations
-Change the default window border size in **System Settings** > **Application Style** > **Window Decorations** > un-check the option **Use theme's default window border size** > select **Tiny** from the drop-down > **Apply**.
+Change the default window border size in **System Settings** > **Colors & Themes** > **Window Decorations** > select **Tiny Window Borders** from the drop-down list > **Apply**.
 
 ### Icons
 Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
@@ -78,10 +78,10 @@ $ papirus-folders -C grey
 ```
 
 ### Desktop Effects
-Enable **Blur** in **System Settings** > **Workspace Behaviour** > **Desktop Effetcs**.
+Enable **Blur** in **System Settings** > **Window Management** > **Desktop Effetcs**.
 
 ### Login Screen (SDDM)
-Change the login screen theme in **System Settings** > **Startup and Shutdown** > **Login Screen (SDDM)** > select theme **Monochrome** > **Apply**.
+Change the login screen theme in **System Settings** > **Colors & Themes** > **Login Screen (SDDM)** > select theme **Monochrome** > **Apply**.
 
 #### Background
 Chooce either a background image or the pre-defined solid colour; `#1e1e20`
@@ -93,7 +93,7 @@ Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/theme
 Manually copy the included GTK2/3/4 theme from `./gtk` directory to the user theme directory.
 
 ```
-$ cp gtk/Monochrome/ ~/.local/share/themes/
+$ cp -r gtk/Monochrome/ ~/.local/share/themes/
 ```
 
 #### Note
@@ -108,7 +108,7 @@ $ cmake ./
 $ sh build_theme.sh -c Monochrome -t ~/.local/share/themes/Monochrome
 ```
 
-Enable the new GTK theme in **System Settings** > **Appearance** > **Application Style** > **Configure GNOME/GTK Application Style...** > select **Monochrome** from the drop-down list > **Apply**.
+Enable the new GTK theme in **System Settings** > **Colors & Themes** > **Application Style** > **More Actions** > **Configure GNOME/GTK Application Style...** > select **Monochrome** from the drop-down list > **Apply**.
 
 ### Plymouth Boot Splash Screen (optional)
 Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme.
@@ -145,7 +145,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 A list of features and/or components that will be added in the future.
 
 - [x] Aurorae Theme
-- [ ] Add GTK2/3 theme based on [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/).
+- [x] Add GTK2/3 theme based on [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/).
 - [x] Konsole Colour Scheme
   - [x] Change colours to match theme better.
 - [x] Kvantum Theme
