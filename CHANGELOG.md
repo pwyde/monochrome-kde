@@ -165,3 +165,9 @@
   - Added showbackground icon in widget configuration icons.
   - Fixed some graphical issues.
   - Updated panel background to Plasma 5.21
+
+# 20240402 Release - 02 April 2024
+
+- Added Plasma 6 compability.
+- Updated GTK2/3/4 theme. Build from `breeze-gtk` with the Monochrome KDE colour scheme.
+- Updated preview images.
