@@ -149,24 +149,27 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 ## :ballot_box_with_check: Todo
 A list of features and/or components that will be added in the future.
 
-- [x] Aurorae Theme
-- [x] Add GTK2/3 theme based on [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/).
-- [x] Konsole Colour Scheme
-  - [x] Change colours to match theme better.
+- [x] Global Theme (Plasma 6)
+- [x] Global Theme (Plasma 5)
+- [x] Plasma Theme
+  - [ ] ~~Create a solid theme version.~~
+  - [ ] Add visual feedback in task manager for minimized applications.
+- [x] Plasma Splash Screen
+  - [x] Re-design due to issue with progress bar.
+  - [ ] ~~Replace busy widget spinner with a working progress bar.~~
+- [x] Plasma 6 Window Decorations
+- [x] Plasma Window Decorations
+- [x] Plasma Color Scheme
 - [x] Kvantum Theme
   - [x] Create alternative theme with more transparency and blur.
-- [x] SDDM Theme
+- [x] Konsole Color Scheme
+  - [x] Change colors to match theme better.
+- [x] Yakuake Skin
+  - [ ] Add button for new tab.
+- [x] SDDM Login Theme
   - [x] Change colours to match theme better.
   - [x] Add custom font support.
   - [x] Change font colour in all elements if possible.
   - [ ] Re-design for Plasma/Qt 6.
-- [x] Plasma Colour Scheme
-- [x] Plasma Desktop Theme
-  - [ ] ~~Create a solid theme version.~~
-  - [ ] Add visual feedback in task manager for minimized applications.
-- [x] Plasma Look and Feel Theme
-- [x] Plasma Splash Screen
-  - [x] Re-design due to issue with progress bar.
-  - [ ] ~~Replace busy widget spinner with a working progress bar.~~
+- [x] Add GTK2/3 theme based on [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/).
 - [x] [Plymouth Theme](https://gitlab.com/pwyde/monochrome-plymouth)
-- [x] Yakuake Skin
