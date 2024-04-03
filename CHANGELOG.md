@@ -176,3 +176,6 @@
 # 20240403 Release - 03 April 2024
 
 - Fixed `X-KPackage-Dependencies` in theme metadata (`metadata.json`).
+- Updated install script:
+  - Disabled installation of SDDM theme.
+  - Changed install prefix from `/usr/share` to `$HOME`.

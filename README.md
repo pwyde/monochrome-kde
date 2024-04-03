@@ -14,7 +14,7 @@ The complete theme consists of the following components:
 - Plasma Desktop Theme
 - Plasma Look and Feel
 - Plasma Splash Screen
-- SDDM Theme
+- SDDM Theme (Only compatible with Plasma/Qt 5)
 - Yakuake Skin
 
 ## :floppy_disk: Install Instructions
@@ -22,22 +22,24 @@ At the time of writing there are no Linux distribution packages available. Insta
 
 Individual theme components can also be downloaded from [KDE Store](https://store.kde.org)/[OpenDesktop.org](https://www.opendesktop.org) or using [Plasma System Settings](https://userbase.kde.org/System_Settings).
 
-| **Name**              | **Preview**                                 | **KDE Store** (tar.gz)                           |
-|:----------------------|:-------------------------------------------:|:------------------------------------------------:|
-| Aurorae Theme         | [🖼️](screenshots/aurorae/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279082) |
-| Konsole Colour Scheme | [🖼️](screenshots/konsole/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279087) |
-| Kvantum Theme         | [🖼️](screenshots/kvantum/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279088) |
-| Plasma Colour Scheme  | [🖼️](screenshots/color-schemes/preview.png) | [:floppy_disk:](https://store.kde.org/p/1279083) |
-| Plasma Desktop Theme  | [🖼️](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1279077) |
-| Plasma Look and Feel  | [🖼️](screenshots/plasma/preview.png)        | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| Plasma Splash Screen  | [🖼️](screenshots/plasma/splash.png)         | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| SDDM Theme            | [🖼️](screenshots/sddm/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| Yakuake Skin          | [🖼️](screenshots/yakuake/preview.png)       | [:floppy_disk:](https://store.kde.org/p/1279089) |
+| **Name**              | **Preview**                                    | **KDE Store** (tar.gz)                           |
+|:----------------------|:----------------------------------------------:|:------------------------------------------------:|
+| Aurorae Theme         | [🖼️](screenshots/aurorae/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279082) |
+| Konsole Colour Scheme | [🖼️](screenshots/konsole/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279087) |
+| Kvantum Theme         | [🖼️](screenshots/kvantum/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279088) |
+| Plasma Colour Scheme  | [🖼️](screenshots/color-schemes/preview.png)    | [:floppy_disk:](https://store.kde.org/p/1279083) |
+| Plasma Desktop Theme  | [🖼️](screenshots/plasma/preview.png)           | [:floppy_disk:](https://store.kde.org/p/1279077) |
+| Plasma Look and Feel  | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| Plasma Splash Screen  | [🖼️](screenshots/plasma/splash.png)            | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| SDDM Theme            | [🖼️](screenshots/sddm/preview.png)             | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| Yakuake Skin          | [🖼️](screenshots/yakuake/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279089) |
 
 ### Install Script
-The installation script will automatically download the latest version from the repository and copy the required files to the default location `/usr/share`.
+The installation script will automatically download the latest version from the repository and copy the required files to the default location `$HOME`.
 
-**Note**: Script requires the [`wget`](https://www.gnu.org/software/wget/) command. Install it using system's package manager if not present.
+**Note 1**: Script requires the [`wget`](https://www.gnu.org/software/wget/) command. Install it using system's package manager if not present.
+
+**Note 2**: SDDM themes must be installed in the `/usr/share/sddm/themes/` directory. Hence it must be manually installed using `sudo` command. Install script will not do this!
 
 #### Install
 ```
@@ -52,7 +54,7 @@ $ bash install.sh --uninstall
 #### Options
 | **Option**         | **Description**                                   |
 | ---                | ---                                               |
-| `-i`,`--install`   | Install theme in default location (`/usr/share`). |
+| `-i`,`--install`   | Install theme in default location (`$HOME`).      |
 | `-u`,`--uninstall` | Uninstall theme.                                  |
 | `-h`,`--help`      | Display help message including available options. |
 
@@ -82,7 +84,7 @@ $ papirus-folders -C grey
 ### Desktop Effects
 Enable **Blur** in **System Settings** > **Window Management** > **Desktop Effetcs**.
 
-### Login Screen (SDDM)
+### Login Screen (SDDM) - Only compatible with Plasma/Qt 5
 Change the login screen theme in **System Settings** > **Colors & Themes** > **Login Screen (SDDM)** > select theme **Monochrome** > **Apply**.
 
 #### Background
