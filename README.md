@@ -62,6 +62,8 @@ For a better visual experience apply the following modifications and settings.
 ### Application Style
 Download and install the [Kvantum theme engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
 
+**Note**: Until `v1.1.0` is released, use the latest [Git](https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md#compilation) version of Kvantum theme engine for Plasma 6 compability.
+
 Start **Kvantum Manager** > **Change/Delete Theme** > select theme **Monochrome** > **Use this theme**.
 
 ### Window Decorations
