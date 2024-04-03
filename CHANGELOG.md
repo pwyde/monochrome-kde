@@ -168,7 +168,7 @@
 
 # 20240402 Release - 02 April 2024
 
-- Added Plasma 6 compability.
+- Added Plasma 6 compatibility.
 - Fixed minor issues with Plasma theme.
 - Updated GTK2/3/4 theme. Build from `breeze-gtk` with the Monochrome KDE colour scheme.
 - Updated preview images.
