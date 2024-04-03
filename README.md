@@ -6,17 +6,6 @@
 ## :information_source: About
 A dark theme for the KDE Plasma desktop environment inspired by black and white photography.
 
-The complete theme consists of the following components:
-- Aurorae Theme
-- Konsole Colour Scheme
-- Kvantum Theme
-- Plasma Colour Scheme
-- Plasma Desktop Theme
-- Plasma Look and Feel
-- Plasma Splash Screen
-- SDDM Theme (Only compatible with Plasma/Qt 5)
-- Yakuake Skin
-
 ## :floppy_disk: Install Instructions
 At the time of writing there are no Linux distribution packages available. Install the complete theme manually using `git clone` or the provided install [script](install.sh). See [instructions](#install-script) below. This method works on all Linux distributions.
 
