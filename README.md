@@ -22,17 +22,18 @@ At the time of writing there are no Linux distribution packages available. Insta
 
 Individual theme components can also be downloaded from [KDE Store](https://store.kde.org)/[OpenDesktop.org](https://www.opendesktop.org) or using [Plasma System Settings](https://userbase.kde.org/System_Settings).
 
-| **Name**              | **Preview**                                    | **KDE Store** (tar.gz)                           |
-|:----------------------|:----------------------------------------------:|:------------------------------------------------:|
-| Aurorae Theme         | [🖼️](screenshots/aurorae/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279082) |
-| Konsole Colour Scheme | [🖼️](screenshots/konsole/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279087) |
-| Kvantum Theme         | [🖼️](screenshots/kvantum/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279088) |
-| Plasma Colour Scheme  | [🖼️](screenshots/color-schemes/preview.png)    | [:floppy_disk:](https://store.kde.org/p/1279083) |
-| Plasma Desktop Theme  | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://store.kde.org/p/1279077) |
-| Plasma Look and Feel  | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| Plasma Splash Screen  | [🖼️](screenshots/plasma/splash-1920x1080.png)  | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| SDDM Theme            | [🖼️](screenshots/sddm/preview.png)             | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| Yakuake Skin          | [🖼️](screenshots/yakuake/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279089) |
+| **Name**                    | **Preview**                                    | **KDE Store** (tar.gz)                           |
+|:----------------------------|:----------------------------------------------:|:------------------------------------------------:|
+| Global Theme (Plasma 6)     | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://www.pling.com/p/2143824) |
+| Global Theme (Plasma 5)     | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://www.pling.com/p/1361190) |
+| Plasma Theme                | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://www.pling.com/p/1279077) |
+| Plasma 6 Window Decorations | [🖼️](screenshots/aurorae/preview.png)          | [:floppy_disk:](https://www.pling.com/p/2143843) |
+| Plasma Window Decorations   | [🖼️](screenshots/aurorae/preview.png)          | [:floppy_disk:](https://www.pling.com/p/1279082) |
+| Plasma Color Scheme         | [🖼️](screenshots/color-schemes/preview.png)    | [:floppy_disk:](https://www.pling.com/p/1279083) |
+| Kvantum Theme               | [🖼️](screenshots/kvantum/preview.png)          | [:floppy_disk:](https://www.pling.com/p/1279088) |
+| Konsole Color Scheme        | [🖼️](screenshots/konsole/preview.png)          | [:floppy_disk:](https://www.pling.com/p/1279087) |
+| Yakuake Skin                | [🖼️](screenshots/yakuake/preview.png)          | [:floppy_disk:](https://www.pling.com/p/1279089) |
+| SDDM Login Theme            | [🖼️](screenshots/sddm/preview.png)             | [:floppy_disk:](https://www.pling.com/p/1283380) |
 
 ### Install Script
 The installation script will automatically download the latest version from the repository and copy the required files to the default location `$HOME`.
