@@ -21,7 +21,7 @@ status=""
 git_hosting="gitlab.com"
 git_repo="monochrome-kde"
 git_desc="Monochrome KDE"
-prefix="/usr/share"
+prefix="${HOME}"
 branch="master"
 install="false"
 uninstall="false"
@@ -47,24 +47,24 @@ temp_file="$(mktemp -u)"
 temp_dir="$(mktemp -d)"
 
 # Source and package arrays.
-src=("${temp_dir}/${git_repo}-${branch}/aurorae"
+src1=("${temp_dir}/${git_repo}-${branch}/aurorae"
      "${temp_dir}/${git_repo}-${branch}/color-schemes"
      "${temp_dir}/${git_repo}-${branch}/konsole"
-     "${temp_dir}/${git_repo}-${branch}/Kvantum"
      "${temp_dir}/${git_repo}-${branch}/plasma"
-     "${temp_dir}/${git_repo}-${branch}/sddm"
+     # "${temp_dir}/${git_repo}-${branch}/sddm"
      "${temp_dir}/${git_repo}-${branch}/yakuake")
-pkg=("${prefix}/aurorae/themes/Monochrome"
-     "${prefix}/aurorae/themes/MonochromeBlur"
-     "${prefix}/color-schemes/Monochrome.colors"
-     "${prefix}/konsole/Monochrome.colorscheme"
-     "${prefix}/Kvantum/Monochrome"
-     "${prefix}/Kvantum/MonochromeBlur"
-     "${prefix}/Kvantum/MonochromeSolid"
-     "${prefix}/plasma/desktoptheme/Monochrome"
-     "${prefix}/plasma/look-and-feel/Monochrome"
-     "${prefix}/sddm/themes/monochrome"
-     "${prefix}/yakuake/skins/monochrome")
+src2=("${temp_dir}/${git_repo}-${branch}/Kvantum")
+pkg=("${prefix}/.local/share/aurorae/themes/Monochrome"
+     "${prefix}/.local/share/aurorae/themes/MonochromeBlur"
+     "${prefix}/.local/share/color-schemes/Monochrome.colors"
+     "${prefix}/.local/share/konsole/Monochrome.colorscheme"
+     "${prefix}/.config/Kvantum/Monochrome"
+     "${prefix}/.config//Kvantum/MonochromeBlur"
+     "${prefix}/.config/Kvantum/MonochromeSolid"
+     "${prefix}/.local/share/plasma/desktoptheme/Monochrome"
+     "${prefix}/.local/share/plasma/look-and-feel/Monochrome"
+     # "${prefix}/sddm/themes/monochrome"
+     "${prefix}/.local/share/yakuake/skins/monochrome")
 
 print_header() {
 echo -e "
@@ -140,8 +140,8 @@ print_status() {
 
 # Delete parent directories if empty.
 delete_dir() {
-    sudo rm -rf "${1}"
-    sudo rmdir -p "$(dirname "${1}")" 2>/dev/null || true
+    rm -rf "${1}"
+    rmdir -p "$(dirname "${1}")" 2>/dev/null || true
 }
 
 cleanup() {
@@ -179,8 +179,15 @@ download_pkg() {
 
 install_pkg() {
     print_msg "Installing ${git_desc} to '${prefix}'..."
-    for item in "${src[@]}"; do
-        sudo cp -R "${item}" "${prefix}"
+    for item in "${src1[@]}"; do
+        cp -R "${item}" "${prefix}/.local/share"
+        if [ ! -e "${item}" ]; then
+            print_error "Unable to copy '${item}'!"
+            status=1
+        fi
+    done
+    for item in "${src2[@]}"; do
+        cp -R "${item}" "${prefix}/.config"
         if [ ! -e "${item}" ]; then
             print_error "Unable to copy '${item}'!"
             status=1
