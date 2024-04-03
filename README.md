@@ -156,6 +156,7 @@ A list of features and/or components that will be added in the future.
   - [x] Change colours to match theme better.
   - [x] Add custom font support.
   - [x] Change font colour in all elements if possible.
+  - [ ] Re-design for Plasma/Qt 6.
 - [x] Plasma Colour Scheme
 - [x] Plasma Desktop Theme
   - [ ] ~~Create a solid theme version.~~
