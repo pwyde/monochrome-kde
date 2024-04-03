@@ -22,8 +22,7 @@
     "X-KPackage-Dependencies": [
         "kns://colorschemes.knsrc/api.kde-look.org/1279083",
         "kns://plasma-themes.knsrc/api.kde-look.org/1279077",
-        "kns://aurorae.knsrc/api.kde-look.org/1279082",
-        "kns://icons.knsrc/api.kde-look.org/1166289",
-        "kns://sddmtheme.knsrc/api.kde-look.org/1283380"
+        "kns://window-decorations.knsrc/api.kde-look.org/1279082",
+        "kns://icons.knsrc/api.kde-look.org/1166289"
     ]
 }
