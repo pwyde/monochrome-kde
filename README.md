@@ -28,9 +28,9 @@ Individual theme components can also be downloaded from [KDE Store](https://stor
 | Konsole Colour Scheme | [🖼️](screenshots/konsole/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279087) |
 | Kvantum Theme         | [🖼️](screenshots/kvantum/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279088) |
 | Plasma Colour Scheme  | [🖼️](screenshots/color-schemes/preview.png)    | [:floppy_disk:](https://store.kde.org/p/1279083) |
-| Plasma Desktop Theme  | [🖼️](screenshots/plasma/preview.png)           | [:floppy_disk:](https://store.kde.org/p/1279077) |
+| Plasma Desktop Theme  | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://store.kde.org/p/1279077) |
 | Plasma Look and Feel  | [🖼️](screenshots/plasma/preview-1920x1080.png) | [:floppy_disk:](https://store.kde.org/p/1361190) |
-| Plasma Splash Screen  | [🖼️](screenshots/plasma/splash.png)            | [:floppy_disk:](https://store.kde.org/p/1361190) |
+| Plasma Splash Screen  | [🖼️](screenshots/plasma/splash-1920x1080.png)  | [:floppy_disk:](https://store.kde.org/p/1361190) |
 | SDDM Theme            | [🖼️](screenshots/sddm/preview.png)             | [:floppy_disk:](https://store.kde.org/p/1361190) |
 | Yakuake Skin          | [🖼️](screenshots/yakuake/preview.png)          | [:floppy_disk:](https://store.kde.org/p/1279089) |
 
