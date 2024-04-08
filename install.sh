@@ -96,6 +96,12 @@ ${white}Options:${no_color}
 " >&1
 }
 
+# Exit if running as a privileged user.
+if [ "$(id -u)" == 0 ]; then
+    echo "Please run as an unprivileged user."
+    exit 1
+fi
+
 # Print help if no argument is specified.
 if [ "${#}" -le 0 ]; then
     print_header
