@@ -4,9 +4,9 @@
 
 - First release of Monochrome KDE theme, which includes the following components:
   - Aurorae Theme
-  - Konsole Colour Scheme
+  - Konsole Color Scheme
   - Kvantum Theme
-  - Plasma Colour Scheme
+  - Plasma Color Scheme
   - Plasma Desktop Theme
   - Yakuake Skin
   - Install script
@@ -35,8 +35,8 @@
 ## SDDM Theme Improvements - 05 January 2019
 
 - Implemented various improvements in SDDM theme:
-  - Changed background colour.
-  - Changed colours in text field to match theme better.
+  - Changed background color.
+  - Changed colors in text field to match theme better.
   - Made login button darker.
 
 ## Added Plasma Look and Feel Theme - 06 January 2019
@@ -60,11 +60,11 @@
 ## SDDM Theme Improvements - 30 January 2019
 
 - Added custom font size option in SDDM configuration file.
-- Added custom icons and theme colours to ToolButtons on login screen:
+- Added custom icons and theme colors to ToolButtons on login screen:
   - Virtual keyboard.
   - Plasma session.
   - Keyboard language.
-- Added theme colours to all elements on login screen.
+- Added theme colors to all elements on login screen.
 - Changed username and password text fields:
   - Background and border is now also semi-transparent as the Plasma Desktop and Kvantum theme.
   - Changed from active to mouse hover behavior.
@@ -81,12 +81,12 @@
 
 ## GTK2/3 Theme - 18 March 2019
 
-- Added instructions for building [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) with colours from the Monochrome KDE colour scheme.
+- Added instructions for building [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/) with colors from the Monochrome KDE color scheme.
 - Restructured recommendations section and added sub-headings.
 
-## Konsole Colour Scheme Changes - 14 April 2019
+## Konsole Color Scheme Changes - 14 April 2019
 
-- Modified colour scheme to be compatible with [base16-vim](https://github.com/chriskempson/base16-vim).
+- Modified color scheme to be compatible with [base16-vim](https://github.com/chriskempson/base16-vim).
 
 ## Kvantum Theme Changes - 07 February 2020
 
@@ -94,7 +94,7 @@
 
 ## Install Script - 08 February 2020
 
-- Colourized script output.
+- Colorized script output.
 - Added 'pint_error' function.
 - Added ping test before downloading from master branch.
 - Minor changes to script syntax.
@@ -105,11 +105,11 @@
 
 ## SDDM Theme Changes - 26 February 2020
 
-- Replaced all coloured icons with a monochrome version.
+- Replaced all colored icons with a monochrome version.
 
 ## Plasma Desktop Theme Changes - 26 February 2020
 
-- Replaced some coloured icons with a monochrome version.
+- Replaced some colored icons with a monochrome version.
   - Only applies to icons located on panels and menus.
 
 ## 20200422 Release - 22 April 2020
@@ -147,7 +147,7 @@
 
 - Updated Plasma Desktop theme:
   - Added plasmoidheading widget for Plasma 5.19
-  - Colourised notes widget.
+  - Colorized notes widget.
   - Updated and added new icons.
 - Added test for wget command in install script.
 - Implemented automatic cleanup of theme/svgelements cache in user's home directory.
@@ -170,7 +170,7 @@
 
 - Added Plasma 6 compatibility.
 - Fixed minor issues with Plasma theme.
-- Updated GTK2/3/4 theme. Build from `breeze-gtk` with the Monochrome KDE colour scheme.
+- Updated GTK2/3/4 theme. Build from `breeze-gtk` with the Monochrome KDE color scheme.
 - Updated preview images.
 
 # 20240403 Release - 03 April 2024

@@ -64,8 +64,8 @@ Change the default window border size in **System Settings** > **Colors & Themes
 ### Icons
 Download and install the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
-#### Folder Icon Colour (optional)
-The folder colour can be changed using [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders).
+#### Folder Icon Color (optional)
+The folder color can be changed using [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders).
 
 ```
 $ papirus-folders -C grey
@@ -78,7 +78,7 @@ Enable **Blur** in **System Settings** > **Window Management** > **Desktop Effet
 Change the login screen theme in **System Settings** > **Colors & Themes** > **Login Screen (SDDM)** > select theme **Monochrome** > **Apply**.
 
 #### Background
-Chooce either a background image or the pre-defined solid colour; `#1e1e20`
+Chooce either a background image or the pre-defined solid color; `#1e1e20`
 
 #### Fonts (optional)
 Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/theme.conf` configuration file.
@@ -91,7 +91,7 @@ $ cp -r gtk/Monochrome/ ~/.local/share/themes/
 ```
 
 #### Note
-The GTK2/3/4 theme is pre-build of the official [breeze-gtk](https://github.com/KDE/breeze-gtk.git) theme with the Monochrome KDE colour scheme.
+The GTK2/3/4 theme is pre-build of the official [breeze-gtk](https://github.com/KDE/breeze-gtk.git) theme with the Monochrome KDE color scheme.
 
 To manually build and install the theme make sure all build dependencies are met and perform the build process.
 
@@ -156,9 +156,9 @@ A list of features and/or components that will be added in the future.
 - [x] Yakuake Skin
   - [ ] Add button for new tab.
 - [x] SDDM Login Theme
-  - [x] Change colours to match theme better.
+  - [x] Change colors to match theme better.
   - [x] Add custom font support.
-  - [x] Change font colour in all elements if possible.
+  - [x] Change font color in all elements if possible.
   - [ ] Re-design for Plasma/Qt 6.
 - [x] Add GTK2/3 theme based on [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/).
 - [x] [Plymouth Theme](https://gitlab.com/pwyde/monochrome-plymouth)
