@@ -1,16 +1,16 @@
 [SddmGreeterTheme]
-Name=Monochrome
-Description=Monochrome Theme
+Name=Monochrome Plasma 6
+Description=Monochrome theme for SDDM
 Author=Patrik Wyde
 Copyright=(c) 2018, Patrik Wyde
-License=CC-BY-SA
+License=MIT
 Type=sddm-theme
-Version=20200420
+Version=20240410
 Website=https://gitlab.com/pwyde/monochrome-kde
 Screenshot=preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=patrik@wyde.se
 Theme-Id=monochrome
 Theme-API=2.0
+QtVersion=6
