@@ -179,3 +179,8 @@
 - Updated install script:
   - Disabled installation of SDDM theme.
   - Changed install prefix from `/usr/share` to `$HOME`.
+
+# 20240410 - 10 April 2024
+
+- Complete re-design of the SDDM theme.
+- Add check if install script is running as root.

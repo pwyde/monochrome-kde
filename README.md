@@ -74,14 +74,26 @@ $ papirus-folders -C grey
 ### Desktop Effects
 Enable **Blur** in **System Settings** > **Window Management** > **Desktop Effetcs**.
 
-### Login Screen (SDDM) - Only compatible with Plasma/Qt 5
+### Login Screen (SDDM)
 Change the login screen theme in **System Settings** > **Colors & Themes** > **Login Screen (SDDM)** > select theme **Monochrome** > **Apply**.
 
 #### Background
 Chooce either a background image or the pre-defined solid color; `#1e1e20`
 
-#### Fonts (optional)
-Change default font for **SDDM** in the `/usr/share/sddm/themes/monochrome/theme.conf` configuration file.
+#### Configuration Options (optional)
+SDDM theme can be configured by editing `/usr/share/sddm/themes/monochrome/theme.conf`.
+
+| **Settings**       | **Description**                                   |
+| ---                | ---                                               |
+| `Font`             | Set font to be used.                              |
+| `ClockEnabled`     | Show or hide the clock. Must be set to either `true` or `false`.                                                                                                  |
+| `ClockPosition`    | Re-position the clock on the login screen. Must be set to either `left`, `right` or `center`. Useful if clock is not visable enough on selected background image. |
+| `CustomBackground` | When this is `true` it will read from `Background` to render the custom background image, this should be set to either `true` or `false`.                         |
+| `Background`       | This is the location of the background image, it is recomended to use the provided `backgrounds/` directory to store the images.                                  |
+| `LoginBackground`  | Adds a extra background around the login panel, this should be set to either `true` or `false`.                                                                   |
+
+#### Breeze Theme with Monochrome Colors
+If the built-in Breeze theme is preferred, select it and **Apply Plasma Settings** in **System Settings** > **Colors & Themes** > **Login Screen (SDDM)**.
 
 ### GTK2/3/4 Theme (optional)
 Manually copy the included GTK2/3/4 theme from `./gtk` directory to the user theme directory.
@@ -108,13 +120,14 @@ Enable the new GTK theme in **System Settings** > **Colors & Themes** > **Applic
 Download and install the [Monochrome Plymouth](https://gitlab.com/pwyde/monochrome-plymouth) theme.
 
 ## :heart: Credits
-Some graphical elements and artwork in this project is based on other popular themes for the KDE Plasma desktop.
+Some graphical elements, artwork and code in this project is based on other popular themes for the KDE Plasma desktop.
 
 - **Breeze** Plasma theme by [KDE Visual Design Group](https://www.kde.org/plasma-desktop)
 - **Materia KDE** Plasma theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/materia-kde)
 - **Arc KDE** Plasma theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/arc-kde)
 - **Papirus** icon theme by [Papirus Development Team](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - **Darkine KDE** SDDM theme by [Rokin](https://github.com/Rokin05/darkine-kde)
+- **Catppuccin** SDDM theme by [Catppuccin Org](https://github.com/catppuccin/sddm)
 
 ### Honorary Mention
 Special credits go to [**Alexey Varfolomeev**](https://github.com/varlesh) for his work on [**Materia KDE**](https://github.com/PapirusDevelopmentTeam/materia-kde) which this theme is based on.
@@ -134,6 +147,7 @@ This project is licensed under the **GNU General Public License v3.0**. See the 
 - **Breeze**: LGPL
 - **Darkine**: GPLv3
   - **SDDM Theme**: CC-BY-SA
+- **Catppuccin**: MIT
 
 ## :ballot_box_with_check: Todo
 A list of features and/or components that will be added in the future.
@@ -159,6 +173,6 @@ A list of features and/or components that will be added in the future.
   - [x] Change colors to match theme better.
   - [x] Add custom font support.
   - [x] Change font color in all elements if possible.
-  - [ ] Re-design for Plasma/Qt 6.
+  - [x] Re-design for Plasma/Qt 6.
 - [x] Add GTK2/3 theme based on [breeze-gtk](https://cgit.kde.org/breeze-gtk.git/).
 - [x] [Plymouth Theme](https://gitlab.com/pwyde/monochrome-plymouth)
